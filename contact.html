@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--================ Basic page needs ================-->
+  <title>ACERDEN</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!--================ Mobile specific metas ================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--================ Favicon ================-->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <!--================ Google web fonts ================-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;500;700;800;900&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+    rel="stylesheet" />
+  <!--================ Vendor CSS ================-->
+  <link rel="stylesheet" href="owl-causoel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="arctictmodal/jquery.arcticmodal-0.3.css" />
+  <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css" />
+  <!--================ Theme CSS ================-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <!--================ Vendor JS ================-->
+</head>
+
+<body class="mad-body--scheme-green">
+  <div class="mad-preloader"></div>
+  <div id="mad-page-wrapper" class="mad-page-wrapper">
+    <div class="container wide">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <h6 class="mad-title">Search</h6>
+          <!--================ Search Form ================-->
+          <form class="mad-search-section">
+            <input type="text" placeholder="Start Typing Here..." />
+            <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
+          </form>
+          <!--================ End of Search Form ================-->
+          <button type="button" class="arcticmodal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+    <header id="mad-header" class="mad-header">
+      <div class="mad-header-section--sticky-xl">
+        <div class="container-fluid">
+          <!-- Top row: Logo, organization name, contact info -->
+          <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+            
+            <!-- Left side: Logo and Organization Name -->
+            <div class="mad-header-item" style="display: flex; align-items: center;">
+              <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
+              <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+                African Centre for Rural Development & <br>Environment (ACERDEN)
+              </h5>
+            </div>
+            
+            <!-- Right side: Contact Information -->
+            <div class="mad-header-item" style="display: flex; align-items: center; margin-right: 20px;">
+              <div class="contact-info" style="display: flex; align-items: center; gap: 20px;">
+                
+                <!-- Phone Number -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">phone</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">+234 803 567 3526</span>
+                </div>
+                
+                <!-- Email -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">email</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">info@acerden.org</span>
+                </div>
+                
+                <!-- Social Icons -->
+                <div class="social-icons" style="display: flex; align-items: center; gap: 10px;">
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Bottom row: Navigation and Actions - Centered -->
+          <div class="mad-header-items" style="display: flex; justify-content: center; border-top: 1px solid #eee; padding-top: 15px;">
+            <div class="mad-header-item" style="display: flex; align-items: center; justify-content: center; width: 100%;">
+              
+              <!-- Navigation - Centered -->
+              <nav class="mad-navigation-container" style="flex: 1; display: flex; justify-content: center;">
+                <ul class="mad-navigation mad-navigation--vertical-sm" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 25px; justify-content: center;">
+                  <li class="menu-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="programs.html">Our programs</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="project.html">Projects</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Publications</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog.html">News</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <!-- Actions - Positioned to the right -->
+              <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
+                <div class="mad-col">
+                  <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                </div>
+                <div class="mad-col">
+                  <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
+                        src="sug-icons/heart.svg" alt="" /></i></a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+
+    <!--================ End of Header ================-->
+
+   <!--================ Breadcrumb ================-->
+      <div class="mad-breadcrumb with-bg-img with-overlay" data-bg-image-src="images/1792x512_bg1.jpg">
+        <div class="container wide">
+          <h1 class="mad-page-title">Contact Us</h1>
+          <nav class="mad-breadcrumb-path">
+            <span><a href="index.html" class="mad-link">Home</a></span> / <span>Contact Us</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+     <div class="mad-content no-pt">
+       <!-- Icon Boxes Section -->
+    <div class="mad-section mad-section--stretched-content-no-px content-element-main mad-colorizer--scheme-color-7" style="padding-top: 50px;">
+      <div class="container-fluid">
+      <!--================ Icon Boxes ================-->
+       <div class="mad-icon-boxes with-border align-center icon-size-2 item-col-3">
+         <div class="mad-col">
+          <!--================ Icon Box ================-->
+          <article class="mad-icon-box">
+            <i class="mad-icon-box-icon"><img class="svg" src="charity_icons_svg/loc.svg" alt="" /></i>
+            <div class="mad-icon-box-content">
+              <h4 class="mad-icon-box-title">22 Second Ave, Trans-Ekulu, Enugu 400103, Enugu</h4>
+              <a href="https://goo.gl/maps/your-map-link" target="_blank" rel="noopener" class="mad-text-link">
+                <span>Get Directions</span>
+              </a>
+            </div>
+          </article>
+          <!--================ End of Icon Box ================-->
+        </div>
+        <div class="mad-col">
+          <!--================ Icon Box ================-->
+          <article class="mad-icon-box">
+            <i class="mad-icon-box-icon"><img class="svg" src="charity_icons_svg/phone1.svg" alt="" /></i>
+            <div class="mad-icon-box-content">
+              <h4 class="mad-icon-box-title">mail:info@acerden.org<br />+234 803 567 3526 <span>(email, call)</span>
+              </h4>
+            </div>
+          </article>
+          <!--================ End of Icon Box ================-->
+        </div>
+        <div class="mad-col">
+          <!--================ Icon Box ================-->
+          <article class="mad-icon-box">
+            <i class="mad-icon-box-icon"><img class="svg" src="charity_icons_svg/clock.svg" alt="" /></i>
+            <div class="mad-icon-box-content">
+              <h4 class="mad-icon-box-title">Mon - Fri: 8AM - 5PM,<br />Sat: 10AM - 2PM</h4>
+              <a href="#contact-form" class="mad-text-link"><span>Contact Us</span></a>
+            </div>
+          </article>
+          <!--================ End of Icon Box ================-->
+        </div>
+      </div>
+      <!--================ End of Icon Boxes ================-->
+    </div>
+  </div>
+
+  <!-- Contact Form Section -->
+  <div class="mad-section no-pd">
+    <div class="container">
+      <div class="mad-texture-holder">
+        <span class="mad-img-texture5 bg-move bottom-position"><img src="images/texture_move4.svg" alt="" class="svg" /></span>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-7">
+          <div class="mad-pre-title align-center">Drop Us a Line</div>
+          <h2 class="mad-title align-center">Send Us a Message</h2>
+          <p class="mad-text-medium content-element-4 align-center">Please feel free to get in touch with any queries you have. Fields marked with * are required.</p>
+          <form id="contact-form" class="mad-contact-form mad-form item-col-2">
+            <div class="mad-col">
+              <div class="mad-form-item">
+                <label>First name *</label>
+                <input type="text" id="cf_fname" name="cf_fname" required="" placeholder="Last Name" />
+              </div>
+              <div class="mad-form-item">
+                <label>Email address *</label>
+                <input type="email" id="cf_email" name="cf_email" required="" placeholder="Email Address" />
+              </div>
+            </div>
+            <div class="mad-col">
+              <div class="mad-form-item">
+                <label>Last name *</label>
+                <input type="text" id="cf_lname" name="cf_lname" required="" placeholder="Last Name" />
+              </div>
+              <div class="mad-form-item">
+                <label>Subject *</label>
+                <div class="mad-custom-select">
+                  <select data-default-text="Please Select" id="cf_subject" name="cf_subject">
+                    <option>Subject 1</option>
+                    <option>Subject 2</option>
+                    <option>Subject 3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="mad-col full-width">
+              <div class="mad-form-item full-height">
+                <label>Your Message *</label>
+                <textarea rows="9" id="message" name="cf_message" required="" placeholder="Message"></textarea>
+              </div>
+              <div class="mad-form-item align-center">
+                <button type="submit" class="btn btn-big"><span>Submit</span></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Google Map Section (Last) -->
+     <div class="mad-section no-pd mad-section--stretched-content-no-px" style="margin-top: 50px;">
+       <div id="googleMap" class="mad-gmap">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.326531916108!2d7.491385373068172!3d6.48026442366826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a3a78a25da5d%3A0x2048aa9ab180174c!2s22%20Second%20Ave%2C%20Trans-Ekulu%2C%20Enugu%20400103%2C%20Enugu!5e0!3m2!1sen!2sng!4v1768211157649!5m2!1sen!2sng" width="100%" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+  </div>
+
+       <!--before footer starts-->
+      <div class="mad-social-section">
+        <div class="container">
+          <div class="mad-social-wrap">
+            <div class="mad-col">
+              <h5>Stay Informed With News & Updates</h5>
+              <form class="mad-newsletter-form one-line size-2">
+                <input type="email" name="email" placeholder="Enter Email Address" />
+                <button type="submit" class="btn btn-huge btn-style-3" style="display: flex; align-items: center; justify-content: center;"><i class="fas fa-envelope"></i></button>
+              </form>
+            </div>
+            <div class="mad-col">
+              <h5>Follow Us on Our Social Channels</h5>
+              <div class="mad-social-icons size-3">
+                <ul class="justify-content-center">
+                  <li>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--after footer starts-->
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="container">
+          <div class="mad-footer-main">
+            <div class="row justify-content-between vr-size-1 hr-size-1">
+              <div class="col-xl-3 col-lg-6 col-sm-12">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <a href="index.html" class="mad-logo content-element-3"><img src="images/logo-news.png" alt="" /></a>
+                  <div class="content-element-3">
+                    <p> African Centre for Rural Development & Environment (ACERDEN) </p>
+                  </div>
+                  <a href="pages_contact_v1.html" class="btn style-2"><span>Help Center</span><i><img
+                        src="sug-icons/btn_dir.svg" alt="" /></i></a>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Quick Links</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_about.html">About Us</a></li>
+                    <li><a href="pages_team.html">Our Programs</a></li>
+                    <li><a href="pages_volunteer.html">Projects</a></li>
+                    <li><a href="blog_classic.html">Publications</a></li>
+                    <li><a href="pages_contact_v1.html">Partnerships</a></li>
+                    <li><a href="pages_contact_v1.html">Contact Us</a></li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Legal & Trust</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_what_we_do.html">NGO Registration Details</a></li>
+                    <li><a href="pages_what_we_do.html">Privacy Policy</a></li>
+                    <li><a href="pages_what_we_do.html">Terms of Use</a></li>
+                   <!--<li><a href="pages_what_we_do.html">Emergencies</a></li>-->
+                   <!--<li><a href="pages_what_we_do.html">Campaigns</a></li>-->
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-3 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Contact Us</h6>
+                  <ul class="mad-vr-list mad-map-info">
+                    <li>
+                      <img src="sug-icons/location.svg" alt="" class="svg" />
+                      <span>22 Second Avenue, Trans-Ekulu Enugu State, Nigeria <a href="pages_contact_v1.html"
+                          class="mad-link">Get Directions</a> </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/clock.svg" alt="" class="svg" />
+                      <span>Monday - Friday: 8AM - 5PM</span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/phone.svg" alt="" class="svg" />
+                      <span>  +234 803 567 3526 </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/email.svg" alt="" class="svg" />
+                      <a href="pages_contact_v1.html">mail:info@acerden.org</a>
+                    </li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Help Us Today!</h6>
+                  <div class="form-control content-element-3">
+                    <div style="display: block" class="mad-toggled-fields">
+                      <input type="radio" name="radio-1" id="radio-1" checked="checked" />
+                      <label for="radio-1" class="mad-label-radio">Monthly Donation </label>
+                      <input type="radio" name="radio-1" id="radio-2" />
+                      <label for="radio-2" class="mad-label-radio">Single Donation</label>
+                    </div>
+                  </div>
+                  <form class="mad-donate-form">
+                    <div class="mad-col">
+                      <input type="email" name="email" placeholder="$" />
+                    </div>
+                    <div class="mad-col">
+                      <button type="submit" class="btn wide">
+                        <span>Donate</span> <i class="icon"><img src="sug-icons/heart.svg" alt="" /></i>
+                      </button>
+                    </div>
+                  </form>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+          <p class="copyrights">Copyright ©<a href="index.html">African Centre for Rural Development & Environment (ACERDEN)</a>. All Rights Reserved.</p>
+        </div>
+        <!--================ End of Footer row ================-->
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+  </div>
+  <script src="vendors/modernizr.js"></script>
+  <script src="vendors/jquery-3.6.0.min.js"></script>
+  <script src="vendors/jquery.easing.1.3.min.js"></script>
+  <script src="vendors/monkeysan.jquery.nav.1.0.js"></script>
+  <script src="owl-causoel/owl.carousel.min.js"></script>
+  <script src="arctictmodal/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="vendors/monkeysan.validator.min.js"></script>
+  <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+  <script src="vendors/mad.customselect.js"></script>
+  <script src="vendors/handlebars-v4.0.5.min.js"></script>
+  <script src="vendors/retina.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/modules/mad.newsletter-form.min.js"></script>
+  <script src="js/modules/mad.alert-box.min.js"></script>
+  <script src="js/modules/mad.sticky-header-section.min.js"></script>
+  <script src="js/mad.app.js"></script>
+
+    <!-- Add this right before </body> -->
+<script>
+  // Remove preloader immediately
+  document.addEventListener('DOMContentLoaded', function() {
+    // Hide preloader
+    var preloader = document.querySelector('.mad-preloader');
+    if (preloader) {
+      preloader.style.display = 'none';
+      preloader.style.visibility = 'hidden';
+      preloader.style.opacity = '0';
+    }
+    
+    // Show page content
+    var pageWrapper = document.getElementById('mad-page-wrapper');
+    if (pageWrapper) {
+      pageWrapper.style.display = 'block';
+      pageWrapper.style.visibility = 'visible';
+      pageWrapper.style.opacity = '1';
+    }
+    
+    // Force body to be visible
+    document.body.style.display = 'block';
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = '1';
+  });
+  
+  // Also try on window load as backup
+  window.onload = function() {
+    document.querySelector('.mad-preloader').style.display = 'none';
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = '1';
+  };
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--================ Basic page needs ================-->
+  <title>ACERDEN</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!--================ Mobile specific metas ================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--================ Favicon ================-->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <!--================ Google web fonts ================-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;500;700;800;900&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+    rel="stylesheet" />
+  
+  <!--================ Vendor CSS ================-->
+  <link rel="stylesheet" href="owl-causoel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="arctictmodal/jquery.arcticmodal-0.3.css" />
+  <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css" />
+  <!--================ Theme CSS ================-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+   <link rel="stylesheet" href="css/program.css">
+  <!--================ Vendor JS ================-->
+</head>
+
+<body class="mad-body--scheme-green">
+  <div class="mad-preloader"></div>
+  <div id="mad-page-wrapper" class="mad-page-wrapper">
+    <div class="container wide">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <h6 class="mad-title">Search</h6>
+          <!--================ Search Form ================-->
+          <form class="mad-search-section">
+            <input type="text" placeholder="Start Typing Here..." />
+            <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
+          </form>
+          <!--================ End of Search Form ================-->
+          <button type="button" class="arcticmodal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+    <header id="mad-header" class="mad-header">
+      <div class="mad-header-section--sticky-xl">
+        <div class="container-fluid">
+          <!-- Top row: Logo, organization name, contact info -->
+          <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+            
+            <!-- Left side: Logo and Organization Name -->
+            <div class="mad-header-item" style="display: flex; align-items: center;">
+              <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
+              <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+                African Centre for Rural Development & <br>Environment (ACERDEN)
+              </h5>
+            </div>
+            
+            <!-- Right side: Contact Information -->
+            <div class="mad-header-item" style="display: flex; align-items: center; margin-right: 20px;">
+              <div class="contact-info" style="display: flex; align-items: center; gap: 20px;">
+                
+                <!-- Phone Number -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">phone</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">+234 803 567 3526</span>
+                </div>
+                
+                <!-- Email -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">email</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">info@acerden.org</span>
+                </div>
+                
+                <!-- Social Icons -->
+                <div class="social-icons" style="display: flex; align-items: center; gap: 10px;">
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Bottom row: Navigation and Actions - Centered -->
+          <div class="mad-header-items" style="display: flex; justify-content: center; border-top: 1px solid #eee; padding-top: 15px;">
+            <div class="mad-header-item" style="display: flex; align-items: center; justify-content: center; width: 100%;">
+              
+              <!-- Navigation - Centered -->
+              <nav class="mad-navigation-container" style="flex: 1; display: flex; justify-content: center;">
+                <ul class="mad-navigation mad-navigation--vertical-sm" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 25px; justify-content: center;">
+                  <li class="menu-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="programs.html">Our programs</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Projects</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="events_list.html">Publications</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog.html">News</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <!-- Actions - Positioned to the right -->
+              <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
+                <div class="mad-col">
+                  <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                </div>
+                <div class="mad-col">
+                  <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
+                        src="sug-icons/heart.svg" alt="" /></i></a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+   </header>
+
+     <!--================ End of Header ================-->
+     
+      <div class="mad-breadcrumb with-bg-img with-overlay" data-bg-image-src="images/1792x512_bg3.jpg">
+        <div class="container wide">
+          <h1 class="mad-page-title">Our Programs</h1>
+          <nav class="mad-breadcrumb-path">
+            <span><a href="index.html" class="mad-link">Home</a></span> / <span>Our programs</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      
+  
+
+   <div class="filter-buttons">
+            <div class="container">
+                <div class="text-center">
+                    <button class="filter-btn active" data-filter="all">All Programs</button>
+                    <button class="filter-btn" data-filter="agriculture">Agriculture</button>
+                    <button class="filter-btn" data-filter="poverty">Poverty</button>
+                    <button class="filter-btn" data-filter="wash">Water</button>
+                    <button class="filter-btn" data-filter="environment">Environment</button>
+                    <button class="filter-btn" data-filter="rural">Rural</button>
+                    <button class="filter-btn" data-filter="health">Health</button>
+                    <button class="filter-btn" data-filter="women">Women</button>
+                    <button class="filter-btn" data-filter="education">Education</button>
+                    <button class="filter-btn" data-filter="governance">Governance</button>
+                    <button class="filter-btn" data-filter="research">Research</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stats-item">
+                <span class="stats-number" id="total-programs">12</span>
+                <span class="stats-label">Total Programs</span>
+            </div>
+            <div class="stats-item">
+                <span class="stats-number" id="filtered-programs">12</span>
+                <span class="stats-label">Currently Showing</span>
+            </div>
+            <div class="stats-item">
+                <span class="stats-number" id="active-category">All</span>
+                <span class="stats-label">Active Category</span>
+            </div>
+        </div>
+
+        <main>
+            <div class="programs-grid">
+                <!-- Agriculture Programs -->
+                <div class="program-card" data-category="agriculture">
+                    <div class="program-badge agriculture">
+                        <i class="fas fa-tractor"></i> Agriculture
+                    </div>
+
+                    <div class="program-header">
+                        <h2 class="program-title">Agriculture, Nutrition & Food Security Nigeria</h2>
+                        
+                    </div>
+                    <div class="program-preview">
+                        <p>ACERDEN strengthens rural livelihoods by promoting sustainable agriculture, 
+                            improving household nutrition, and enhancing food security across Nigerian communities.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>Agriculture, Nutrition & Food Security is at the core of ACERDEN’s mission to ensure that every community has reliable access to sufficient, nutritious food. Our programs empower smallholder farmers with climate-smart agricultural techniques, value chain support, and household-level nutrition education. We integrate research, capacity building,
+                               and community participation to deliver long-term food security and improved nutrition outcomes.</p>
+                            
+                            <h3>Key Focus Areas:</h3>
+                            <ul>
+                                <li><strong>Climate-Smart Agriculture:</strong> Training farmers in resilient farming methods to adapt to changing climate conditions.</li>
+                                <li><strong>Smallholder Support & Value Chains:</strong> Linking farmers to markets, cooperatives, and post-harvest solutions.</li>
+                                <li><strong>Nutrition & Food Security:</strong> Promoting balanced diets, nutrition awareness, and food storage best practices.</li>
+                                <li><strong>Capacity Building & Training:</strong> Equipping local farmers with skills in sustainable farming, agribusiness, and nutrition practices.</li>
+                            </ul>
+
+                              <h3>Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Community-Led Planning:</strong> Needs assessments conducted in partnership with local farmers.</li>
+                                <li><strong>Participatory Training:</strong> Hands-on workshops on crop management, livestock care, and nutrition education.</li>
+                                <li><strong>Research & Innovation:</strong> Use of applied research to inform program design and scaling strategies.</li>
+                                <li><strong>Monitoring & Evaluation:</strong> Impact measured through baseline/endline studies and continuous program monitoring.</li>
+                            </ul>
+                            
+                            <h3> Key Achievements</h3>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-users"></i>
+                                        <div>
+                                            <span class="stat-number">5,000+</span>
+                                            <span class="stat-label">farmers trained in climate-smart agricultural practices</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-seedling"></i>
+                                        <div>
+                                            <span class="stat-number">10,000+</span>
+                                            <span class="stat-label">households reached with nutrition education programs</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-dollar-sign"></i>
+                                        <div>
+                                            <span class="stat-number">15 </span>
+                                            <span class="stat-label">agricultural cooperatives supported and linked to local markets</span>
+                                        </div>
+                                    </div>
+                                    <!--<div class="stat">
+                                        <i class="fas fa-dollar-sign"></i>
+                                        <div>
+                                            <span class="stat-number">20+</span>
+                                            <span class="stat-label">communities demonstrating improved food security metrics</span>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Poverty Programs -->
+                <div class="program-card" data-category="poverty">
+                    <div class="program-badge poverty">
+                        <i class="fas fa-home"></i> Poverty Reduction
+                    </div>
+
+                    <div class="program-header">
+                        <h2 class="program-title">Poverty Reduction Programs | ACERDEN Nigeria</h2>
+                        
+                    </div>
+                   
+                    <div class="program-preview">
+                        <p>ACERDEN implements strategic programs to alleviate poverty and create economic opportunities for rural and peri-urban communities in Nigeria. We focus on empowering households, 
+                          promoting sustainable livelihoods, and fostering long-term community resilience.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>Poverty remains a major barrier to sustainable development in many Nigerian communities. ACERDEN’s Poverty Reduction programs aim to tackle systemic economic challenges by promoting income-generating opportunities, financial literacy, social safety nets, and inclusive community development. By combining research, community participation,
+                             and integrated interventions, our programs create lasting change and improved livelihoods.</p>
+                            
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                                <li><strong>Income Generation & Livelihoods:</strong> Supporting small businesses, cooperatives, and micro-enterprises.</li>
+                                <li><strong>Financial Inclusion & Literacy:</strong> Promoting savings, loans, and budgeting skills for households.</li>
+                                <li><strong>Skills Development & Vocational Training:</strong> Equipping youth and women with marketable skills.</li>
+                                <li><strong>Community-Based Initiatives:</strong> Strengthening local institutions, cooperatives, and social networks.</li>
+                                <li><strong>Social Safety & Empowerment:</strong> Facilitating access to government or NGO support programs for the most vulnerable households.</li>
+                            </ul>
+                            
+                             <h3>Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Community-Led Planning:</strong> Needs assessments and participatory program design with local stakeholders.</li>
+                                <li><strong>Capacity Building:</strong>Training on entrepreneurship, financial literacy, and livelihood strategies.</li>
+                                <li><strong>Research & Innovation:</strong>Applied research informs effective interventions and scaling strategies.</li>
+                                <li><strong>Monitoring & Evaluation:</strong>Impact tracked via household income, employment metrics, and program feedback.</li>
+                               
+                            </ul>
+
+                             <h3>Why Poverty Reduction Programs Work</h3>
+                            <ul>
+                                <li><strong>Evidence-Based: </strong>Programs informed by rigorous research and local data.</li>
+                                <li><strong>Community-Centered:</strong>Designed with active input from beneficiaries.</li>
+                                <li><strong>Integrated Approach: </strong>Combines skills, entrepreneurship, social protection, and community cohesion.</li>
+                                <li><strong>Sustainable:</strong> Focused on long-term economic empowerment and measurable results.</li>
+                               
+                            </ul>
+                            
+                            <h3>Key Achievements</h3>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-business-time"></i>
+                                        <div>
+                                            <span class="stat-number">15,000+</span>
+                                            <span class="stat-label"> households supported with income-generating activities</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-chart-line"></i>
+                                        <div>
+                                            <span class="stat-number">8,000+</span>
+                                            <span class="stat-label">individuals trained in vocational and entrepreneurial skills</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-hand-holding-usd"></i>
+                                        <div>
+                                            <span class="stat-number">50+</span>
+                                            <span class="stat-label">community cooperatives strengthened</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Water & Hygiene Programs -->
+                <div class="program-card" data-category="wash">
+                    <div class="program-badge wash">
+                        <i class="fas fa-hand-holding-water"></i> Water & Hygiene
+                    </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Clean Water Access Project</h2>
+                        
+                    </div>
+                    <div class="program-preview">
+                        <p>ACERDEN implements community-led WASH programs in Nigeria to improve access to safe water, sanitation facilities, 
+                            and hygiene education in rural and underserved communities.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>Access to clean water, proper sanitation, and hygiene education remains a critical challenge for many Nigerian communities. Poor WASH conditions contribute to waterborne diseases, malnutrition, school absenteeism, and reduced economic productivity.
+                            ACERDEN’s Water, Sanitation & Hygiene (WASH) programs adopt an integrated, 
+                            community-driven approach to improve water access, promote safe sanitation practices, 
+                            and strengthen hygiene awareness. Our interventions prioritize sustainability,
+                            community ownership, and public health impact.</p>
+                            
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                                <li><strong>Safe Water Access:</strong> Construction and rehabilitation of boreholes, wells, and community water systems.</li>
+                                <li><strong>Sanitation Infrastructure:</strong> Support for household and community latrines and sanitation facilities.</li>
+                                <li><strong> Promotion & Behaviour Change:</strong> Community and school-based hygiene education campaigns.</li>
+                                <li><strong>WASH in Schools & Health Facilities:</strong> Improving water and sanitation access in learning and healthcare environments.</li>
+                                <li><strong>Community Management & Sustainability:</strong> Training local water committees for long-term maintenance and ownership.</li>
+                            </ul>
+                            
+                            <h3>Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Community Needs Assessment:</strong>  Participatory identification of WASH gaps and priorities.</li>
+                                <li><strong>Infrastructure Development:</strong>  Delivery of durable, context-appropriate water and sanitation solutions.</li>
+                               <li> <strong> Capacity Building:</strong>  Training community WASH committees, volunteers, and local artisans.</li>
+                                <li> <strong>Behaviour Change Communication:</strong>  Hygiene promotion using culturally appropriate tools.</li>
+                               <li>  <strong>Monitoring & Evaluation:</strong>  Regular assessment of water quality, facility use, and health outcomes.</li>
+                            </ul>
+
+                            
+                            <h3>Featured Project Highlights</h3>
+                            <ul>
+                                <li><strong>Community Borehole Rehabilitation Project:</strong>Providing reliable water access to rural households.</li>
+                                <li><strong>School WASH Initiative:</strong>Improving sanitation and hygiene education for students.</li>
+                               <li> <strong>Hygiene Promotion Campaigns:</strong>Training community WASH committees, volunteers, and local artisans.</li>
+                                <li> <strong>Behaviour Change Communication:</strong>Reducing diarrheal diseases through behaviour change.</li>
+                               
+                            </ul>
+
+                             <h3>Why WASH Programs Work</h3>
+                            <ul>
+                                <li><strong>Preventive Health Impact:</strong>Reduces waterborne and hygiene-related diseases.</li>
+                                <li><strong>Community Ownership: </strong>Local committees manage and sustain facilities.</li>
+                               <li> <strong>Integrated Approach: </strong>Links water, sanitation, hygiene, health, and education.</li>
+                                <li> <strong>Sustainability-Focused:</strong>Emphasizes long-term functionality and maintenance.</li>
+                            </ul>
+
+                            <h3>Key Achievements</h3>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-tint"></i>
+                                        <div>
+                                            <span class="stat-number">200+ </span>
+                                            <span class="stat-label">communities reached with hygiene education</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-stethoscope"></i>
+                                        <div>
+                                            <span class="stat-number">68%</span>
+                                            <span class="stat-label">Significant reduction in reported waterborne diseases in intervention areas</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-school"></i>
+                                        <div>
+                                            <span class="stat-number">40%</span>
+                                            <span class="stat-label">Improved school attendance linked to better WASH facilities</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Environment Programs -->
+                <div class="program-card" data-category="environment">
+                    <div class="program-badge environment">
+                        <i class="fas fa-tree"></i> Environment
+                    </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Environment Conservation & Climate Resilience</h2>
+                       
+                    </div>
+                    <div class="program-preview">
+                        <p> ACERDEN implements community-led environmental conservation and climate resilience programs in Nigeria to protect ecosystems, 
+                            strengthen livelihoods, and support climate adaptation in vulnerable communities.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>ACERDEN promotes environmental conservation and climate-resilient development to protect ecosystems, 
+                                strengthen livelihoods, and support communities affected by climate change across Nigeria.</p>
+                            <p>
+                                Environmental degradation and climate change pose serious threats to livelihoods, food security, water resources, and public health in Nigeria. Deforestation, soil erosion, flooding,
+                                 desertification, and climate variability disproportionately affect rural and peri-urban communities.
+                            </p>
+                            <p>
+                                ACERDEN’s Environment Conservation & Climate Resilience programs address these challenges through ecosystem protection, climate adaptation strategies, community education, and sustainable natural resource management. Our approach combines local knowledge, 
+                                scientific research, and participatory action to build long-term environmental and climate resilience.
+                            </p>
+
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                                <li><strong>Environmental Conservation & Restoration:</strong>Reforestation, afforestation, erosion control, and ecosystem rehabilitation.</li>
+                                <li><strong>Climate Change Adaptation & Resilience:</strong>Supporting communities to adapt to climate variability and extreme weather events.</li>
+                                <li><strong>Sustainable Natural Resource Management:</strong>Promoting responsible land, water, and forest use.</li>
+                                <li><strong>Community Environmental Education:</strong>Raising awareness on climate change, conservation, and sustainable practices.</li>
+                               <li><strong> Disaster Risk Reduction:</strong>Strengthening community preparedness for floods, droughts, and environmental shocks.</li>
+                            </ul>
+                            
+                            <h3>Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Participatory Environmental Assessments:</strong> Identifying local environmental risks and priorities with communities.</li>
+                                <li><strong>Nature-Based Solutions:</strong> Using environmentally sustainable interventions for conservation and restoration.</li>
+                                <li><strong>Capacity Building:</strong> Training community leaders, youth, and farmers in climate adaptation strategies.</li>
+                                <li><strong> Policy & Advocacy Engagement:</strong> Supporting evidence-based environmental planning and action.</li>
+                                <li><strong> Monitoring & Evaluation: </strong>Tracking environmental indicators and resilience outcomes over time.</li>
+                            </ul>
+
+                            <h3>Featured Project Highlights</h3>
+                            <ul>
+                               <li><strong>Community Reforestation Initiative:</strong> Restoring degraded land and improving ecosystem services.</li>
+                                <li><strong>Flood & Erosion Control Projects:</strong> Reducing disaster risks in flood-prone communities.</li>
+                                <li><strong>Climate Awareness & Education Programs:</strong> Building knowledge and local action on climate change.</li>
+                            </ul>
+
+                            <h3>Why Environment & Climate Programs Work</h3>
+                            <ul>
+                               <li><strong> Community Ownership:</strong> Local participation ensures sustainability and long-term stewardship.</li>
+                               <li><strong> Science-Informed:</strong> Combines indigenous knowledge with research-based approaches.</li>
+                                <li><strong>Integrated:</strong> Links environment, agriculture, health, and livelihoods.</li>
+                                <li><strong>Resilience-Focused:</strong> Prioritizes adaptation, preparedness, and risk reduction.</li>
+                            </ul>
+
+                            <h3>Key Achievements</h3>
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-tree"></i>
+                                        <div>
+                                            <span class="stat-number">250,000</span>
+                                            <span class="stat-label">Thousands of trees planted and degraded lands restored</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-mountain"></i>
+                                        <div>
+                                            <span class="stat-number">500</span>
+                                            <span class="stat-label">Communities trained on climate adaptation and disaster preparedness</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-home"></i>
+                                        <div>
+                                            <span class="stat-number">800</span>
+                                            <span class="stat-label">Reduced erosion and flooding risks in intervention areas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Rural Development Programs -->
+                <div class="program-card" data-category="rural">
+                    <div class="program-badge rural">
+                        <i class="fas fa-village"></i> Rural Development
+                    </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Rural Infrastructure Development</h2>
+                       
+                    </div>
+                    <div class="program-preview">
+                        <p> ACERDEN implements community-led development programs in Nigeria that strengthen local institutions, 
+                            improve livelihoods, and promote sustainable social and economic growth.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>
+                                ACERDEN empowers communities to identify their priorities, strengthen local systems, and drive sustainable development that improves quality of life for present and future generations.
+                            </p>
+                            <p>
+                                Strong communities are the foundation of sustainable development. However, many rural and peri-urban communities in Nigeria face weak institutions,
+                                 limited infrastructure, poor access to services, and low participation in decision-making processes.
+                            </p>
+                            <p>
+                                ACERDEN’s Community Development programs strengthen grassroots institutions, promote inclusive participation, and support communities to plan, 
+                                implement, and sustain development initiatives that reflect their real needs and priorities.
+                            </p>
+
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                               <li><strong> Participatory Community Planning:</strong> Supporting communities to identify needs and design local solutions.
+                                <li><strong>Institutional & Capacity Strengthening:</strong> Building skills of community-based organizations and local leaders.
+                                <li><strong>Community Infrastructure Support:</strong> Facilitating small-scale infrastructure that improves daily living.
+                               <li><strong> Social Cohesion & Inclusion:</strong> Encouraging participation of women, youth, and marginalized groups.
+                                <li><strong>Livelihood & Economic Initiatives:</strong> Supporting community-driven income-generating activities.
+                                <li><strong>Local Governance Engagement:</strong> Strengthening linkages between communities and local authorities.
+                            </ul>
+
+                            <h3>Program Implementation Approach</h3>
+                            <ul>
+                               <li><strong> Community Needs Assessments:</strong> Participatory rural appraisals and stakeholder consultations.</li>
+                                <li><strong>Grassroots Leadership Development:</strong> Training for community leaders and volunteers.</li>
+                                <li><strong>Inclusive Engagement:</strong> Ensuring women, youth, and vulnerable groups are represented.</li>
+                                <li><strong>Partnerships:</strong> Collaboration with local governments, CSOs, and development actors.</li>
+                                <li><strong>Monitoring & Learning:</strong> Tracking social, economic, and institutional outcomes.</li>
+
+                            </ul>
+
+                             <h3>Featured Project Highlightsh</h3>
+                            <ul>
+                                <li><strong>Community Development Committees (CDCs):</strong> Strengthening grassroots governance structures.</li>
+                                <li><strong>Participatory Planning Initiatives:</strong> Communities co-design development priorities.</li>
+                                <li><strong>Livelihood Support Projects:</strong> Community-led income generation and skills initiatives.</li>
+                            </ul>
+
+                             <h3>Featured Project Highlightsh</h3>
+                            <ul>
+                                   <li><strong> Community-Owned:</strong> Solutions are driven and sustained by local people.</li>
+                                    <li><strong> Inclusive:</strong> Prioritizes equity, participation, and social cohesion.</li>
+                                    <li><strong> Scalable:</strong> Models can be adapted across regions.</li>
+                                     <li><strong>Sustainable:</strong> Focuses on long-term institutional strength rather than short-term aid.</li>
+                            </ul>
+                            
+                            <h3>Key Achievements</h3>
+                            <p>Since November 2021, we've rehabilitated 85km of rural roads, constructed 12 bridges, and provided solar power to 15 community facilities. Transport costs have decreased by 40% in project areas, and access to markets has improved for over 5,000 rural households.</p>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-road"></i>
+                                        <div>
+                                            <span class="stat-number">85km</span>
+                                            <span class="stat-label">Strengthened community leadership and governance structures</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-bridge"></i>
+                                        <div>
+                                            <span class="stat-number">12</span>
+                                            <span class="stat-label">Increased participation of women and youth in local decision-makingt</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-solar-panel"></i>
+                                        <div>
+                                            <span class="stat-number">15</span>
+                                            <span class="stat-label">Improved access to basic community infrastructure</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Health Programs -->
+                <div class="program-card" data-category="health">
+                    <div class="program-badge health">
+                        <i class="fas fa-heartbeat"></i> Health
+                    </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Health & Social Development</h2>
+                        
+                    </div>
+                    <div class="program-preview">
+                        <p>
+                            ACERDEN delivers community-based health and social development programs in Nigeria, 
+                            improving access to healthcare, disease prevention, and social protection for vulnerable populations.
+                        </p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>
+                                ACERDEN works to improve health outcomes and social well-being by strengthening 
+                                community healthcare access, preventing disease, and supporting vulnerable populations across Nigeria.
+                            </p>
+                            <p>
+                                Health challenges remain a major barrier to development in Nigeria, particularly in rural and underserved communities. Limited access to healthcare services, preventable diseases, malnutrition, 
+                                HIV/AIDS, and weak social protection systems continue to affect quality of life and productivity.
+                            </p>
+                            <p>
+                                ACERDEN’s Health & Social Development programs adopt an integrated, community-driven approach to strengthen healthcare delivery, promote preventive health behaviors, and support socially vulnerable groups such as women,
+                                 children, persons with disabilities, and orphans and vulnerable children (OVCs).
+                            </p>
+                            
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                                <li><strong>Primary Healthcare Support:</strong> Strengthening access to basic healthcare services in underserved communities.</li>
+                                <li><strong>Maternal, Newborn & Child Health (MNCH):</strong> Improving outcomes for mothers and children through education and service access.</li>
+                               <li><strong> HIV/AIDS & Communicable Disease Interventions:</strong> Prevention, care, support, and stigma reduction.</li>
+                               <li><strong> Orphans & Vulnerable Children (OVC) Support:</strong> Health, education, and psychosocial assistance.</li>
+                               <li><strong> Health Education & Behavior Change Communication:</strong> Promoting healthy practices and disease prevention.</li>
+                                <li><strong>Social Protection & Inclusion:</strong> Supporting vulnerable groups to access essential services and social safety nets.</li>
+                            </ul>
+                            
+                             <h3>Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Community Health Outreach:</strong> Mobile clinics, health campaigns, and community health sessions.</li>
+                                <li><strong>Partnerships with Health Institutions:</strong> Collaboration with government and development partners.</li>
+                               <li><strong> Capacity Building:</strong> Training community health volunteers and caregivers.</li>
+                                <li><strong>Integrated Service Delivery:</strong> Linking health, nutrition, education, and social services.</li>
+                                <li><strong>Monitoring & Evaluation:</strong>Tracking health indicators and social outcomes for continuous improvement.</li>
+                            </ul>
+
+                              <h3>Featured Project Highlights</h3>
+                            <ul>
+                                <li><strong>OVC Health & Education Support Program</strong> Integrated care for vulnerable children.</li>
+                                <li><strong>Community Health Outreach Initiatives:</strong>Bringing basic healthcare closer to rural households.</li>
+                               <li><strong> HIV/AIDS Prevention & Support Programs:</strong>Reducing transmission and supporting affected families.</li>
+                                <li><strong>Maternal & Child Health Campaigns:</strong>Improving health outcomes for mothers and children.</li>
+                            </ul>
+
+                              <h3>Why Our Health & Social Programs Are Effective</h3>
+                            <ul>
+                               <li><strong> People-Centered:</strong> Designed around real community health needs.</li>
+                                 <li><strong>Preventive Focus:</strong> Emphasizes education and early intervention.</li>
+                                 <li><strong>Integrated Services:</strong> Links health, nutrition, and social protection.</li>
+                                <li><strong> Sustainable Impact:</strong> Builds local capacity for long-term outcomes.</li>
+                            </ul>
+
+                            <h3>Key Achievements</h3>
+                    
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-user-md"></i>
+                                        <div>
+                                            <span class="stat-number">150</span>
+                                            <span class="stat-label">Improved access to essential health services in rural communities</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-baby"></i>
+                                        <div>
+                                            <span class="stat-number">35%</span>
+                                            <span class="stat-label">Expanded support for orphans and vulnerable children</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-syringe"></i>
+                                        <div>
+                                            <span class="stat-number">92%</span>
+                                            <span class="stat-label">Increased community awareness on disease prevention and healthy living</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Women & Youth Programs -->
+                <div class="program-card" data-category="women">
+                    <div class="program-badge women">
+                        <i class="fas fa-female"></i>Women & Youth Development
+                         </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Women & Youth Development Programs in Nigeria | ACERDEN</h2>
+                        
+                    </div>
+                    <div class="program-preview">
+                        <p> ACERDEN empowers women and youth in Nigeria through skills development, leadership training, 
+                            livelihood support, and social inclusion programs that promote sustainable development.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>ACERDEN advances gender equality and youth empowerment by equipping women and young people with the skills,
+                               resources, and leadership opportunities needed to drive sustainable social and economic development.</p>
+                            <p>
+                                Women and youth represent the majority of Nigeria’s population, yet they are disproportionately affected by poverty, unemployment, limited access to education, and social exclusion.
+                            </p>
+                            <p>
+                                ACERDEN’s Women & Youth Development programs address these challenges by strengthening skills, promoting leadership, expanding livelihood opportunities, and fostering meaningful participation in community development and governance processes.
+                            </p>
+
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                                <li><strong>Economic Empowerment:</strong> Skills training, entrepreneurship support, and income-generation initiatives.</li>
+                                <li><strong>Youth Employability & Skills Development:</strong> Vocational training, digital skills, and life-skills education.</li>
+                                <li><strong>Women’s Leadership & Participation:</strong> Supporting women’s inclusion in decision-making structures.</li>
+                                <li><strong>Gender Equality & Social Inclusion:</strong> Addressing barriers to participation and access to resources.</li>
+                                <li><strong>Youth Engagement & Civic Participation:</strong> Encouraging youth leadership in community and development initiatives.</li>
+                               <li><strong> Mentorship & Capacity Building:</strong> Coaching and mentorship for women and youth leaders.</li>
+
+                            </ul>
+
+                           <h3>Program Implementation Approach</h3>
+                            <ul>
+                              <li><strong>Needs-Driven Design:</strong> Programs shaped by local realities and participant needs.</li>
+                               <li><strong> Community Partnerships:</strong> Working with women’s groups, youth associations, and local institutions.</li>
+                                <li><strong>Skills-Based Training:</strong> Practical, market-relevant skill development.</li>
+                                <li><strong>Integrated Support:</strong> Linking skills training with access to markets, finance, and networks.</li>
+                                <li><strong>Monitoring & Evaluation:</strong> Tracking economic, social, and leadership outcomes.</li>
+                            </ul>
+
+                            <h3>Featured Project Highlights</h3>
+                            <ul>
+                               <li><strong> Women’s Economic Empowerment Initiatives:</strong> Supporting small-scale enterprises and cooperatives.</li>
+                                <li><strong>Youth Skills & Employability Programs:</strong> Vocational, digital, and life-skills training.</li>
+                                <li><strong>Leadership & Mentorship Programs:</strong> Building confidence and leadership capacity.</li>
+                            </ul>
+                            
+                             <h3>Why Women & Youth Development Works</h3>
+                            <ul>
+                                <li><strong>Inclusive:</strong> Prioritizes marginalized and underserved groups.</li>
+                               <li><strong> Transformational:</strong> Builds confidence, leadership, and economic independence.</li>
+                                <li><strong>Sustainable:</strong> Focuses on long-term capacity rather than short-term support.</li>
+                                <li><strong>Community-Driven:</strong> Anchored in local structures and networks.</li>
+                            </ul>
+                            
+                            <h3> Key Achievements</h3>
+                            <p>Since September 2021, 1,200 women and youth have completed leadership training, and 850 have started income-generating activities. Women's participation in community decision-making bodies has increased from 15% to 45% in project communities, and youth unemployment has decreased by 30%.</p>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-user-graduate"></i>
+                                        <div>
+                                            <span class="stat-number">1,200</span>
+                                            <span class="stat-label">Increased income-generating opportunities for women and youth</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-briefcase"></i>
+                                        <div>
+                                            <span class="stat-number">850</span>
+                                            <span class="stat-label">Enhanced participation of women in community leadership roles</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-chart-pie"></i>
+                                        <div>
+                                            <span class="stat-number">45%</span>
+                                            <span class="stat-label">Improved employability and life skills among young people</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Education Programs -->
+                <div class="program-card" data-category="education">
+                    <div class="program-badge education">
+                        <i class="fas fa-graduation-cap"></i> Education
+                    </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Education & Literacy Development in Nigeria</h2>
+                       
+                    </div>
+                    <div class="program-preview">
+                        <p>ACERDEN improves access to quality education and promotes literacy in Nigeria through community-based programs,
+                        school support, adult literacy, and inclusive learning initiatives.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p>
+                               Education and literacy are foundational to social and economic development. ACERDEN’s Education & Literacy Development programs focus on expanding access to quality education, improving learning outcomes, and addressing systemic barriers to literacy in underserved rural and peri-urban communities. 
+                            </p>
+                            <p>
+                                Our approach supports both formal and non-formal education, ensuring that children, youth, and adults especially women and vulnerable groups have opportunities to learn, grow, and participate meaningfully in society.
+                            </p>
+                            
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                                <li><strong>Access to Basic Education:</strong> Supporting school enrolment, retention, and completion through community engagement and targeted educational support.</li>
+                               <li><strong>Adult & Functional Literacy:</strong> Providing adult literacy and numeracy programs that improve livelihoods, civic participation, and household well-being.</li>
+                                <li><strong>Girl-Child Education:</strong> Promoting girls’ education through advocacy, community sensitisation, and support initiatives that reduce gender-based barriers.</li>
+                                <li><strong>School Health & Learning Environment:</strong> Improving school infrastructure, hygiene facilities, and learning conditions to support student health and performance.</li>
+                                <li><strong>Teacher & Community Capacity Building:</strong>Strengthening the skills of teachers, school committees, and community education stakeholders.</li>
+
+                            </ul>
+
+                             <h3>Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Community Needs Assessment:</strong> Identifying education gaps with parents, teachers, and local leaders.</li>
+                                <li><strong>Participatory Program Design:</strong> Co-developing solutions with communities and education stakeholders.</li>
+                                <li><strong>Capacity Building:</strong> Training educators, facilitators, and community volunteers.</li>
+                                <li><strong>Monitoring & Evaluation:</strong> Tracking enrolment, attendance, literacy outcomes, and program impact.</li>
+                            </ul>
+
+                             <h3>Featured Program Highlights</h3>
+                            <ul>
+                              <li><strong> Community-Based Adult Literacy Classes:</strong> Improving reading, numeracy, and life skills.</li>
+                               <li><strong> School Support Initiatives:</strong> Enhancing learning conditions and student engagement.</li>
+                               <li><strong> Girl-Child Education Advocacy</strong> Community-driven efforts to keep girls in school.</li>
+                            </ul>
+
+                            <h3>Why Education & Literacy Programs Work</h3>
+                            <ul>
+                              <li><strong>Inclusive:</strong> Designed for children, youth, and adults.</li>
+                               <li><strong>Community-Owned:</strong> Strong involvement of parents and local leaders.</li>
+                               <li><strong>Integrated:</strong> Linked with health, WASH, gender, and livelihood initiatives.</li>
+                               <li><strong>Sustainable:</strong> Focused on capacity building and long-term learning outcomes.</li>
+                            </ul>
+                            
+                            <h3>Key Achievements</h3>
+                            <p>Since January 2019, we've supported 40 schools, trained 250 teachers, and provided scholarships to 500 vulnerable children. Student enrollment has increased by 35% in project schools, and standardized test scores have improved by an average of 42% across all supported institutions.</p>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <div>
+                                            <span class="stat-number">250</span>
+                                            <span class="stat-label">Improved school participation among children in underserved communities</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-user-graduate"></i>
+                                        <div>
+                                            <span class="stat-number">500</span>
+                                            <span class="stat-label">Adult literacy programs supporting women and youth livelihood activities</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-chart-line"></i>
+                                        <div>
+                                            <span class="stat-number">42%</span>
+                                            <span class="stat-label">Strengthened community involvement in school governance</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Governance Programs -->
+                <div class="program-card" data-category="governance">
+                    <div class="program-badge governance">
+                        <i class="fas fa-landmark"></i> Governance
+                    </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Citizen Engagement & Accountability</h2>
+                       
+                    </div>
+                    <div class="program-preview">
+                        <p>ACERDEN strengthens democratic governance, civic participation, accountability, 
+                            and civil society capacity in Nigeria through community-based and evidence-driven programs.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p> ACERDEN promotes inclusive governance, accountable institutions, and active citizen participation by strengthening civil society,
+                                empowering communities, and supporting democratic processes at the grassroots level.</p>
+                            <p>
+                                Good governance and democratic participation are essential for sustainable development. ACERDEN’s Governance & Democracy programs focus on strengthening civic engagement, improving transparency and accountability,
+                                 and empowering communities to actively participate in decision-making processes that affect their lives.
+                            </p>
+                            <p>
+                                Our work supports grassroots democracy, strengthens civil society organisations, and promotes inclusive 
+                                governance structures that respond to community needs—particularly in rural and underserved areas.
+                            </p>
+
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                                <li><strong>Civic Education & Awareness:</strong> Enhancing citizens’ understanding of rights, responsibilities, and democratic processes.</li>
+                                <li><strong>Community Accountability & Transparency:</strong> Promoting social accountability mechanisms that strengthen service delivery and local governance.</li>
+                                <li><strong>Civil Society Strengthening:</strong> Building the institutional and technical capacity of civil society organisations and community groups.</li>
+                                <li><strong>Inclusive Participation:</strong> Supporting the participation of women, youth, and marginalized groups in governance and decision-making.</li>
+                                <li><strong>Policy Engagement & Advocacy:</strong> Facilitating dialogue between communities, civil society, and government institutions to influence policy and practice.</li>
+
+                            </ul>
+
+                            
+                            <h3>Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Participatory Needs Assessment:</strong> Identifying governance gaps with communities and stakeholders.</li>
+                                <li><strong>Capacity Building:</strong> Training civil society actors, community leaders, and volunteers.</li>
+                                <li><strong>Dialogue & Engagement:</strong> Facilitating town halls, forums, and multi-stakeholder discussions.</li>
+                                <li><strong>Monitoring & Learning:</strong> Tracking governance outcomes and strengthening accountability systems.</li>
+
+                            </ul>
+                            
+                            <h3>Why Governance & Democracy Programs Work</h3>
+                            <ul>
+                                <li><strong>Community-Led:</strong> Designed with strong grassroots participation.</li>
+                                <li><strong>Rights-Based:</strong> Focused on inclusion, accountability, and equity.</li>
+                                <li><strong>Evidence-Driven:</strong> Informed by governance research and field data.</li>
+                                <li><strong>Sustainable:</strong> Builds long-term institutional and civic capacity.</li>
+
+                            </ul>
+                            
+                            <h3>Key Achievements</h3>
+                            <p>Since April 2022, we've established 25 community monitoring groups across 10 districts. Public participation in local budget hearings has increased from 10% to 65%, and citizen satisfaction with local services has improved from 35% to 75% based on our annual surveys.</p>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-users"></i>
+                                        <div>
+                                            <span class="stat-number">25</span>
+                                            <span class="stat-label">Strengthened the capacity of local civil society organisations and networks</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-comments"></i>
+                                        <div>
+                                            <span class="stat-number">65%</span>
+                                            <span class="stat-label">Increased community participation in local governance processes</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-smile"></i>
+                                        <div>
+                                            <span class="stat-number">75%</span>
+                                            <span class="stat-label">Improved awareness of civic rights and responsibilities</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Research Programs -->
+                <div class="program-card" data-category="research">
+                    <div class="program-badge research">
+                        <i class="fas fa-flask"></i> Research
+                    </div>
+                    <div class="program-header">
+                        <h2 class="program-title">Research, Monitoring & Evaluation (M&E) in Nigeria</h2>
+                     
+                    </div>
+                    <div class="program-preview">
+                        <p> ACERDEN delivers high-quality research, monitoring,
+                             and evaluation services in Nigeria to support evidence-based development, accountability, and learning across sectors.</p>
+                    </div>
+                    <div class="program-full-content">
+                        <div class="content-body">
+                            <h3>Program Overview</h3>
+                            <p> ACERDEN strengthens development effectiveness by generating evidence,
+                                measuring impact, and supporting learning through robust research, monitoring, and evaluation systems.</p>
+                            <p>
+                                Evidence-based decision-making is essential for sustainable development. ACERDEN’s Research, Monitoring & Evaluation (M&E) program supports development actors, donors, and communities by 
+                                delivering high-quality research, program monitoring, and impact evaluations across multiple sectors
+                            </p>
+                            <p>
+                                We integrate <strong>rigorous methodology, community participation,</strong> and <strong>ethical standards</strong> to ensure credible findings that inform program design, policy development, and learning
+                            </p>
+
+                            <h3>Key Focus Areas</h3>
+                            <ul>
+                               <li><strong> Baseline, Midline & Endline Studies:</strong> Designing and conducting studies to assess program needs, progress, and outcomes.</li>
+                                 <li><strong>Program Monitoring Systems:</strong> Developing indicators, data collection tools, and reporting frameworks aligned with donor standards.</li>
+                                 <li><strong>Impact Evaluation:</strong> Assessing program effectiveness, outcomes, and long-term sustainability.</li>
+                                <li><strong> Applied Development Research:</strong> Generating evidence on agriculture, health, WASH, environment, governance, and social development.</li>
+                                 <li><strong>Learning & Knowledge Management:</strong> Supporting learning, adaptation, and dissemination of research findings.</li>
+
+                            </ul>
+
+                             <h3> Program Implementation Approach</h3>
+                            <ul>
+                                <li><strong>Study Design & Methodology:</strong> Quantitative, qualitative, and mixed-methods approaches.</li>
+                                <li><strong>Ethical & Participatory Research:</strong> Community engagement and informed consent.</li>
+                               <li><strong> Data Collection & Analysis:</strong> Trained enumerators, digital tools, and robust analysis.</li>
+                                <li><strong>Reporting & Dissemination:</strong> Clear, actionable reports for diverse stakeholders.</li>
+
+                            </ul>
+
+                              <h3> Featured Research & Evaluation Highlights</h3>
+                            <ul>
+                               <li><strong> Baseline Study for Rural Livelihood Programs:</strong> Informing targeted interventions.</li>
+                                <li><strong>Impact Evaluation of OVC Support Programs:</strong> Measuring social and education outcomes.</li>
+                                <li><strong>Monitoring Frameworks for Donor-Funded Projects</strong>Ensuring accountability and learning.</li>
+
+                            </ul>
+                                <h3> Featured Research & Evaluation Highlights</h3>
+                            <ul>
+                                <li><strong>Technically Sound:</strong> Aligned with international M&E standards.</li>
+                                <li><strong>Context-Specific:</strong> Grounded in local realities and community engagement.</li>
+                                <li><strong>Independent & Credible:</strong> Objective, transparent, and ethical.</li>
+                                <li><strong>Action-Oriented:</strong> Focused on learning and program improvement.</li>
+
+                            </ul>
+                            
+                            <h3>Key Achievements</h3>
+                            <p>Since July 2020, we've completed 18 major research studies, published 25 policy briefs, and piloted 12 innovative development approaches. Our research findings have informed 5 national policy changes and improved the design of 8 major development programs implemented by partner organizations.</p>
+                            
+                            <div class="program-footer">
+                                <div class="program-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-file-alt"></i>
+                                        <div>
+                                            <span class="stat-number">18</span>
+                                            <span class="stat-label">Conducted baseline and impact studies across multiple development sectors</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-lightbulb"></i>
+                                        <div>
+                                            <span class="stat-number">12</span>
+                                            <span class="stat-label">Supported donor-funded projects with robust monitoring frameworks</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-cogs"></i>
+                                        <div>
+                                            <span class="stat-number">5</span>
+                                            <span class="stat-label">Strengthened institutional M&E capacity for NGOs and community organisations</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-actions">
+                        <button class="view-details-btn">View Program Details <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+             
+            </div>
+        </main>
+
+
+   
+
+    <!-- ==================== WHY OUR PROGRAMS ARE EFFECTIVE SECTION ==================== -->
+    <section class="effectiveness-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Why Our Programs Are Effective</h2>
+                    <!--<p class="section-subtitle" style=" justify-content: center!important;">Our approach combines community wisdom with proven strategies to create lasting, measurable impact across all our initiatives.</p>-->
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Card 1: Community-Centered -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="effectiveness-card">
+                        <div class="card-icon icon-1">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="card-title">Community-Centered</h3>
+                        <p class="card-text">All programs are designed with direct input from local communities, ensuring cultural relevance and sustainable adoption. We believe solutions work best when communities own them.</p>
+                        <div class="impact-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>90% Community Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2: Evidence-Based -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="effectiveness-card">
+                        <div class="card-icon icon-2">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="card-title">Evidence-Based</h3>
+                        <p class="card-text">Programs are informed by rigorous research and data-driven strategies. We continuously monitor and evaluate our impact to ensure maximum effectiveness and efficiency.</p>
+                        <div class="impact-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Data-Driven Decision Making</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3: Integrated Approach -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="effectiveness-card">
+                        <div class="card-icon icon-3">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="card-title">Integrated Approach</h3>
+                        <p class="card-text">We combine agriculture, health, education, environment, and governance initiatives for holistic community transformation. This comprehensive approach addresses root causes, not just symptoms.</p>
+                        <div class="impact-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Holistic Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4: Long-Term Impact -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="effectiveness-card">
+                        <div class="card-icon icon-4">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3 class="card-title">Long-Term Impact</h3>
+                        <p class="card-text">Focused on sustainability and measurable results that continue long after our direct involvement ends. We build capacity within communities for lasting change.</p>
+                        <div class="impact-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Sustainable Outcomes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+    </section>
+    <!-- ==================== END WHY OUR PROGRAMS ARE EFFECTIVE ==================== -->
+
+        
+    
+    <!--FAQS-->
+      <section class="faq-section">
+      <div class="container">
+        <div class="faq-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Find answers to common questions about our programs and services</p>
+        </div>
+
+      <div class="faq-container">
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+            <span>How are ACERDEN’s programs selected and designed?</span>
+            <i class="faq-icon">+</i>
+          </button>
+          <div class="faq-answer" id="faq-answer-1" role="region">
+            <p>Programs are chosen based on community needs assessments, research findings, and alignment with ACERDEN’s mission for sustainable rural development.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Which areas of Nigeria do ACERDEN programs cover?</span>
+            <i class="faq-icon">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Programs are implemented primarily in rural and peri-urban 
+                communities across multiple states, with a strong focus in South-East Nigeria.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>How does ACERDEN measure program impact?</span>
+            <i class="faq-icon">+</i>
+          </button>
+          <div class="faq-answer">
+            <p> Impact is measured through baseline and endline assessments, 
+                continuous monitoring, and evaluations aligned with international best practices.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Can international organizations partner with ACERDEN?</span>
+            <i class="faq-icon">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. ACERDEN welcomes collaborations 
+                with local and international NGOs, donor agencies, and academic institutions.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Are communities involved in program implementation?</span>
+            <i class="faq-icon">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. Community participation is central to all
+                 programs to ensure relevance, ownership, and long-term sustainability.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>How can donors support ACERDEN programs?</span>
+            <i class="faq-icon">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Donors can provide funding, technical support, 
+                or a partner for program implementation. Details are available on the Partner With Us page.</p>
+          </div>
+        </div>
+
+        <!--FAQ ITem 7-->
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Are ACERDEN’s research findings publicly available?</span>
+            <i class="faq-icon">+</i>
+          </button>
+          <div class="faq-answer">
+            <p> Yes. Research reports, project evaluations, and 
+                learning resources can be accessed in the Publications & Reports section of the website.</p>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+    </section>
+    <!--FAQS ENDS-->
+
+  
+
+   <article
+          class="mad-cta align-center mad-section mad-section--stretched with-overlay mad-colorizer--scheme-light mad-parallax"
+          data-bg-image-src="images/1812x1300_bg1.jpg">
+          <div class="container">
+            <h2 class="mad-page-title">Make a Difference, Become a Volunteer!</h2>
+            <p>Join us to make a direct impact in the lives of the world’s most vulnerable children.</p>
+            <a href="pages_donate.html" class="btn btn-huge"><span>Get Involved</span> </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="mad-social-section">
+        <div class="container">
+          <div class="mad-social-wrap">
+            <div class="mad-col">
+              <h5>Stay Informed With News & Updates</h5>
+              <form class="mad-newsletter-form one-line size-2">
+                <input type="email" name="email" placeholder="Enter Email Address" />
+                <button type="submit" class="btn btn-huge btn-style-3" style="display: flex; align-items: center; justify-content: center;"><i class="fas fa-envelope"></i></button>
+              </form>
+            </div>
+            <div class="mad-col">
+              <h5>Follow Us on Our Social Channels</h5>
+              <div class="mad-social-icons size-3">
+                <ul class="justify-content-center">
+                  <li>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="container">
+          <div class="mad-footer-main">
+            <div class="row justify-content-between vr-size-1 hr-size-1">
+              <div class="col-xl-3 col-lg-6 col-sm-12">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <a href="index.html" class="mad-logo content-element-3"><img src="images/logo-news.png" alt="" /></a>
+                  <div class="content-element-3">
+                    <p> African Centre for Rural Development & Environment (ACERDEN) </p>
+                  </div>
+                  <a href="pages_contact_v1.html" class="btn style-2"><span>Help Center</span><i><img
+                        src="sug-icons/btn_dir.svg" alt="" /></i></a>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Quick Links</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_about.html">About Us</a></li>
+                    <li><a href="pages_team.html">Our Programs</a></li>
+                    <li><a href="pages_volunteer.html">Projects</a></li>
+                    <li><a href="blog_classic.html">Publications</a></li>
+                    <li><a href="pages_contact_v1.html">Partnerships</a></li>
+                    <li><a href="pages_contact_v1.html">Contact Us</a></li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Legal & Trust</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_what_we_do.html">NGO Registration Details</a></li>
+                    <li><a href="pages_what_we_do.html">Privacy Policy</a></li>
+                    <li><a href="pages_what_we_do.html">Terms of Use</a></li>
+                   <!--<li><a href="pages_what_we_do.html">Emergencies</a></li>-->
+                   <!--<li><a href="pages_what_we_do.html">Campaigns</a></li>-->
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-3 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Contact Us</h6>
+                  <ul class="mad-vr-list mad-map-info">
+                    <li>
+                      <img src="sug-icons/location.svg" alt="" class="svg" />
+                      <span>22 Second Avenue, Trans-Ekulu Enugu State, Nigeria <a href="pages_contact_v1.html"
+                         class="mad-link">Get Directions</a> </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/clock.svg" alt="" class="svg" />
+                      <span>Monday - Friday: 8AM - 5PM</span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/phone.svg" alt="" class="svg" />
+                      <span>  +234 803 567 3526 </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/email.svg" alt="" class="svg" />
+                      <a href="pages_contact_v1.html">mail:info@acerden.org</a>
+                    </li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Help Us Today!</h6>
+                  <div class="form-control content-element-3">
+                    <div style="display: block" class="mad-toggled-fields">
+                      <input type="radio" name="radio-1" id="radio-1" checked="checked" />
+                      <label for="radio-1" class="mad-label-radio">Monthly Donation </label>
+                      <input type="radio" name="radio-1" id="radio-2" />
+                      <label for="radio-2" class="mad-label-radio">Single Donation</label>
+                    </div>
+                  </div>
+                  <form class="mad-donate-form">
+                    <div class="mad-col">
+                      <input type="email" name="email" placeholder="$" />
+                    </div>
+                    <div class="mad-col">
+                      <button type="submit" class="btn wide">
+                        <span>Donate</span> <i class="icon"><img src="sug-icons/heart.svg" alt="" /></i>
+                      </button>
+                    </div>
+                  </form>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+          <p class="copyrights">Copyright ©<a href="index.html">African Centre for Rural Development & Environment (ACERDEN)</a>. All Rights Reserved.</p>
+        </div>
+        <!--================ End of Footer row ================-->
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+  </div>
+  <script src="vendors/modernizr.js"></script>
+  <script src="vendors/jquery-3.6.0.min.js"></script>
+  <script src="vendors/jquery.easing.1.3.min.js"></script>
+  <script src="vendors/monkeysan.jquery.nav.1.0.js"></script>
+  <script src="owl-causoel/owl.carousel.min.js"></script>
+  <script src="arctictmodal/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="vendors/monkeysan.validator.min.js"></script>
+  <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+  <script src="vendors/mad.customselect.js"></script>
+  <script src="vendors/handlebars-v4.0.5.min.js"></script>
+  <script src="vendors/retina.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/modules/mad.newsletter-form.min.js"></script>
+  <script src="js/modules/mad.alert-box.min.js"></script>
+  <script src="js/modules/mad.sticky-header-section.min.js"></script>
+  <script src="js/mad.app.js"></script>
+  <script src="js/program.js"></script>
+  
+
+
+
+  
+    <!-- Add this right before </body> -->
+<script>
+  // Remove preloader immediately
+  document.addEventListener('DOMContentLoaded', function() {
+    // Hide preloader
+    var preloader = document.querySelector('.mad-preloader');
+    if (preloader) {
+      preloader.style.display = 'none';
+      preloader.style.visibility = 'hidden';
+      preloader.style.opacity = '0';
+    }
+    
+    // Show page content
+    var pageWrapper = document.getElementById('mad-page-wrapper');
+    if (pageWrapper) {
+      pageWrapper.style.display = 'block';
+      pageWrapper.style.visibility = 'visible';
+      pageWrapper.style.opacity = '1';
+    }
+    
+    // Force body to be visible
+    document.body.style.display = 'block';
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = '1';
+  });
+  
+  // Also try on window load as backup
+  window.onload = function() {
+    document.querySelector('.mad-preloader').style.display = 'none';
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = '1';
+  };
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const programItems = document.querySelectorAll('.program-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Show/hide program items based on filter
+                    programItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Add animation to program cards on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            programItems.forEach(item => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                item.style.transition = 'opacity 0.5s, transform 0.5s';
+                observer.observe(item);
+            });
+        });
+
+           // Add animation to effectiveness cards
+            const effectivenessCards = document.querySelectorAll('.effectiveness-card');
+            
+            const effectivenessObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const card = entry.target;
+                        card.style.animationPlayState = 'running';
+                        effectivenessObserver.unobserve(card);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            effectivenessCards.forEach((card, index) => {
+                card.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                card.style.animationDelay = `${index * 0.1}s`;
+                card.style.animationPlayState = 'paused';
+                effectivenessObserver.observe(card);
+            });
+            
+            // Add fadeInUp animation to CSS
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes fadeInUp {
+                    from {
+                        opacity: 0;
+                        transform: translateY(30px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+         });
+      
+
+    
+
+  
+
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--================ Basic page needs ================-->
+  <title>ACERDEN</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!--================ Mobile specific metas ================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--================ Favicon ================-->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <!--================ Google web fonts ================-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;500;700;800;900&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+    rel="stylesheet" />
+  
+  <!--================ Vendor CSS ================-->
+  <link rel="stylesheet" href="owl-causoel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="arctictmodal/jquery.arcticmodal-0.3.css" />
+  <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css" />
+  <!--================ Theme CSS ================-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+   <link rel="stylesheet" href="css/program.css">
+  <!--================ Vendor JS ================-->
+</head>
+
+<body class="mad-body--scheme-green">
+  <div class="mad-preloader"></div>
+  <div id="mad-page-wrapper" class="mad-page-wrapper">
+    <div class="container wide">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <h6 class="mad-title">Search</h6>
+          <!--================ Search Form ================-->
+          <form class="mad-search-section">
+            <input type="text" placeholder="Start Typing Here..." />
+            <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
+          </form>
+          <!--================ End of Search Form ================-->
+          <button type="button" class="arcticmodal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+    <header id="mad-header" class="mad-header">
+      <div class="mad-header-section--sticky-xl">
+        <div class="container-fluid">
+          <!-- Top row: Logo, organization name, contact info -->
+          <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+            
+            <!-- Left side: Logo and Organization Name -->
+            <div class="mad-header-item" style="display: flex; align-items: center;">
+              <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
+              <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+                African Centre for Rural Development & <br>Environment (ACERDEN)
+              </h5>
+            </div>
+            
+            <!-- Right side: Contact Information -->
+            <div class="mad-header-item" style="display: flex; align-items: center; margin-right: 20px;">
+              <div class="contact-info" style="display: flex; align-items: center; gap: 20px;">
+                
+                <!-- Phone Number -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">phone</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">+234 803 567 3526</span>
+                </div>
+                
+                <!-- Email -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">email</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">info@acerden.org</span>
+                </div>
+                
+                <!-- Social Icons -->
+                <div class="social-icons" style="display: flex; align-items: center; gap: 10px;">
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Bottom row: Navigation and Actions - Centered -->
+          <div class="mad-header-items" style="display: flex; justify-content: center; border-top: 1px solid #eee; padding-top: 15px;">
+            <div class="mad-header-item" style="display: flex; align-items: center; justify-content: center; width: 100%;">
+              
+              <!-- Navigation - Centered -->
+              <nav class="mad-navigation-container" style="flex: 1; display: flex; justify-content: center;">
+                <ul class="mad-navigation mad-navigation--vertical-sm" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 25px; justify-content: center;">
+                  <li class="menu-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="programs.html">Our programs</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Projects</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="events_list.html">Publications</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog.html">News</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <!-- Actions - Positioned to the right -->
+              <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
+                <div class="mad-col">
+                  <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                </div>
+                <div class="mad-col">
+                  <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
+                        src="sug-icons/heart.svg" alt="" /></i></a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+   </header>
+
+     <!--================ End of Header ================-->
+    
+     <!--================ Breadcrumb ================-->
+    <div class="mad-breadcrumb simple-type">
+        <div class="container wide">
+          <nav class="mad-breadcrumb-path">
+            <span><a href="index.html" class="mad-link">Home</a></span> / <a href="causes_grid_v1.html"
+              class="mad-link">blog</a></span> / <a href="causes_grid_v1.html" class="mad-link">Ecosystem</a></span> /
+            <span>Haiti Earthquake Causing Widespread Devastation</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      <div class="mad-content">
+        <div class="container">
+          <div class="row hr-size-2 vr-size-2 sticky-bar">
+            <main id="main" class="col-xxl-9 col-lg-8">
+              <div class="content-element-main">
+                <div class="mad-entities single-event type-2">
+                  <!--================ Entity ================-->
+                  <article class="mad-entity mad-entity-single content-element-8">
+                    <div class="mad-entity-tags">
+                      <span><a href="blog_list_sidebar.html" class="mad-link">August 26, 2022</a></span> - <span><a
+                          href="blog_list_sidebar.html" class="mad-link">Ecosystem</a></span> - <span>by <a
+                          href="blog_list_sidebar.html" class="mad-link">admin</a></span> - <span><a
+                          href="blog_list_sidebar.html" class="mad-link"> 3 comments</a></span>
+                    </div>
+                    <h1 class="align-center">Trees For The Future to Plant One Billion Trees by 2030</h1>
+                    <div class="mad-img content-element-4">
+                      <img src="images/1012x704_img1.jpg" alt="" />
+                    </div>
+                    <div class="mad-entity-content">
+                      <div class="mad-entity-header">
+                        <div class="content-element-7">
+                          <div class="mad-dropcap style-2 color-2 mad-text-medium content-element-4">
+                            <p> Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi
+                              et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit
+                              amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam
+                              leo. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum
+                              ante eu lacus. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque.
+                              Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum
+                              ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetuer adipisMauris
+                              accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. In pede mi, aliquet sit
+                              amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. </p>
+                          </div>
+                          <div class="mad-testimonial-bg style-2">
+                            <div class="mad-testimonial">
+                              <div class="mad-testimonial-info">
+                                <blockquote>
+                                  <p> Even before the pandemic 258 million children were locked out of school. Lets
+                                    build a world where all children can reach their potential! </p>
+                                </blockquote>
+                              </div>
+                            </div>
+                          </div>
+                          <p> Donec sit amet eros. Lorem ipsum dolor sit amet, consecvtetuer adipiscing elit. Mauris
+                            fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum
+                            vel, cursus eleifend, elit. </p>
+                          <p> Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu
+                            lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget
+                            nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum
+                            primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+                        </div>
+                        <div class="content-element-4">
+                          <h4>The Challenges for Children in Afghanistan</h4>
+                          <p>Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                            elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante
+                            eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus
+                            eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. </p>
+                          <div class="row mad-gallery">
+                            <div class="col-12">
+                              <div class="mad-gallery-item">
+                                <a href="images/1012x640_img1.jpg" data-fancybox="gallery"><img
+                                    src="images/1012x640_img1.jpg" alt="" /></a>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="mad-gallery-item">
+                                <a href="images/490x368_img1.jpg" data-fancybox="gallery"><img
+                                    src="images/490x368_img1.jpg" alt="" /></a>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="mad-gallery-item">
+                                <a href="images/490x368_img2.jpg" data-fancybox="gallery"><img
+                                    src="images/490x368_img2.jpg" alt="" /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                          consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                          est, qui dolorem ipsum quia dolor sit amet,nsectetur, adipisci velit, sed quia non numquam
+                          eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+                        <div class="mad-entity-footer">
+                          <div class="mad-share-wrap type-2">
+                            <span>Tags:</span>
+                            <div class="tagcloud">
+                              <a href="blog_classic_sidebar.html">Child</a>
+                              <a href="blog_classic_sidebar.html">Disaster</a>
+                              <a href="blog_classic_sidebar.html">Earthquake</a>
+                            </div>
+                          </div>
+                          <div class="mad-share-wrap type-2">
+                            <span>Share This:</span>
+                            <div class="mad-social-icons size-small">
+                              <ul>
+                                <li>
+                                  <a href="https://facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                  <a href="https://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                  <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                  <a href="mailto:company@company.com"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                  <a href="https://pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!--================ End of Entity ================-->
+                </div>
+                <div class="comment single-comment">
+                  <div class="comment-body clearfix">
+                    <div class="comment-author-avatar">
+                      <a href="blog_single_sidebar.html#"><img src="images/168x168_photo1.jpg" alt="John Smith"></a>
+                    </div>
+                    <div class="comment-author-info">
+                      <div class="comment-row">
+                        <cite class="fn">Admin</cite>
+                      </div>
+                      <div class="comment-content">
+                        <p class="content-element-3"> Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis
+                          lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit
+                          amet, consectetuer adipis. Mauris accumsan nulla vel diam. </p>
+                        <div class="mad-social-icons  ">
+                          <ul>
+                            <li>
+                              <a href="https://facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                              <a href="https://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                              <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                              <a href="mailto:company@company.com"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                              <a href="https://pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <ul class="mad-pagination">
+                  <li>
+                    <a href="blog_single.html" class="prev mad-arrows"><span class="material-icons"> arrow_back_ios
+                      </span><span>Previous Article</span></a>
+                  </li>
+                  <li>
+                    <a href="blog_single_sidebar.html" class="next mad-arrows"><span class="material-icons">
+                        arrow_forward_ios </span><span>Next Article</span></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="content-element-main">
+                <h2>Related Articles</h2>
+                <div class="mad-entities type-2 item-col-2 align-items-start">
+                  <div class="mad-col">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <div class="mad-entity-media">
+                        <div class="mad-testimonial-bg style-2 content-element-4">
+                          <div class="mad-testimonial">
+                            <div class="mad-testimonial-info">
+                              <blockquote>
+                                <p> "Together we've impacted the lives of over 200 million vulnerable children by
+                                  tackling the root causes of poverty." </p>
+                              </blockquote>
+                            </div>
+                            <div class="mad-author">
+                              <div class="mad-author-info">
+                                <span class="mad-author-name">Rebecca Johnson, CA, USA</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mad-entity-content">
+                        <div class="mad-entity-header">
+                          <div class="mad-entity-tags">
+                            <a href="blog_list_sidebar.html">August 21, 2022</a> - <a
+                              href="blog_list_sidebar.html">Provide food</a> - <a href="blog_list_sidebar.html">0
+                              comments</a>
+                          </div>
+                          <h6 class="mad-entity-title">
+                            <a href="blog_single_sidebar.html">Pathways Out of Poverty for Youth in Africa</a>
+                          </h6>
+                          <div class="mad-entity-footer">
+                            <a href="blog_single.html" class="mad-text-link"><span>Read More</span> </a>
+                            <div class="mad-share-wrap">
+                              <a href="blog_single_sidebar.html#" class="mad-text-link share no-arrow"><span>Share</span> <img
+                                  src="charity_icons_svg/share.svg" class="svg" alt="" />
+                              </a>
+                              <div class="mad-social-icons size-small">
+                                <ul>
+                                  <li>
+                                    <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.youtube.com/channel/UCHLY0iBPh03oLba9Hc0ABMg"><i
+                                        class="fab fa-youtube"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.linkedin.com/in/sergii-velykorodnov-714b5a25/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                  <div class="mad-col">
+                    <article class="mad-entity">
+                      <div class="mad-entity-media">
+                        <div class="mad-responsive-iframe">
+                          <iframe
+                            src="https://www.youtube.com/embed/CE29QWUSOV8?rel=0&amp;showinfo=0&amp;autohide=2&amp;controls=0&amp;enablejsapi=1"></iframe>
+                        </div>
+                      </div>
+                      <div class="mad-entity-content">
+                        <div class="mad-entity-header">
+                          <div class="mad-entity-tags">
+                            <a href="blog.html#">August 18, 2022</a> - <a
+                              href="blog.html#">Clean energy</a> - <a href="blog.html#">4
+                              comments</a>
+                          </div>
+                          <h6 class="mad-entity-title">
+                            <a href="blog.html#">The Clean Power Plan and the Midwest’s Winds of
+                              Change</a>
+                          </h6>
+                          <p>Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu
+                            massa. Quisque diam lorem, interdum vitae. Donec eget tellus non erat lacinia. </p>
+                          <div class="mad-entity-footer">
+                            <a href="blog.html#" class="mad-text-link"><span>Read More</span> </a>
+                            <div class="mad-share-wrap">
+                              <a href="blog.html#" class="mad-text-link share no-arrow"><span>Share</span> <img
+                                  src="charity_icons_svg/share.svg" class="svg" alt="" />
+                              </a>
+                              <div class="mad-social-icons size-small">
+                                <ul>
+                                  <li>
+                                    <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.youtube.com/channel/UCHLY0iBPh03oLba9Hc0ABMg"><i
+                                        class="fab fa-youtube"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.linkedin.com/in/sergii-velykorodnov-714b5a25/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="content-element-main">
+                <h2>Comments</h2>
+                <ol class="comments-list">
+                  <li class="comment comment-has-children">
+                    <div class="comment-body clearfix">
+                      <div class="comment-author-avatar">
+                        <a href="blog.html#"><img src="images/96x96_photo1.jpg" alt="John Smith"></a>
+                      </div>
+                      <div class="comment-author-info">
+                        <div class="comment-row">
+                          <cite class="fn">John Smith</cite>
+                          <div class="comment-meta">
+                            <time datetime="2022-10-22">November 20, 2022</time>
+                            <a href="blog.html#" class="mad-link"> Reply <i class="material-icons">reply</i></a>
+                          </div>
+                        </div>
+                        <div class="comment-content">
+                          <p> Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis.
+                            In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="children">
+                      <li class="comment">
+                        <div class="comment-body">
+                          <div class="comment-author-avatar">
+                            <a href="blog.html#"><img src="images/96x96_photo2.jpg" alt="Sara Franklin"></a>
+                          </div>
+                          <div class="comment-author-info">
+                            <div class="comment-row">
+                              <cite class="fn">Admin</cite>
+                              <div class="comment-meta">
+                                <time datetime="2022-10-22">November 20, 2022</time>
+                                <a href="blog.html#" class="mad-link"> Reply <i class="material-icons">reply</i></a>
+                              </div>
+                            </div>
+                            <div class="comment-content">
+                              <p> Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla
+                                venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="comment">
+                    <div class="comment-body clearfix">
+                      <div class="comment-author-avatar">
+                        <a href="blog.html#"><img src="images/96x96_photo3.jpg" alt="John Smith"></a>
+                      </div>
+                      <div class="comment-author-info">
+                        <div class="comment-row">
+                          <cite class="fn">Chandra Vancova</cite>
+                          <div class="comment-meta">
+                            <time datetime="2022-10-22">November 20, 2022</time>
+                            <a href="blog.html#" class="mad-link">Reply <i class="material-icons">reply</i> </a>
+                          </div>
+                        </div>
+                        <div class="comment-content">
+                          <p>Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consecvtetuer adipiscing
+                            elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget,
+                            elementum vel, cursus eleifend, elit.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+              <div class="content-element-main">
+                <h2>Leave a Reply</h2>
+                <p class="content-element-4">Your email address will not be published. Required fields are marked *</p>
+                <form class="mad-form">
+                  <div class="row">
+                    <div class="col-12">
+                      <label>Comment * </label>
+                      <textarea rows="7" placeholder="Your Comment"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <label>Your Name *</label>
+                          <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="col-sm-6">
+                          <label>Email Address *</label>
+                          <input type="email" placeholder="Email Address">
+                        </div>
+                        <div class="col-12">
+                          <label>Website <span>*</span></label>
+                          <input type="email" placeholder="Your Website">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div style="display: block" class="mad-toggled-fields style-2">
+                        <input type="checkbox" name="checkbox-1" id="checkbox-1">
+                        <label for="checkbox-1" class="mad-label-checkbox">Save my name, email, and website in this
+                          browser for the next time I comment.</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <a href="blog.html#" class="btn btn-big"><span>Submit</span> </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </main>
+            <aside id="sidebar" class="col-xxl-3 col-lg-4 mad-sidebar">
+              <div class="mad-widget">
+                <form class="mad-search-form one-line">
+                  <input type="text" placeholder="Search" />
+                  <button class="btn"><i class="material-icons">search</i></button>
+                </form>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Categories</h6>
+                <ul class="mad-vr-list">
+                  <li>
+                    <a href="blog.html"> Ecosystem </a>
+                  </li>
+                  <li>
+                    <a href="blog.html"> Clean Energy</a>
+                  </li>
+                  <li>
+                    <a href="blog.html"> Climate Change </a>
+                  </li>
+                  <li>
+                    <a href="blog.html"> Water & Land </a>
+                  </li>
+                  <li>
+                    <a href="blog.html"> Provide Food </a>
+                  </li>
+                  <li>
+                    <a href="blog.html"> Wildlife </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mad-widget">
+                <div class="mad-banners">
+                  <a href="pages_services.html" class="mad-banner banner-2">
+                    <div class="mad-banner-content">
+                      <h3 class="mad-banner-title"> Become <br> a Volunteer </h3>
+                      <p>Help turn a child's life around after abuse by volunteering for one of our services.</p>
+                      <div class="btn btn-big"><span>Join Today</span></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Recent Posts</h6>
+                <div class="mad-entities mad-entity-small">
+                  <div class="mad-col">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <a href="blog.html" class="mad-entity-media">
+                        <img src="images/96x96_img9.jpg" alt="">
+                      </a>
+                      <div class="mad-entity-body">
+                        <div class="mad-entity-tags">
+                          <span><a href="blog.html" class="mad-link">Aug 26, 2022 - Ecosystem</a></span>
+                        </div>
+                        <h6 class="mad-entity-title">
+                          <a href="blog.html">Trees For The Future to Plant One Billion Trees by 2030</a>
+                        </h6>
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                  <div class="mad-col">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <a href="blog.html" class="mad-entity-media">
+                        <img src="images/96x96_img10.jpg" alt="">
+                      </a>
+                      <div class="mad-entity-body">
+                        <div class="mad-entity-tags">
+                          <span><a href="blog.html" class="mad-link">Aug 22, 2022 - climate
+                              change</a></span>
+                        </div>
+                        <h6 class="mad-entity-title">
+                          <a href="blog.html">Climate Change Helped Kill 14% of The World’s Coral
+                            Reefs</a>
+                        </h6>
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                  <div class="mad-col">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <a href="blog.html" class="mad-entity-media">
+                        <img src="images/96x96_img11.jpg" alt="">
+                      </a>
+                      <div class="mad-entity-body">
+                        <div class="mad-entity-tags">
+                          <span><a href="blog.html" class="mad-link">Aug 18, 2022 - clean energy</a></span>
+                        </div>
+                        <h6 class="mad-entity-title">
+                          <a href="blog.html">The Clean Power Plan and the Midwest’s Winds of Change</a>
+                        </h6>
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                </div>
+              </div>
+              <!--<div class="mad-widget">
+                <h6 class="mad-widget-title">Tags</h6>
+                <div class="tagcloud">
+                  <a href="blog_classic_sidebar.html">abuse</a>
+                  <a href="blog_classic_sidebar.html">charity</a>
+                  <a href="blog_classic_sidebar.html">Child</a>
+                  <a href="blog_classic_sidebar.html">Covid-19</a>
+                  <a href="blog_classic_sidebar.html">Disaster</a>
+                  <a href="blog_classic_sidebar.html">Donation</a>
+                  <a href="blog_classic_sidebar.html">Earthquake</a>
+                  <a href="blog_classic_sidebar.html">Health</a>
+                  <a href="blog_classic_sidebar.html">Education</a>
+                  <a href="blog_classic_sidebar.html">Water</a>
+                </div>
+              </div>-->
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">From Gallery</h6>
+                <div class="mad-gallery gallery-small item-col-3">
+                  <div class="mad-col">
+                    <div class="mad-gallery-item">
+                      <a href="pages_gallery_grid.html"><img src="images/104x104_img1.jpg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="mad-col">
+                    <div class="mad-gallery-item">
+                      <a href="pages_gallery_grid.html"><img src="images/104x104_img2.jpg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="mad-col">
+                    <div class="mad-gallery-item">
+                      <a href="pages_gallery_grid.html"><img src="images/104x104_img3.jpg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="mad-col">
+                    <div class="mad-gallery-item">
+                      <a href="pages_gallery_grid.html"><img src="images/104x104_img4.jpg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="mad-col">
+                    <div class="mad-gallery-item">
+                      <a href="pages_gallery_grid.html"><img src="images/104x104_img5.jpg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="mad-col">
+                    <div class="mad-gallery-item">
+                      <a href="pages_gallery_grid.html"><img src="images/104x104_img6.jpg" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Latest Causes</h6>
+                <div class="mad-entities mad-entity-small">
+                  <div class="mad-col">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <a href="blog.html" class="mad-entity-media">
+                        <img src="images/96x96_img1.jpg" alt="">
+                      </a>
+                      <div class="mad-entity-body">
+                        <h6 class="mad-entity-title">
+                          <a href="blog.html">Help Provide Urgent Care For Injured Wildlife</a>
+                        </h6>
+                        <!--================ Progress Bars ================-->
+                        <div class="mad-progress-bars size-2">
+                          <div class="mad-progress-bars-item">
+                            <strong id="progress-bar-title-1" data-value="75" data-units="%"
+                              class="mad-progress-bar-title"><span>$29,000</span> goal</strong>
+                            <div role="progressbar" aria-labelledby="progress-bar-title-1" class="mad-progress-bar">
+                              <div style="width: 75%" class="mad-progress-bar-indicator"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--================ End of Progress Bars ================-->
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                  <div class="mad-col">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <a href="blog.html" class="mad-entity-media">
+                        <img src="images/96x96_img2.jpg" alt="">
+                      </a>
+                      <div class="mad-entity-body">
+                        <h6 class="mad-entity-title">
+                          <a href="blog.html">Help Provide Urgent Care For Injured Wildlife in
+                            Australia</a>
+                        </h6>
+                        <!--================ Progress Bars ================-->
+                        <div class="mad-progress-bars size-2">
+                          <div class="mad-progress-bars-item">
+                            <strong id="progress-bar-title-1" data-value="45" data-units="%"
+                              class="mad-progress-bar-title"><span>$12,000</span> goal</strong>
+                            <div role="progressbar" aria-labelledby="progress-bar-title-1" class="mad-progress-bar">
+                              <div style="width: 45%" class="mad-progress-bar-indicator"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--================ End of Progress Bars ================-->
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                  <div class="mad-col">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <a href="blog.html" class="mad-entity-media">
+                        <img src="images/96x96_img3.jpg" alt="">
+                      </a>
+                      <div class="mad-entity-body">
+                        <h6 class="mad-entity-title">
+                          <a href="blog.html">Help Limit on Climate Pollution From Cars</a>
+                        </h6>
+                        <!--================ Progress Bars ================-->
+                        <div class="mad-progress-bars size-2">
+                          <div class="mad-progress-bars-item">
+                            <strong id="progress-bar-title-1" data-value="95" data-units="%"
+                              class="mad-progress-bar-title"><span>$45,000</span> goal</strong>
+                            <div role="progressbar" aria-labelledby="progress-bar-title-1" class="mad-progress-bar">
+                              <div style="width: 95%" class="mad-progress-bar-indicator"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--================ End of Progress Bars ================-->
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                </div>
+              </div>
+              <div class="mad-widget">
+                <div class="mad-banners">
+                  <div class="mad-banner with-donate">
+                    <div class="mad-banner-content">
+                      <div class="mad-banner-aligner">
+                        <h6 class="mad-banner-title align-left">Help Us Today!</h6>
+                        <div class="mad-donate-element size-small content-element-2">
+                          <div class="mad-donate-input">
+                            <div class="mad-dropdown mad-currency">
+                              <a href="blog.html" class="mad-dropdown-title">$</a>
+                              <ul class="mad-dropdown-element">
+                                <li><a href="blog.html">EUR</a></li>
+                                <li><a href="blog.html">FR</a></li>
+                              </ul>
+                            </div>
+                            <input type="text" class="mad-donate-value" placeholder="25" />
+                          </div>
+                          <div class="mad-donate-btns">
+                            <button class="mad-donate-btn active" data-value="25">$25</button>
+                            <button class="mad-donate-btn" data-value="50">$50</button>
+                            <button class="mad-donate-btn" data-value="100">$100</button>
+                            <button class="mad-donate-btn" data-value="0">Any</button>
+                          </div>
+                          <div class="btn-set justify-content-between">
+                            <div style="display: block" class="mad-toggled-fields size-medium">
+                              <input type="checkbox" name="checkbox-1" id="checkbox-1" />
+                              <label for="checkbox-1" class="mad-label-checkbox">Make this donation monthly</label>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="donate.html" class="btn btn-big style-3 wide"><span>Donate Now</span> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Like Us on Facebook</h6>
+                <div data-tabs="timeline" data-href="https://www.facebook.com/envato" data-small-header="false"
+                  data-adapt-container-width="true" data-width="500" data-hide-cover="false" data-show-text="true"
+                  data-show-facepile="true" class="fb-page">
+                  <blockquote cite="https://www.facebook.com/envato" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/envato">Envato</a>
+                  </blockquote>
+                </div>
+                <script>
+                  (function (d, s, id) {
+                    var js,
+                      fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+                    fjs.parentNode.insertBefore(js, fjs);
+                  })(document, "script", "facebook-jssdk");
+                </script>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Latest Tweets</h6>
+                <ul class="mad-twitter-feed">
+                  <li>
+                    <p>Sed ut perspicitatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                      laudantium, totam rem aperiam, eaque <a href="https://www.google.com">goo.gl/DLIhe9</a></p>
+                    </p>
+                    <div class="mad-twitter-footer">
+                      <span>November 23, 2021</span>
+                      <div class="mad-twitter-btns">
+                        <a href="https://www.twitter.com" class="mad-link">Retweet</a>
+                        <a href="https://www.twitter.com" class="mad-link">Favorite</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet <a
+                        href="https://www.google.com">goo.gl/DLIhe9</a></p>
+                    <div class="mad-twitter-footer">
+                      <span>November 23, 2021</span>
+                      <div class="mad-twitter-btns">
+                        <a href="https://www.twitter.com" class="mad-link">Retweet</a>
+                        <a href="https://www.twitter.com" class="mad-link">Favorite</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.
+                      Aenean auctor wisi et urna. Aliquam erat volutpat.</p>
+                    <div class="mad-twitter-footer">
+                      <span>November 23, 2021</span>
+                      <div class="mad-twitter-btns">
+                        <a href="https://www.twitter.com" class="mad-link">Retweet</a>
+                        <a href="https://www.twitter.com" class="mad-link">Favorite</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <a href="https://www.twitter.com" class="mad-text-link"><span>Follow Us on Twitter </span> </a>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Featured Video</h6>
+                <div class="mad-responsive-iframe content-element-3">
+                  <iframe
+                    src="https://www.youtube.com/embed/CE29QWUSOV8?rel=0&amp;showinfo=0&amp;autohide=2&amp;controls=0&amp;enablejsapi=1"></iframe>
+                </div>
+                <a href="https://www.youtube.com/channel/UCHLY0iBPh03oLba9Hc0ABMg" class="mad-text-link"><span>More
+                    Videos</span> </a>
+              </div>
+
+            <div class="mad-widget">
+            <h6 class="mad-widget-title">Calendar</h6>
+            <div class="content-element-3">
+        <div class="calendar_wrap mad-calendar-rendered">
+            <table class="wp-calendar">
+                <caption id="calendar-caption">
+                    <a class="calendar-caption-prev" href="javascript:void(0)">
+                        <i class="material-icons">keyboard_arrow_left</i>
+                    </a>
+                    <span id="current-month-year"></span>
+                    <a class="calendar-caption-next" href="javascript:void(0)">
+                        <i class="material-icons">keyboard_arrow_right</i>
+                    </a>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody id="calendar-body"></tbody>
+            </table>
+        </div>
+    </div>
+    <a href="javascript:void(0)" class="mad-text-link no-arrow" id="prev-month-link">« Previous Month</a>
+        </div>
+
+
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Recent Comments</h6>
+                <ul id="recentcomments" class="recentcomments">
+                  <li class="recentcomments">
+                    <a href="blog.html">Admin</a> on&nbsp;<a href="blog.html">Nemo Enim
+                      Ipsam Voluptatem</a>
+                  </li>
+                  <li class="recentcomments">
+                    <a href="blog.html">Alan Smith</a> on&nbsp;<a href="blog.html">Ut
+                      Pharetra Augue Nec Augue</a>
+                  </li>
+                  <li class="recentcomments">
+                    <a href="blog.html">Admin</a> on&nbsp;<a href="blog.html">Donec Eget
+                      Tellus Non Erat Lacinia</a>
+                  </li>
+                  <li class="recentcomments">
+                    <a href="blog.html">Jane Pool</a> on&nbsp;<a href="blog.html">Ut
+                      Pharetra Augue Nec Augue</a>
+                  </li>
+                  <li class="recentcomments">
+                    <a href="blog.html">Admin</a> on on&nbsp;<a href="blog.html">Donec
+                      Eget Tellus Non Erat Lacinia</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Recent Products</h6>
+                <div class="mad-products mad-product-small">
+                  <div class="mad-product">
+                    <div class="mad-product-image">
+                      <img src="images/96x96_product1.jpg" alt="" />
+                    </div>
+                    <div class="mad-product-content">
+                      <!-- product-info -->
+                      <div class="mad-product-description">
+                        <h6 class="mad-product-title">
+                          <a href="shop_single.html">1 Goat</a>
+                        </h6>
+                        <div class="mad-price"><span>$80.00</span> $19.99</div>
+                        <div class="mad-rating" data-estimate="4.5"></div>
+                      </div>
+                      <!--/ product-info -->
+                    </div>
+                  </div>
+                  <div class="mad-product">
+                    <div class="mad-product-image">
+                      <img src="images/96x96_product2.jpg" alt="" />
+                    </div>
+                    <div class="mad-product-content">
+                      <!-- product-info -->
+                      <div class="mad-product-description">
+                        <h6 class="mad-product-title">
+                          <a href="shop_single.html">Children’s Books</a>
+                        </h6>
+                        <div class="mad-price">$10.00</div>
+                        <div class="mad-rating" data-estimate="4.5"></div>
+                      </div>
+                      <!--/ product-info -->
+                    </div>
+                  </div>
+                  <div class="mad-product">
+                    <div class="mad-product-image">
+                      <img src="images/96x96_product3.jpg" alt="" />
+                    </div>
+                    <div class="mad-product-content">
+                      <!-- product-info -->
+                      <div class="mad-product-description">
+                        <h6 class="mad-product-title">
+                          <a href="shop_single.html">Musical Instrument</a>
+                        </h6>
+                        <div class="mad-price">$50.00</div>
+                      </div>
+                      <!--/ product-info -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mad-widget">
+                <h6 class="mad-widget-title">Newsletter Sign Up</h6>
+                <p>Enter your e-mail address to have our posts sent directly to your inbox.</p>
+                <form class="mad-newsletter-form">
+                  <input type="email" name="email" placeholder="Enter Email Address" />
+                  <button type="submit" class="btn btn-big"><span>Subscribe</span> <span><img
+                        src="charity_icons_svg/envelope2.svg" alt="" class="svg"></span></button>
+                </form>
+              </div>
+              <!--<div class="mad-widget">
+                <h6 class="mad-widget-title">Meta</h6>
+                <ul class="mad-vr-list">
+                  <li>
+                    <a href="shop_login.html">Log in</a>
+                  </li>
+                  <li>
+                    <a href="https://wordpress.com">Entries RSS</a>
+                  </li>
+                  <li>
+                    <a href="https://wordpress.com">Comments RSS</a>
+                  </li>
+                  <li>
+                    <a href="https://wordpress.com">WordPress.org</a>
+                  </li>
+                </ul>
+              </div>-->
+            </aside>
+          </div>
+        </div>
+      </div>
+
+
+      <article
+          class="mad-cta align-center mad-section mad-section--stretched with-overlay mad-colorizer--scheme-light mad-parallax"
+          data-bg-image-src="images/1812x1300_bg1.jpg">
+          <div class="container">
+            <h2 class="mad-page-title">Make a Difference, Become a Volunteer!</h2>
+            <p>Join us to make a direct impact in the lives of the world’s most vulnerable children.</p>
+            <a href="pages_donate.html" class="btn btn-huge"><span>Get Involved</span> </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="mad-social-section">
+        <div class="container">
+          <div class="mad-social-wrap">
+            <div class="mad-col">
+              <h5>Stay Informed With News & Updates</h5>
+              <form class="mad-newsletter-form one-line size-2">
+                <input type="email" name="email" placeholder="Enter Email Address" />
+                <button type="submit" class="btn btn-huge btn-style-3" style="display: flex; align-items: center; justify-content: center;"><i class="fas fa-envelope"></i></button>
+              </form>
+            </div>
+            <div class="mad-col">
+              <h5>Follow Us on Our Social Channels</h5>
+              <div class="mad-social-icons size-3">
+                <ul class="justify-content-center">
+                  <li>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="container">
+          <div class="mad-footer-main">
+            <div class="row justify-content-between vr-size-1 hr-size-1">
+              <div class="col-xl-3 col-lg-6 col-sm-12">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <a href="index.html" class="mad-logo content-element-3"><img src="images/logo-news.png" alt="" /></a>
+                  <div class="content-element-3">
+                    <p> African Centre for Rural Development & Environment (ACERDEN) </p>
+                  </div>
+                  <a href="pages_contact_v1.html" class="btn style-2"><span>Help Center</span><i><img
+                        src="sug-icons/btn_dir.svg" alt="" /></i></a>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Quick Links</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_about.html">About Us</a></li>
+                    <li><a href="pages_team.html">Our Programs</a></li>
+                    <li><a href="pages_volunteer.html">Projects</a></li>
+                    <li><a href="blog_classic.html">Publications</a></li>
+                    <li><a href="pages_contact_v1.html">Partnerships</a></li>
+                    <li><a href="pages_contact_v1.html">Contact Us</a></li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Legal & Trust</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_what_we_do.html">NGO Registration Details</a></li>
+                    <li><a href="pages_what_we_do.html">Privacy Policy</a></li>
+                    <li><a href="pages_what_we_do.html">Terms of Use</a></li>
+                   <!--<li><a href="pages_what_we_do.html">Emergencies</a></li>-->
+                   <!--<li><a href="pages_what_we_do.html">Campaigns</a></li>-->
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-3 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Contact Us</h6>
+                  <ul class="mad-vr-list mad-map-info">
+                    <li>
+                      <img src="sug-icons/location.svg" alt="" class="svg" />
+                      <span>22 Second Avenue, Trans-Ekulu Enugu State, Nigeria <a href="pages_contact_v1.html"
+                          class="mad-link">Get Directions</a> </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/clock.svg" alt="" class="svg" />
+                      <span>Monday - Friday: 8AM - 5PM</span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/phone.svg" alt="" class="svg" />
+                      <span>  +234 803 567 3526 </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/email.svg" alt="" class="svg" />
+                      <a href="pages_contact_v1.html">mail:info@acerden.org</a>
+                    </li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Help Us Today!</h6>
+                  <div class="form-control content-element-3">
+                    <div style="display: block" class="mad-toggled-fields">
+                      <input type="radio" name="radio-1" id="radio-1" checked="checked" />
+                      <label for="radio-1" class="mad-label-radio">Monthly Donation </label>
+                      <input type="radio" name="radio-1" id="radio-2" />
+                      <label for="radio-2" class="mad-label-radio">Single Donation</label>
+                    </div>
+                  </div>
+                  <form class="mad-donate-form">
+                    <div class="mad-col">
+                      <input type="email" name="email" placeholder="$" />
+                    </div>
+                    <div class="mad-col">
+                      <button type="submit" class="btn wide">
+                        <span>Donate</span> <i class="icon"><img src="sug-icons/heart.svg" alt="" /></i>
+                      </button>
+                    </div>
+                  </form>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+          <p class="copyrights">Copyright ©<a href="index.html">African Centre for Rural Development & Environment (ACERDEN)</a>. All Rights Reserved.</p>
+        </div>
+        <!--================ End of Footer row ================-->
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+  </div>
+  <script src="vendors/modernizr.js"></script>
+  <script src="vendors/jquery-3.6.0.min.js"></script>
+  <script src="vendors/jquery.easing.1.3.min.js"></script>
+  <script src="vendors/monkeysan.jquery.nav.1.0.js"></script>
+  <script src="owl-causoel/owl.carousel.min.js"></script>
+  <script src="arctictmodal/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="vendors/monkeysan.validator.min.js"></script>
+  <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+  <script src="vendors/mad.customselect.js"></script>
+  <script src="vendors/handlebars-v4.0.5.min.js"></script>
+  <script src="vendors/retina.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/modules/mad.newsletter-form.min.js"></script>
+  <script src="js/modules/mad.alert-box.min.js"></script>
+  <script src="js/modules/mad.sticky-header-section.min.js"></script>
+  <script src="js/mad.app.js"></script>
+  <script src="js/program.js"></script>
+  
+</body>
+</html>

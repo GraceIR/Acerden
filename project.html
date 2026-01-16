@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--================ Basic page needs ================-->
+  <title>ACERDEN</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!--================ Mobile specific metas ================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--================ Favicon ================-->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <!--================ Google web fonts ================-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;500;700;800;900&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!--================ Theme CSS ================-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <!--================ Vendor JS ================-->
+
+  
+</head>
+
+<body class="mad-body--scheme-green">
+  <div class="mad-preloader"></div>
+  <div id="mad-page-wrapper" class="mad-page-wrapper">
+    <div class="container wide">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <h6 class="mad-title">Search</h6>
+          <!--================ Search Form ================-->
+          <form class="mad-search-section">
+            <input type="text" placeholder="Start Typing Here..." />
+            <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
+          </form>
+          <!--================ End of Search Form ================-->
+          <button type="button" class="arcticmodal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+    <header id="mad-header" class="mad-header">
+      <div class="mad-header-section--sticky-xl">
+        <div class="container-fluid">
+          <!-- Top row: Logo, organization name, contact info -->
+          <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+            
+            <!-- Left side: Logo and Organization Name -->
+            <div class="mad-header-item" style="display: flex; align-items: center;">
+              <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
+              <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+                African Centre for Rural Development & <br>Environment (ACERDEN)
+              </h5>
+            </div>
+            
+            <!-- Right side: Contact Information -->
+            <div class="mad-header-item" style="display: flex; align-items: center; margin-right: 20px;">
+              <div class="contact-info" style="display: flex; align-items: center; gap: 20px;">
+                
+                <!-- Phone Number -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">phone</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">+234 803 567 3526</span>
+                </div>
+                
+                <!-- Email -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">email</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">info@acerden.org</span>
+                </div>
+                
+                <!-- Social Icons -->
+                <div class="social-icons" style="display: flex; align-items: center; gap: 10px;">
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Bottom row: Navigation and Actions - Centered -->
+          <div class="mad-header-items" style="display: flex; justify-content: center; border-top: 1px solid #eee; padding-top: 15px;">
+            <div class="mad-header-item" style="display: flex; align-items: center; justify-content: center; width: 100%;">
+              
+              <!-- Navigation - Centered -->
+              <nav class="mad-navigation-container" style="flex: 1; display: flex; justify-content: center;">
+                <ul class="mad-navigation mad-navigation--vertical-sm" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 25px; justify-content: center;">
+                  <li class="menu-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="programs.html">Our programs</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Projects</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="events_list.html">Publications</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">News</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <!-- Actions - Positioned to the right -->
+              <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
+                <div class="mad-col">
+                  <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                </div>
+                <div class="mad-col">
+                  <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
+                        src="sug-icons/heart.svg" alt="" /></i></a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+
+     <!--================ End of Header ================-->
+   
+     <!-- Hero Section -->
+    <section class="hero-section text-center" id="home">
+        <div class="container">
+            <h1>ACERDEN Projects & Innovations</h1>
+            <p class="hero-subtext">For over 25 years, ACERDEN has implemented transformative development projects across Nigeria. From sustainable agriculture and climate resilience to health, education, and women & youth empowerment, our initiatives deliver lasting impact and innovative solutions.</p>
+            <div class="mt-4">
+                <a href="#ongoing" class="btn btn-primary me-3">Explore Ongoing Projects</a>
+                <a href="#volunteer" class="btn btn-secondary">Partner With ACERDEN</a>
+            </div>
+        </div>
+        
+        <!-- Image Slider -->
+        <div class="container mt-5">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner rounded" style="max-height: 500px;">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" class="d-block w-100" alt="Community Workshop">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" class="d-block w-100" alt="Agricultural Training">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" class="d-block w-100" alt="Women Empowerment">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" class="d-block w-100" alt="Environmental Initiative">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Categories -->
+    <section class="container py-5" id="categories">
+        <div class="section-header">
+            <h2>Explore Our Project Categories</h2>
+            <p class="section-subtext">ACERDEN's projects span multiple sectors and are designed to empower communities, strengthen institutions, and deliver measurable results.</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="category-card text-center p-4">
+                    <div class="category-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h4>Health, HIV/AIDS & Social Protection</h4>
+                    <p>Improving health outcomes and social safety nets for vulnerable populations.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="category-card text-center p-4">
+                    <div class="category-icon">
+                        <i class="fas fa-venus"></i>
+                    </div>
+                    <h4>Gender, Women & Youth Empowerment</h4>
+                    <p>Promoting gender equity and creating opportunities for women and youth.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="category-card text-center p-4">
+                    <div class="category-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h4>Governance & Civic Engagement</h4>
+                    <p>Strengthening democratic institutions and citizen participation.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="category-card text-center p-4">
+                    <div class="category-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h4>Agriculture, Environment & Climate Resilience</h4>
+                    <p>Promoting sustainable farming and building climate-resilient communities.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="category-card text-center p-4">
+                    <div class="category-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h4>Education, Literacy & Capacity Building</h4>
+                    <p>Enhancing access to quality education and skills development.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="category-card text-center p-4">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Research, Monitoring & Evaluation</h4>
+                    <p>Evidence-based research to inform development programs and policies.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-primary">View All Programs <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </section>
+
+    <!-- Ongoing Projects Slider -->
+    <section class="container py-5" id="ongoing">
+        <div class="section-header">
+            <h2>Ongoing Projects</h2>
+            <p class="section-subtext">These are ACERDEN's current projects making a real-time impact in communities across Nigeria.</p>
+        </div>
+        
+        <!-- Swiper Slider -->
+        <div class="projects-slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="project-card h-100">
+                            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="project-img" alt="Climate-Smart Agriculture">
+                            <div class="card-body">
+                                <h5>Climate-Smart Agriculture in Enugu State</h5>
+                                <p>Empowering smallholder farmers with climate-resilient practices to improve yields and sustainability through innovative farming techniques and technology.</p>
+                                <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="project-card h-100">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="project-img" alt="Nutrition and Health Support">
+                            <div class="card-body">
+                                <h5>Nutrition and Health Support for Rural Households</h5>
+                                <p>Improving dietary diversity and health outcomes for orphans and vulnerable children (OVCs) through comprehensive nutritional support and healthcare access.</p>
+                                <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="project-card h-100">
+                            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="project-img" alt="Women & Youth Leadership">
+                            <div class="card-body">
+                                <h5>Women & Youth Leadership Development Program</h5>
+                                <p>Skills training and economic empowerment for rural women and youth to foster leadership, entrepreneurship, and sustainable livelihoods in underserved communities.</p>
+                                <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="project-card h-100">
+                            <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="project-img" alt="WASH Initiative">
+                            <div class="card-body">
+                                <h5>Community-Based Water, Sanitation & Hygiene (WASH) Initiative</h5>
+                                <p>Providing clean water access and hygiene education in underserved rural communities to reduce waterborne diseases and improve public health outcomes.</p>
+                                <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="project-card h-100">
+                            <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="project-img" alt="Governance & Civic Engagement">
+                            <div class="card-body">
+                                <h5>Governance & Civic Engagement Capacity Building</h5>
+                                <p>Strengthening local institutions and promoting citizen participation in governance through training, advocacy, and community mobilization initiatives.</p>
+                                <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 6 - Additional Project -->
+                    <div class="swiper-slide">
+                        <div class="project-card h-100">
+                            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="project-img" alt="Education Program">
+                            <div class="card-body">
+                                <h5>Digital Literacy for Rural Youth</h5>
+                                <p>Equipping youth in remote areas with digital skills and access to technology to bridge the digital divide and enhance employability in the modern economy.</p>
+                                <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                
+                <!-- Pagination dots -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Projects Spotlight -->
+    <section class="container py-5">
+        <div class="section-header">
+            <h2>Past Projects Spotlight</h2>
+            <p class="section-subtext">ACERDEN's legacy is built on decades of impactful projects across Nigeria. Here are some highlights:</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="past-project-card">
+                    <h5>HIV/AIDS Awareness & Peer Educator Monitoring (2002–2010)</h5>
+                    <p class="past-project-year">2002 - 2010</p>
+                    <p>Capacity building, advocacy, and health interventions in rural communities to combat HIV/AIDS through peer education and community engagement.</p>
+                </div>
+                
+                <div class="past-project-card">
+                    <h5>Millennium Development Goals (MDGs) Monitoring Reports (2003–2015)</h5>
+                    <p class="past-project-year">2003 - 2015</p>
+                    <p>Documenting progress and informing policy decisions through comprehensive monitoring and reporting on MDG achievements across Nigeria.</p>
+                </div>
+                
+                <div class="past-project-card">
+                    <h5>Technical Vocational & Entrepreneurial Skills Acquisition Workshops (2008)</h5>
+                    <p class="past-project-year">2008</p>
+                    <p>Empowering girls and youth with marketable skills through hands-on training in various trades and entrepreneurship.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="past-project-card">
+                    <h5>Women Empowerment Strategic Planning Workshops (2002–2003)</h5>
+                    <p class="past-project-year">2002 - 2003</p>
+                    <p>Promoting gender equity and leadership opportunities for women through strategic planning and capacity building workshops.</p>
+                </div>
+                
+                <div class="past-project-card">
+                    <h5>Environmental Strategy & Policy Workshops (2003–2010)</h5>
+                    <p class="past-project-year">2003 - 2010</p>
+                    <p>Building sustainable community-based environmental programs through strategy development and policy workshops.</p>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <a href="#" class="btn btn-primary">View All Past Projects <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACERDEN Innovations -->
+    <section class="container py-5" id="innovations">
+        <div class="section-header">
+            <h2>ACERDEN Innovations</h2>
+            <p class="section-subtext">Innovation is at the heart of ACERDEN's work. We develop new approaches to tackle Nigeria's development challenges.</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="innovation-item">
+                    <div class="innovation-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h4>Community-Led Monitoring & Evaluation Tools</h4>
+                    <p>Strengthening accountability and transparency through participatory monitoring systems that involve community members in tracking project outcomes.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="innovation-item">
+                    <div class="innovation-icon">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <h4>Climate-Smart Farming Techniques</h4>
+                    <p>Reducing post-harvest losses and improving yields through innovative, climate-resilient agricultural practices tailored to local conditions.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="innovation-item">
+                    <div class="innovation-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h4>Digital Knowledge Platforms</h4>
+                    <p>Creating accessible online platforms for research dissemination, policy briefs, and community learning to bridge information gaps.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="innovation-item">
+                    <div class="innovation-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Integrated Women & Youth Empowerment Model</h4>
+                    <p>Combining skills training, leadership development, and entrepreneurship support in a holistic approach to empowerment.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="innovation-item">
+                    <div class="innovation-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h4>Nutrition & Health Interventions</h4>
+                    <p>Linking food security with education and health outcomes through integrated community-based nutrition programs.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-primary">Learn More About ACERDEN Innovation <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </section>
+
+    <!-- Project Impact Counters -->
+    <section class="counter-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="counter-item">
+                        <div class="counter-number" data-count="100">0</div>
+                        <div class="counter-text">Communities Reached</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="counter-item">
+                        <div class="counter-number" data-count="1000">0</div>
+                        <div class="counter-text">Beneficiaries Impacted</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="counter-item">
+                        <div class="counter-number" data-count="25">0</div>
+                        <div class="counter-text">Years of Experience</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="counter-item">
+                        <div class="counter-number" data-count="10">0</div>
+                        <div class="counter-text">Partnerships</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="counter-item">
+                        <div class="counter-number" data-count="10">0</div>
+                        <div class="counter-text">Partnerships</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- News, Reports & Insights -->
+    <section class="container py-5" id="news">
+        <div class="section-header">
+            <h2>News, Reports & Insights</h2>
+            <p class="section-subtext">Stay updated with ACERDEN's latest project developments, research findings, and impact stories.</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="news-img" alt="Field Update">
+                    <div class="card-body">
+                        <h5>Field Updates: Success Stories</h5>
+                        <p>Recent success stories from ongoing projects across multiple states in Nigeria.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="news-img" alt="Research Report">
+                    <div class="card-body">
+                        <h5>Research Reports: M&E Findings</h5>
+                        <p>Latest monitoring and evaluation findings, case studies, and best practices.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="news-img" alt="Policy Brief">
+                    <div class="card-body">
+                        <h5>Policy Briefs: Recommendations</h5>
+                        <p>Evidence-based recommendations for sustainable development policies.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="news-img" alt="Impact Story">
+                    <div class="card-body">
+                        <h5>Impact Stories: Transformed Lives</h5>
+                        <p>Highlighting individuals and communities transformed by ACERDEN programs.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-primary">Read More Insights <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </section>
+
+    <!-- Volunteer & Partnership Opportunities -->
+    <section class="volunteer-section" id="volunteer">
+        <div class="container">
+            <div class="section-header">
+                <h2>Volunteer & Partnership Opportunities</h2>
+                <p class="section-subtext">Join ACERDEN in making a difference! Volunteers and partners play a crucial role in scaling impact and strengthening community resilience.</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Volunteer Opportunities</h4>
+                    
+                    <div class="opportunity-item">
+                        <h5>Community Health Outreach Support</h5>
+                        <p>Assist with health education, screening campaigns, and outreach programs in rural communities.</p>
+                    </div>
+                    
+                    <div class="opportunity-item">
+                        <h5>Agricultural Extension and Climate-Smart Farming Training</h5>
+                        <p>Share knowledge on sustainable agricultural practices and climate resilience with farmers.</p>
+                    </div>
+                    
+                    <div class="opportunity-item">
+                        <h5>Women & Youth Mentorship Programs</h5>
+                        <p>Provide guidance and support to women and youth in entrepreneurship and leadership development.</p>
+                    </div>
+                    
+                    <div class="opportunity-item">
+                        <h5>Educational and Literacy Workshops</h5>
+                        <p>Facilitate workshops on literacy, numeracy, and vocational skills for underserved communities.</p>
+                    </div>
+                    
+                    <div class="opportunity-item">
+                        <h5>Research and Data Collection Assistance</h5>
+                        <p>Support field research, data collection, and analysis for monitoring and evaluation activities.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="bg-white p-5 rounded shadow">
+                        <h4 class="mb-4">Get Involved Today</h4>
+                        <p class="mb-4">Whether you're an individual looking to volunteer your skills, an organization seeking collaboration, or a donor wanting to support impactful development work, ACERDEN offers multiple ways to get involved.</p>
+                        
+                        <div class="d-grid gap-3 d-md-block">
+                            <a href="vol.html" class="btn btn-primary me-3 mb-3">Become a Volunteer</a>
+                            <a href="#" class="btn btn-secondary mb-3">Partner With Us</a>
+                        </div>
+                        
+                        <div class="mt-5">
+                            <h5>Why Partner With ACERDEN?</h5>
+                            <ul class="mt-3">
+                                <li>25+ years of proven development expertise in Nigeria</li>
+                                <li>Strong community networks and trust built over decades</li>
+                                <li>Innovative, evidence-based approaches to development challenges</li>
+                                <li>Transparent monitoring and reporting systems</li>
+                                <li>Diverse portfolio of successful projects across multiple sectors</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+      <div class="mad-social-section">
+        <div class="container">
+          <div class="mad-social-wrap">
+            <div class="mad-col">
+              <h5>Stay Informed With News & Updates</h5>
+              <form class="mad-newsletter-form one-line size-2">
+                <input type="email" name="email" placeholder="Enter Email Address" />
+                <button type="submit" class="btn btn-huge btn-style-3" style="display: flex; align-items: center; justify-content: center;"><i class="fas fa-envelope"></i></button>
+              </form>
+            </div>
+            <div class="mad-col">
+              <h5>Follow Us on Our Social Channels</h5>
+              <div class="mad-social-icons size-3">
+                <ul class="justify-content-center">
+                  <li>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="container">
+          <div class="mad-footer-main">
+            <div class="row justify-content-between vr-size-1 hr-size-1">
+              <div class="col-xl-3 col-lg-6 col-sm-12">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <a href="index.html" class="mad-logo content-element-3"><img src="images/logo-news.png" alt="" /></a>
+                  <div class="content-element-3">
+                    <p> African Centre for Rural Development & Environment (ACERDEN) </p>
+                  </div>
+                  <a href="pages_contact_v1.html" class="btn style-2"><span>Help Center</span><i><img
+                        src="sug-icons/btn_dir.svg" alt="" /></i></a>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Quick Links</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_about.html">About Us</a></li>
+                    <li><a href="pages_team.html">Our Programs</a></li>
+                    <li><a href="pages_volunteer.html">Projects</a></li>
+                    <li><a href="blog_classic.html">Publications</a></li>
+                    <li><a href="pages_contact_v1.html">Partnerships</a></li>
+                    <li><a href="pages_contact_v1.html">Contact Us</a></li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Legal & Trust</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_what_we_do.html">NGO Registration Details</a></li>
+                    <li><a href="pages_what_we_do.html">Privacy Policy</a></li>
+                    <li><a href="pages_what_we_do.html">Terms of Use</a></li>
+                   <!--<li><a href="pages_what_we_do.html">Emergencies</a></li>-->
+                   <!--<li><a href="pages_what_we_do.html">Campaigns</a></li>-->
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-3 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Contact Us</h6>
+                  <ul class="mad-vr-list mad-map-info">
+                    <li>
+                      <img src="sug-icons/location.svg" alt="" class="svg" />
+                      <span>22 Second Avenue, Trans-Ekulu Enugu State, Nigeria <a href="pages_contact_v1.html"
+                          class="mad-link">Get Directions</a> </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/clock.svg" alt="" class="svg" />
+                      <span>Monday - Friday: 8AM - 5PM</span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/phone.svg" alt="" class="svg" />
+                      <span>  +234 803 567 3526 </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/email.svg" alt="" class="svg" />
+                      <a href="pages_contact_v1.html">mail:info@acerden.org</a>
+                    </li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Help Us Today!</h6>
+                  <div class="form-control content-element-3">
+                    <div style="display: block" class="mad-toggled-fields">
+                      <input type="radio" name="radio-1" id="radio-1" checked="checked" />
+                      <label for="radio-1" class="mad-label-radio">Monthly Donation </label>
+                      <input type="radio" name="radio-1" id="radio-2" />
+                      <label for="radio-2" class="mad-label-radio">Single Donation</label>
+                    </div>
+                  </div>
+                  <form class="mad-donate-form">
+                    <div class="mad-col">
+                      <input type="email" name="email" placeholder="$" />
+                    </div>
+                    <div class="mad-col">
+                      <button type="submit" class="btn wide">
+                        <span>Donate</span> <i class="icon"><img src="sug-icons/heart.svg" alt="" /></i>
+                      </button>
+                    </div>
+                  </form>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+          <p class="copyrights">Copyright ©<a href="index.html">African Centre for Rural Development & Environment (ACERDEN)</a>. All Rights Reserved.</p>
+        </div>
+        <!--================ End of Footer row ================-->
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+  </div>
+  <script src="vendors/modernizr.js"></script>
+  <script src="vendors/jquery-3.6.0.min.js"></script>
+  <script src="vendors/jquery.easing.1.3.min.js"></script>
+  <script src="vendors/monkeysan.jquery.nav.1.0.js"></script>
+  <script src="owl-causoel/owl.carousel.min.js"></script>
+  <script src="arctictmodal/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="vendors/monkeysan.validator.min.js"></script>
+  <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+  <script src="vendors/mad.customselect.js"></script>
+  <script src="vendors/handlebars-v4.0.5.min.js"></script>
+  <script src="vendors/retina.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/modules/mad.newsletter-form.min.js"></script>
+  <script src="js/modules/mad.alert-box.min.js"></script>
+  <script src="js/modules/mad.sticky-header-section.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/mad.app.js"></script>
+
+    
+</body>
+</html>

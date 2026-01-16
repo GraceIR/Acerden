@@ -3,7 +3,7 @@
 
 <head>
   <!--================ Basic page needs ================-->
-  <title>Charity | Home</title>
+  <title>ACERDEN</title>
   <meta charset="UTF-8" />
   <meta name="author" content="" />
   <meta name="keywords" content="" />
@@ -28,6 +28,8 @@
   <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
   <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
   <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css" />
+  <!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!--================ Theme CSS ================-->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
@@ -55,201 +57,191 @@
       </div>
       <!--================ End of Search Modal ================-->
       <!--================ Header ================-->
-      <header id="mad-header" class="mad-header">
-        <div class="mad-header-section--sticky-xl">
-          <div class="container-fluid">
-            <div class="mad-header-items">
-              <div class="mad-header-item">
-                <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" /></a>
-                 <h5 class="text-logo ms-2" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; position: absolute; left: 80px; top: 50%; transform: translateY(-50%); line-height: 1.1;">
-                  African Centre for Rural Development & <br>
-                   Environment (ACERDEN)
-                 </h5>
-              </div>
-              <div class="mad-header-item">
-                <!--================ Navigation ================-->
+        <header id="mad-header" class="mad-header">
+      <div class="mad-header-section--sticky-xl">
+        <div class="container-fluid">
+          <!-- Top row: Logo, organization name, contact info -->
+          <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+            
+            <!-- Left side: Logo and Organization Name -->
+            <div class="mad-header-item" style="display: flex; align-items: center;">
+              <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
+                          <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+                African Centre for Rural Development & <br>Environment (ACERDEN)
+              </h5>
+            </div>
+            
+            <!-- Right side: Contact Information -->
+            <div class="mad-header-item" style="display: flex; align-items: center; margin-right: 20px;">
+              <div class="contact-info" style="display: flex; align-items: center; gap: 20px;">
                 
-                <nav class="mad-navigation-container">
-                  <ul class="mad-navigation mad-navigation--vertical-sm">
-                    <li class="menu-item menu-item-has-children current-menu-item">
-                      <a href="index.html">Home</a>
-                      <!--================ Sub Menu ================-->
-                      <!--<ul class="sub-menu">
-                        <li class="menu-item current-menu-item">
-                          <a href="index.html">Children</a>
-                        </li>
+                <!-- Phone Number -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">phone</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">+234 803 567 3526</span>
+                </div>
+                
+                <!-- Email -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                  <i class="material-icons" style="color: #28a745; font-size: 18px;">email</i>
+                  <span style="font-size: 0.85em; font-weight: bold; color: #333;">info@acerden.org</span>
+                </div>
+                
+                <!-- Social Icons -->
+                <div class="social-icons" style="display: flex; align-items: center; gap: 10px;">
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Bottom row: Navigation and Actions - Centered -->
+          <div class="mad-header-items" style="display: flex; justify-content: center; border-top: 1px solid #eee; padding-top: 15px;">
+            <div class="mad-header-item" style="display: flex; align-items: center; justify-content: center; width: 100%;">
               
-                      </ul>-->
-                      <!--================ End of Sub Menu ================-->
-                    </li>
-                    <li class="menu-item menu-item-has-children">
-                      <a href="about.html">About</a>
-                    </li>
-                    <li class="menu-item menu-item-has-children">
-                      <a href="causes_grid_v1.html">Our programs</a>
-                    </li>
-                    <li class="menu-item menu-item-has-children">
-                      <a href="#">Projects</a>
-                    </li>
-                    <li class="menu-item menu-item-has-children">
-                      <a href="events_list.html">Publications</a>
-                    
-                    </li>
-                    <li class="menu-item menu-item-has-children">
-                      <a href="#">News</a>
-                      
-                    </li>
-                    <li class="menu-item menu-item-has-children">
-                      <a href="#">Contact</a>
-                      
-                    </li>
-                  
-                  </ul>
-                </nav>
-                <!--================ End of Navigation ================-->
-                <div class="mad-actions">
-                  <div class="mad-col">
-                    <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
-                  </div>
-                  <div class="mad-col">
-                    <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
-                          src="sug-icons/heart.svg" alt="" /></i></a>
-                  </div>
+              <!-- Navigation - Centered -->
+              <nav class="mad-navigation-container" style="flex: 1; display: flex; justify-content: center;">
+                <ul class="mad-navigation mad-navigation--vertical-sm" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 25px; justify-content: center;">
+                  <li class="menu-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="programs.html">Our programs</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="project.html">Projects</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Publications</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog.html">News</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <!-- Actions - Positioned to the right -->
+              <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
+                <div class="mad-col">
+                  <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                </div>
+                <div class="mad-col">
+                  <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
+                        src="sug-icons/heart.svg" alt="" /></i></a>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
-      </header>
-      <!--================ End of Header ================-->
-      <div dir="ltr" class="rev_slider_wrapper fullscreenbanner-container">
-        <div id="rev-slider-1" data-version="5.4.5" class="rev-slider with-overlay fullscreenabanner">
-          <ul>
-            <!--================ Slide 1 ================-->
-            <li data-transition="fade">
-              <!-- MAIN IMAGE -->
-              <img src="images/1792x960_slide1.jpg" alt="" data-bgposition="top center" data-bgfit="cover"
-                data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina />
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['-156', '-156', '-156', '-156']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-textAlign="['center']"
-                class="tp-caption tp-resizeme rev-sub-title">
-                <div class="mad-pre-title">Current Projects</div>
-              </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":400,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['-90', '-90', '-90', '-90']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-textAlign="['center']"
-                data-color="['#ffffff']" data-fontsize="['72']" data-lineheight="['88']"
-                class="tp-caption tp-resizeme tp-layer-section-title"> Haiti Earthquake Relief Fund </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['0', '0', '0', '0']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-textAlign="['center']"
-                data-color="['#E7E7E7']" data-fontsize="['20']" data-lineheight="['32']" class="tp-caption tp-resizeme">
-                <p> Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem <br /> ipsum dolor sit amet,
-                  consectetuer adipiscing elit. </p>
-              </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['120', '120', '120', '120']"
-                data-width="['98%', '98%', '98%', '98%']" data-textAlign="['center']" class="tp-caption tp-resizeme">
-                    <a href="donate.html" class="btn btn-huge"><span>Donate Now</span> <i class="icon"><img
-                      src="sug-icons/heart2.svg" alt="" /></i></a>
-              </div>
-              <!--================ End of Layer ================-->
-            </li>
-            <!--================ End of Slide 1 ================-->
-            <!--================ Slide 1 ================-->
-            <li data-transition="fade">
-              <!-- MAIN IMAGE -->
-              <img src="images/1792x960_slide2.jpg" alt="" data-bgposition="top center" data-bgfit="cover"
-                data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina />
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['-146', '-146', '-146', '-106']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-textAlign="['center']"
-                class="tp-caption tp-resizeme rev-sub-title">
-                <div class="mad-pre-title">Current Projects</div>
-              </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":400,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['-42', '-42', '-42', '-22']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-textAlign="['center']"
-                data-color="['#ffffff']" data-fontsize="['72']" data-lineheight="['88']"
-                class="tp-caption tp-resizeme tp-layer-section-title"> Help Liberian Kids <br /> Complete Their
-                Education </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['122', '122', '122', '122']"
-                data-width="['98%', '98%', '98%', '98%']" data-textAlign="['center']" class="tp-caption tp-resizeme">
-                    <a href="donate.html" class="btn btn-huge"><span>Donate Now</span> <i class="icon"><img
-                      src="sug-icons/heart2.svg" alt="" /></i></a>
-              </div>
-              <!--================ End of Layer ================-->
-            </li>
-            <!--================ End of Slide 1 ================-->
-            <!--================ Slide 1 ================-->
-            <li data-transition="fade" class="left-align">
-              <!-- MAIN IMAGE -->
-              <img src="images/1792x960_slide3.jpg" alt="" data-bgposition="top center" data-bgfit="cover"
-                data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina />
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['-196', '-196', '-196', '-156']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-textAlign="['center']"
-                class="tp-caption tp-resizeme rev-sub-title">
-                <div class="mad-pre-title">Current Projects</div>
-              </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":400,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['-90', '-90', '-80', '-70']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-color="['#ffffff']"
-                data-fontsize="['72']" data-lineheight="['88']" data-textAlign="['center']"
-                class="tp-caption tp-resizeme tp-layer-section-title"> Each Child Deserves <br /> a Healthy Start in
-                Life </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['48', '48', '48', '38']"
-                data-width="['98%', '98%', '98%', '98%']" data-height="['auto']" data-color="['#E7E7E7']"
-                data-fontsize="['20']" data-lineheight="['32']" data-textAlign="['center']"
-                class="tp-caption tp-resizeme">
-                <p> Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, <br /> lorem. Vestibulum sed
-                  ante. Donec sagittis euismod purus. </p>
-              </div>
-              <!--================ End of Layer ================-->
-              <!--================ Layer ================-->
-              <div
-                    data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                data-x="center" data-y="center" data-voffset="['170', '170', '170', '170']"
-                data-width="['98%', '98%', '98%', '98%']" data-textAlign="['center']" class="tp-caption tp-resizeme">
-                    <a href="donate.html" class="btn btn-huge"><span>Donate Now</span> <i class="icon"><img
-                      src="sug-icons/heart2.svg" alt="" /></i></a>
-              </div>
-              <!--================ End of Layer ================-->
-            </li>
-            <!--================ End of Slide 1 ================-->
-          </ul>
-        </div>
       </div>
+</header>
+
+      <!--================ End of Header ================-->
+      
+      <!-- Bootstrap 5 Image Slider with Text Overlays -->
+<div class="container-fluid px-0">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="images/1792x960_slide1.jpg" class="d-block w-100" alt="Haiti Earthquake Relief" style="height: 100vh; object-fit: cover;">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center" style="height: 100%; top: 0; bottom: 0;">
+                    <div class="mb-4">
+                        <div class="mad-pre-title" style="font-size: 1.2rem; color: #fff; letter-spacing: 2px; margin-bottom: 1rem;">Current Projects</div>
+                        <h1 class="display-3 fw-bold text-white mb-4">Haiti Earthquake Relief Fund</h1>
+                        <p class="lead text-light mb-4" style="font-size: 1.25rem; max-width: 800px; margin: 0 auto;">
+                            Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        </p>
+                        <a href="donate.html" class="btn btn-primary btn-lg px-5 py-3 mt-3" style="background: #ff6b6b; border: none;">
+                            <span>Donate Now</span>
+                            <i class="ms-2">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="display: inline-block;">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="images/1792x960_slide2.jpg" class="d-block w-100" alt="Help Liberian Kids" style="height: 100vh; object-fit: cover;">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center" style="height: 100%; top: 0; bottom: 0;">
+                    <div class="mb-4">
+                        <div class="mad-pre-title" style="font-size: 1.2rem; color: #fff; letter-spacing: 2px; margin-bottom: 1rem;">Current Projects</div>
+                        <h1 class="display-3 fw-bold text-white mb-4">Help Liberian Kids <br>Complete Their Education</h1>
+                        <a href="donate.html" class="btn btn-primary btn-lg px-5 py-3 mt-3" style="background: #ff6b6b; border: none;">
+                            <span>Donate Now</span>
+                            <i class="ms-2">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="display: inline-block;">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="images/1792x960_slide3.jpg" class="d-block w-100" alt="Healthy Start for Children" style="height: 100vh; object-fit: cover;">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center" style="height: 100%; top: 0; bottom: 0;">
+                    <div class="mb-4">
+                        <div class="mad-pre-title" style="font-size: 1.2rem; color: #fff; letter-spacing: 2px; margin-bottom: 1rem;">Current Projects</div>
+                        <h1 class="display-3 fw-bold text-white mb-4">Each Child Deserves <br>a Healthy Start in Life</h1>
+                        <p class="lead text-light mb-4" style="font-size: 1.25rem; max-width: 800px; margin: 0 auto;">
+                            Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus.
+                        </p>
+                        <a href="donate.html" class="btn btn-primary btn-lg px-5 py-3 mt-3" style="background: #ff6b6b; border: none;">
+                            <span>Donate Now</span>
+                            <i class="ms-2">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="display: inline-block;">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
       <div class="mad-content no-pd">
         <div class="mad-section with-texture5 mad-colorizer--scheme-color">
           <div class="mad-texture-holder">
@@ -1287,6 +1279,8 @@
   <script src="js/modules/mad.newsletter-form.min.js"></script>
   <script src="js/modules/mad.alert-box.min.js"></script>
   <script src="js/modules/mad.sticky-header-section.min.js"></script>
+  <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/mad.app.js"></script>
   <script>
     jQuery(document).ready(function($) {

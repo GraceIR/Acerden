@@ -1,0 +1,709 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--================ Basic page needs ================-->
+  <title>ACERDEN</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!--================ Mobile specific metas ================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--================ Favicon ================-->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <!--================ Google web fonts ================-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;500;700;800;900&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+    rel="stylesheet" />
+  <!--================ Vendor CSS ================-->
+  <link rel="stylesheet" href="owl-causoel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="arctictmodal/jquery.arcticmodal-0.3.css" />
+  <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
+  <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css" />
+  <!--================ Theme CSS ================-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <!--================ Vendor JS ================-->
+</head>
+
+<body class="mad-body--scheme-green">
+  <div class="mad-preloader"></div>
+  <div id="mad-page-wrapper" class="mad-page-wrapper">
+    <div class="container wide">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <h6 class="mad-title">Search</h6>
+          <!--================ Search Form ================-->
+          <form class="mad-search-section">
+            <input type="text" placeholder="Start Typing Here..." />
+            <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
+          </form>
+          <!--================ End of Search Form ================-->
+          <button type="button" class="arcticmodal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+            <header id="mad-header" class="mad-header">
+            <div class="mad-header-section--sticky-xl">
+                <div class="container-fluid">
+                <!-- Top row: Logo, organization name, contact info -->
+                <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+                    
+                    <!-- Left side: Logo and Organization Name -->
+                    <div class="mad-header-item" style="display: flex; align-items: center;">
+                    <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
+                    <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+                        African Centre for Rural Development & <br>Environment (ACERDEN)
+                    </h5>
+                    </div>
+                    
+                    <!-- Right side: Contact Information -->
+                    <div class="mad-header-item" style="display: flex; align-items: center; margin-right: 20px;">
+                    <div class="contact-info" style="display: flex; align-items: center; gap: 20px;">
+                        
+                        <!-- Phone Number -->
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                        <i class="material-icons" style="color: #28a745; font-size: 18px;">phone</i>
+                        <span style="font-size: 0.85em; font-weight: bold; color: #333;">+234 803 567 3526</span>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 8px;">
+                        <i class="material-icons" style="color: #28a745; font-size: 18px;">email</i>
+                        <span style="font-size: 0.85em; font-weight: bold; color: #333;">info@acerden.org</span>
+                        </div>
+                        
+                        <!-- Social Icons -->
+                        <div class="social-icons" style="display: flex; align-items: center; gap: 10px;">
+                        <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" style="color: #333; text-decoration: none; font-size: 18px;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+        </header>
+          
+          <!-- Bottom row: Navigation and Actions - Centered -->
+          <div class="mad-header-items" style="display: flex; justify-content: center; border-top: 1px solid #eee; padding-top: 15px;">
+            <div class="mad-header-item" style="display: flex; align-items: center; justify-content: center; width: 100%;">
+              
+              <!-- Navigation - Centered -->
+              <nav class="mad-navigation-container" style="flex: 1; display: flex; justify-content: center;">
+                <ul class="mad-navigation mad-navigation--vertical-sm" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 25px; justify-content: center;">
+                  <li class="menu-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="programs.html">Our programs</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="project.html">Projects</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Publications</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog.html">News</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <!-- Actions - Positioned to the right -->
+              <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
+                <div class="mad-col">
+                  <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                </div>
+                <div class="mad-col">
+                  <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
+                        src="sug-icons/heart.svg" alt="" /></i></a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+
+
+
+     <!--================ End of Header ================-->
+ 
+ <!--================ Breadcrumb ================-->
+      <div class="mad-breadcrumb with-bg-img with-overlay" data-bg-image-src="images/1792x512_bg1.jpg">
+        <div class="container wide">
+          <h1 class="mad-page-title">Become a Volunteer</h1>
+          <nav class="mad-breadcrumb-path">
+            <span><a href="index.html" class="mad-link">Home</a></span> / <span>Become a Volunteer</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      <div class="mad-content no-pd">
+        <div class="mad-section with-texture5 mad-colorizer--scheme-color">
+          <div class="container">
+            <div class="mad-texture-holder">
+              <span class="mad-img-texture bg-move"><img src="images/texture_move1.svg" alt="" class="svg" /></span>
+            </div>
+            <div class="mad-title-wrap align-center">
+              <div class="mad-pre-title">WORK FOR US</div>
+              <h2 class="mad-title">How Do I Become a Volunteer?</h2>
+              <p class="content-element-6"> Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor,
+                dapibus eget, elementum <br /> vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam er at v
+                olutpat. Duis ac turpis. Integer <br /> rutrum ante eu lacus. Vestibulum libero nisl, porta vel. </p>
+              <a href="pages_volunteer.html#" class="btn btn-huge"><span>Join Today</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="mad-section no-pt">
+          <div class="container">
+            <div class="mad-title-wrap align-center">
+              <div class="mad-pre-title">Find a volunteer role</div>
+              <h2 class="mad-title">Volunteer Opportunities</h2>
+            </div>
+            <div class="mad-entities bg-color-2 align-center type-2 owl-carousel mad-grid mad-grid--cols-3">
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img1.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer in Schools</a>
+                      </h5>
+                      <p> Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend. Aenean auctor wisi et urna.
+                        Aliquam erat volutpat. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img2.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer at an Event</a>
+                      </h5>
+                      <p> Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget,
+                        elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
+                        turpis. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img3.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer at Our Offices</a>
+                      </h5>
+                      <p> Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada
+                        at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Aenean nec eros. Vestibulum ante ipsum
+                        primis. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img1.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer in Schools</a>
+                      </h5>
+                      <p> Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend. Aenean auctor wisi et urna.
+                        Aliquam erat volutpat. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img2.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer at an Event</a>
+                      </h5>
+                      <p> Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget,
+                        elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
+                        turpis. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img3.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer at Our Offices</a>
+                      </h5>
+                      <p> Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada
+                        at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Aenean nec eros. Vestibulum ante ipsum
+                        primis. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img1.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer in Schools</a>
+                      </h5>
+                      <p> Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend. Aenean auctor wisi et urna.
+                        Aliquam erat volutpat. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img2.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer at an Event</a>
+                      </h5>
+                      <p> Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget,
+                        elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
+                        turpis. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
+                  <div class="mad-entity-media">
+                    <a href="portfolio_single_img.html"><img src="images/475x360_img3.jpg" alt="" /></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="portfolio_single_img.html">Volunteer at Our Offices</a>
+                      </h5>
+                      <p> Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada
+                        at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Aenean nec eros. Vestibulum ante ipsum
+                        primis. </p>
+                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mad-section content-element-main no-pd mad-section--stretched-content mad-colorizer--scheme-color-3">
+          <div class="mad-entities type-4">
+            <article class="mad-entity">
+              <a href="https://www.youtube.com/embed/CE29QWUSOV8?rel=0&amp;showinfo=0&amp;autohide=2&amp;controls=0&amp;enablejsapi=1"
+                class="mad-entity-media mad-video-fancybox" data-fancybox="video">
+                <img src="images/912x760_img1.jpg" alt="" />
+              </a>
+              <div class="mad-entity-content">
+                <div class="content-element-6">
+                  <div class="mad-pre-title">watch video</div>
+                  <h2 class="mad-title">A Day in The Life of Sylvia, Our Volunteer in Bangladesh</h2>
+                </div>
+                <div class="content-element-6">
+                  <p> Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna,endrerit sit
+                    amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum
+                    vitae. </p>
+                </div>
+                <a href="pages_volunteer.html#" class="btn btn-big style-2"><span>Other Stories</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <article
+          class="mad-cta content-element-main mad-section mad-section--stretched mad-colorizer--scheme-color-2 with-texture10">
+          <div class="container">
+            <div class="mad-cta-row">
+              <div class="mad-col">
+                <h2 class="mad-page-title"> Volunteer Today and Join Our Fight For <br /> Every Childhood </h2>
+              </div>
+              <div class="mad-col">
+                <a href="pages_donate.html" class="btn btn-huge"><span>Find Roles Near You </span> </a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="mad-section content-element-main no-pd">
+          <div class="container wide">
+            <div class="mad-entities mad-reversed no-bg type-4">
+              <article class="mad-entity">
+                <div class="mad-entity-media">
+                  <img src="images/912x776_img1.jpg" alt="" />
+                </div>
+                <div class="mad-entity-content">
+                  <div class="content-element-6">
+                    <div class="mad-pre-title">FUN AND REWARDING</div>
+                    <h2 class="mad-title">Volunteering FAQs</h2>
+                  </div>
+                  <!--================ Accordion ================-->
+                  <dl role="presentation" class="mad-panels mad-panels--accordion">
+                    <dt class="mad-panels-title mad-panels-active">
+                      <button id="panel-7-button" type="button" aria-expanded="false" aria-controls="panel-7"
+                        aria-disabled="false"> Why volunteer with us? </button>
+                    </dt>
+                    <dd id="panel-7" class="mad-panels-definition">
+                      <p> Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget,
+                        elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac
+                        turpis. Integer rutrum ante eu lacus. Vestibulum libero nisl, porta vel, scelerisque eget,
+                        malesuada at, neque. Duis ac turpis. </p>
+                    </dd>
+                    <dt class="mad-panels-title">
+                      <button id="panel-8-button" type="button" aria-expanded="true" aria-controls="panel-8"
+                        aria-disabled="false">Who can volunteer?</button>
+                    </dt>
+                    <dd id="panel-8" class="mad-panels-definition">
+                      <p> Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante.
+                        Donec porta diam eu massa. Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae,
+                        pede. Donec eget tellus non erat lacinia fermentum. </p>
+                    </dd>
+                    <dt class="mad-panels-title">
+                      <button id="panel-9-button" type="button" aria-expanded="false" aria-controls="panel-9"
+                        aria-disabled="false"> What does volunteering involve? </button>
+                    </dt>
+                    <dd id="panel-9" class="mad-panels-definition">
+                      <p> Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.
+                        Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non
+                        erat lacinia fermentum. Proin dictum elementum velit. </p>
+                    </dd>
+                  </dl>
+                  <!--================ End of Accordion ================-->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mad-section mad-section--stretched mad-colorizer--scheme-color-6 mad-colorizer--scheme-light with-texture11">
+          <div class="mad-texture-holder">
+            <span class="mad-img-texture bg-move"><img src="images/texture_move5.svg" alt="" class="svg" /></span>
+          </div>
+          <div class="container wide">
+            <div class="row justify-content-center">
+              <div class="col-xl-7">
+                <div class="mad-title-wrap align-center">
+                  <div class="mad-pre-title">Sign up form</div>
+                  <h2 class="mad-title">Register Interest in Volunteering</h2>
+                  <p class="content-element-6 mad-text-color-5"> Mauris fermentum dictum magna. Sed laoreet aliquam leo.
+                    Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, <br /> elit. Aenean auctor wisi et
+                    urna. Aliquam erat v olutpat. Duis ac turpis. </p>
+                </div>
+                <form class="mad-text-medium mad-form item-col-2 mad-text-color-5">
+                  <div class="mad-col full-width">
+                    <label>Are you over 18 years old? *</label>
+                    <div class="item-col-2">
+                      <div class="mad-col">
+                        <div class="form-control">
+                          <div style="display: block" class="mad-toggled-fields size-medium">
+                            <input type="radio" name="radio-1" id="radio-1" checked="checked" />
+                            <label for="radio-1" class="mad-label-radio">Yes, I am 18 or older</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mad-col">
+                        <div class="form-control">
+                          <div class="content-element">
+                            <div style="display: block" class="mad-toggled-fields size-medium">
+                              <input type="radio" name="radio-1" id="radio-2" />
+                              <label for="radio-2" class="mad-label-radio">No, I am aged 14 - 17</label>
+                            </div>
+                          </div>
+                          <p class="mad-text-small mad-text-color-4">(Please note, you will need to be at least 14 years
+                            old to be a volunteer)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mad-col">
+                    <div class="mad-form-item">
+                      <label>What role are you interested in? *</label>
+                      <div class="mad-custom-select">
+                        <select data-default-text="Please Select" id="cf_subject" name="cf_subject">
+                          <option>Subject 1</option>
+                          <option>Subject 2</option>
+                          <option>Subject 3</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="mad-form-item">
+                      <label>First name *</label>
+                      <input type="text" id="cf_fname" name="cf_fname" required="" placeholder="First Name" />
+                    </div>
+                  </div>
+                  <div class="mad-col">
+                    <div class="mad-form-item">
+                      <label>Last name *</label>
+                      <input type="text" id="cf_lname" name="cf_lname" required="" placeholder="Last Name" />
+                    </div>
+                    <div class="mad-form-item">
+                      <label>Email address *</label>
+                      <input type="email" id="cf_email" name="cf_email" required="" placeholder="Email Address" />
+                    </div>
+                  </div>
+                  <div class="mad-col full-width">
+                    <div class="mad-form-item align-center">
+                      <button type="submit" class="btn btn-big"><span>Submit</span> </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="mad-social-section">
+        <div class="container">
+          <div class="mad-social-wrap">
+            <div class="mad-col">
+              <h5>Stay Informed With News & Updates</h5>
+              <form class="mad-newsletter-form one-line size-2">
+                <input type="email" name="email" placeholder="Enter Email Address" />
+                <button type="submit" class="btn btn-huge btn-style-3" style="display: flex; align-items: center; justify-content: center;"><i class="fas fa-envelope"></i></button>
+              </form>
+            </div>
+            <div class="mad-col">
+              <h5>Follow Us on Our Social Channels</h5>
+              <div class="mad-social-icons size-3">
+                <ul class="justify-content-center">
+                  <li>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="container">
+          <div class="mad-footer-main">
+            <div class="row justify-content-between vr-size-1 hr-size-1">
+              <div class="col-xl-3 col-lg-6 col-sm-12">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <a href="index.html" class="mad-logo content-element-3"><img src="images/logo-news.png" alt="" /></a>
+                  <div class="content-element-3">
+                    <p> African Centre for Rural Development & Environment (ACERDEN) </p>
+                  </div>
+                  <a href="pages_contact_v1.html" class="btn style-2"><span>Help Center</span><i><img
+                        src="sug-icons/btn_dir.svg" alt="" /></i></a>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Quick Links</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_about.html">About Us</a></li>
+                    <li><a href="pages_team.html">Our Programs</a></li>
+                    <li><a href="pages_volunteer.html">Projects</a></li>
+                    <li><a href="blog_classic.html">Publications</a></li>
+                    <li><a href="pages_contact_v1.html">Partnerships</a></li>
+                    <li><a href="pages_contact_v1.html">Contact Us</a></li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Legal & Trust</h6>
+                  <ul class="mad-vr-list">
+                    <li><a href="pages_what_we_do.html">NGO Registration Details</a></li>
+                    <li><a href="pages_what_we_do.html">Privacy Policy</a></li>
+                    <li><a href="pages_what_we_do.html">Terms of Use</a></li>
+                   <!--<li><a href="pages_what_we_do.html">Emergencies</a></li>-->
+                   <!--<li><a href="pages_what_we_do.html">Campaigns</a></li>-->
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-3 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Contact Us</h6>
+                  <ul class="mad-vr-list mad-map-info">
+                    <li>
+                      <img src="sug-icons/location.svg" alt="" class="svg" />
+                      <span>22 Second Avenue, Trans-Ekulu Enugu State, Nigeria <a href="pages_contact_v1.html"
+                          class="mad-link">Get Directions</a> </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/clock.svg" alt="" class="svg" />
+                      <span>Monday - Friday: 8AM - 5PM</span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/phone.svg" alt="" class="svg" />
+                      <span>  +234 803 567 3526 </span>
+                    </li>
+                    <li>
+                      <img src="sug-icons/email.svg" alt="" class="svg" />
+                      <a href="pages_contact_v1.html">mail:info@acerden.org</a>
+                    </li>
+                  </ul>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-6 col-sm-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h6 class="mad-widget-title">Help Us Today!</h6>
+                  <div class="form-control content-element-3">
+                    <div style="display: block" class="mad-toggled-fields">
+                      <input type="radio" name="radio-1" id="radio-1" checked="checked" />
+                      <label for="radio-1" class="mad-label-radio">Monthly Donation </label>
+                      <input type="radio" name="radio-1" id="radio-2" />
+                      <label for="radio-2" class="mad-label-radio">Single Donation</label>
+                    </div>
+                  </div>
+                  <form class="mad-donate-form">
+                    <div class="mad-col">
+                      <input type="email" name="email" placeholder="$" />
+                    </div>
+                    <div class="mad-col">
+                      <button type="submit" class="btn wide">
+                        <span>Donate</span> <i class="icon"><img src="sug-icons/heart.svg" alt="" /></i>
+                      </button>
+                    </div>
+                  </form>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+          <p class="copyrights">Copyright ©<a href="index.html">African Centre for Rural Development & Environment (ACERDEN)</a>. All Rights Reserved.</p>
+        </div>
+        <!--================ End of Footer row ================-->
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+  </div>
+  <script src="vendors/modernizr.js"></script>
+  <script src="vendors/jquery-3.6.0.min.js"></script>
+  <script src="vendors/jquery.easing.1.3.min.js"></script>
+  <script src="vendors/monkeysan.jquery.nav.1.0.js"></script>
+  <script src="owl-causoel/owl.carousel.min.js"></script>
+  <script src="arctictmodal/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="vendors/monkeysan.validator.min.js"></script>
+  <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+  <script src="vendors/mad.customselect.js"></script>
+  <script src="vendors/handlebars-v4.0.5.min.js"></script>
+  <script src="vendors/retina.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/modules/mad.newsletter-form.min.js"></script>
+  <script src="js/modules/mad.alert-box.min.js"></script>
+  <script src="js/modules/mad.sticky-header-section.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/mad.app.js"></script>
+
+</body>
+</html>
