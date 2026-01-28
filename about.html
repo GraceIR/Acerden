@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="arctictmodal/jquery.arcticmodal-0.3.css" />
   <link rel="stylesheet" href="css/fontawesome-all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
   <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
@@ -35,29 +37,34 @@
 </head>
 
 <body class="mad-body--scheme-green">
-  <div class="mad-preloader"></div>
+  <!--<div class="mad-preloader"></div>-->
+   <div id="preloader-wrapper">
+      <div class="loader-content">
+          <img src="images/logo-news.jpg" alt="Loading Logo" style="width: 40px;">
+      </div>
+  </div>
   <div id="mad-page-wrapper" class="mad-page-wrapper">
     <div class="container wide">
       <!--================ Search Modal ================-->
-      <div class="mad-d-none">
+      <!--<div class="mad-d-none">
         <div id="search-modal" class="mad-modal mad-modal--search">
           <h6 class="mad-title">Search</h6>
-          <!--================ Search Form ================-->
+       
           <form class="mad-search-section">
             <input type="text" placeholder="Start Typing Here..." />
             <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
           </form>
-          <!--================ End of Search Form ================-->
+         
           <button type="button" class="arcticmodal-close">
             <i class="material-icons">close</i>
           </button>
         </div>
-      </div>
+      </div>-->
       <!--================ End of Search Modal ================-->
       <!--================ Header ================-->
-    <header id="mad-header" class="mad-header">
-      <div class="mad-header-section--sticky-xl">
-        <div class="container-fluid">
+    <header id="mad-header" class="mad-header" style="margin-top: 0; padding-top: 0;">
+      <div class="mad-header-section--sticky-xl" style="margin-top: 0; padding-top: 0;">
+        <div class="container-fluid" style="margin-top: 0;  padding-top: 0;">
           <!-- Top row: Logo, organization name, contact info -->
           <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
             
@@ -126,10 +133,13 @@
                     <a href="project.html">Projects</a>
                   </li>
                   <li class="menu-item">
-                    <a href="#">Publications</a>
+                    <a href="partnership.html">Partnerships</a>
                   </li>
                   <li class="menu-item">
                     <a href="blog.html">News</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="gallery.html">Gallery</a>
                   </li>
                   <li class="menu-item">
                     <a href="contact.html">Contact</a>
@@ -139,9 +149,9 @@
               
               <!-- Actions - Positioned to the right -->
               <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
-                <div class="mad-col">
+                <!--<div class="mad-col">
                   <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
-                </div>
+                </div>-->
                 <div class="mad-col">
                   <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
                         src="sug-icons/heart.svg" alt="" /></i></a>
@@ -162,10 +172,14 @@
       <!--================ Breadcrumb ================-->
       <div class="mad-breadcrumb with-bg-img with-overlay" data-bg-image-src="images/h1_hero2.jpg">
         <div class="container wide">
-          <h1 class="mad-page-title">About Us</h1>
-          <nav class="mad-breadcrumb-path">
+          <h1 class="mad-page-title">About ACERDEN</h1>
+          <p>The African Centre for Rural Development & Environment (ACERDEN) is a non-profit, non-governmental, 
+           <br> and non-political organization committed to sustainable rural development and environmental conservation in Nigeria since 1996.</p>
+              <a href="#" class="cta-button">Explore Our Programs</a>
+              <a href="#" class="cta-button">Partner With ACERDEN</a>
+            <!--<nav class="mad-breadcrumb-path">
             <span><a href="index.html" class="mad-link">Home</a></span> / <span>About Us</span>
-          </nav>
+          </nav>-->
         </div>
       </div>
       <!--================ End of Breadcrumb ================-->
@@ -190,72 +204,13 @@
                     <p> ACERDEN was conceived out of the founder’s desire to improve the welfare of both urban and rural communities in Nigeria. The organization was registered with the Ministry of Health and Social
                        Development (1996) and the Corporate Affairs Commission (1998). </p>
                   </div>
-                  <a href="pages_about.html#" class="btn btn-big style-2"><span>Explore Our Programs</span></a>
+                  <a href="programs.html" class="btn btn-big style-2" style="background-color: #0a8858;"><span>Explore Our Programs</span></a>
                 </div>
               </article>
             </div>
           </div>
         </div>
-        <article class="mad-section no-pb">
-          <div class="container-fluid">
-            <!--================ Counters ================-->
-            <div class="mad-counters item-col-4">
-              <div class="mad-col">
-                <div class="mad-counter">
-                  <div class="mad-counter-inner">
-                    <div class="mad-counter-icon">
-                      <img class="svg" src="charity_icons_svg/globe.svg" alt="" />
-                    </div>
-                    <div class="mad-counter-content">
-                      <div class="mad-counter-count">24 M</div>
-                      <div class="mad-counter-title"> children helped across <br /> our global movement </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-col">
-                <div class="mad-counter">
-                  <div class="mad-counter-inner">
-                    <div class="mad-counter-icon">
-                      <img class="svg" src="charity_icons_svg/hands.svg" alt="" />
-                    </div>
-                    <div class="mad-counter-content">
-                      <div class="mad-counter-count">1.5 M</div>
-                      <div class="mad-counter-title"> volunteers worlwide <br /> supported our cause </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-col">
-                <div class="mad-counter">
-                  <div class="mad-counter-inner">
-                    <div class="mad-counter-icon">
-                      <img class="svg" src="charity_icons_svg/money_box.svg" alt="" />
-                    </div>
-                    <div class="mad-counter-content">
-                      <div class="mad-counter-count">10 M</div>
-                      <div class="mad-counter-title"> raised by us and <br /> our supporters </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-col">
-                <div class="mad-counter">
-                  <div class="mad-counter-inner">
-                    <div class="mad-counter-icon">
-                      <img class="svg" src="charity_icons_svg/like.svg" alt="" />
-                    </div>
-                    <div class="mad-counter-content">
-                      <div class="mad-counter-count">180</div>
-                      <div class="mad-counter-title"> successfully projects <br /> completed </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--================ End of Counters ================-->
-          </div>
-        </article>
+        
         <div class="mad-section no-pb">
           <div class="mad-texture-holder">
             <span class="mad-img-texture6 bg-move"><img src="images/texture_move1.svg" alt="" class="svg" /></span>
@@ -264,10 +219,7 @@
             <div class="mad-title-wrap align-center">
               <div class="mad-pre-title">Find out more</div>
               <h2 class="mad-title">Our Organisation</h2>
-              <p> Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel,
-                cursus eleifend, <br /> elit. 
-                Aenean auctor wisi et urna.
-                 Aliquam erat v olutpat. Duis ac turpis. </p>
+            
             </div>
             <div class="mad-entities bg-color-2 align-center type-2 item-col-3">
               <div class="mad-col">
@@ -302,7 +254,7 @@
                       </h5>
                       <p>  To build an egalitarian society free from poverty,
                          hunger, disease, and all forms of social deprivation. </p>
-                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                      <a href="#" class="mad-text-link"><span>Learn More</span></a>
                     </div>
                   </div>
                 </article>
@@ -321,7 +273,7 @@
                       </h5>
                       <p>Partnerships are central to achieving sustainable development at scale. ACERDEN works with donor agencies, NGOs, academic institutions, government bodies, and private sector partners to design 
                         and implement impactful, community-driven development programmes. </p>
-                      <a href="pages_what_we_do.html" class="mad-text-link"><span>Learn More</span></a>
+                      <a href="partnership.html" class="mad-text-link"><span>Learn More</span></a>
                     </div>
                   </div>
                 </article>
@@ -330,1110 +282,426 @@
             </div>
           </div>
         </div>
-        <div class="mad-section mad-section--stretched mad-colorizer--scheme-color-6 with-btn-bg">
-          <div class="mad-texture-holder size-3">
-            <span class="mad-img-texture7"><img src="images/texture10.svg" alt="" class="svg" /></span>
-          </div>
-          <div class="container">
-            <!--================ Testimonials ================-->
-            <div class="mad-testimonials align-center style-2">
-              <h2 class="mad-title">Aims & Objectives</h2>
-              <div class="mad-grid mad-grid--cols-1 owl-carousel dots-color-2">
-                <!-- owl item -->
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Improve living standards of Nigerians 
-                          through sustainable development strategies."</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Rebecca Johnson, CA, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                <!-- owl item -->
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Ensure food security and reduce poverty
-                           through agricultural and rural development programs."</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Ivana Wong, NY, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                <!-- owl item -->
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Promote youth development, 
-                          women empowerment, health, and education/literacy programs."</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Encourage small-scale
-                           enterprises and indigenous technology for self-reliance."</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                 <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Strengthen rural institutions, 
-                          savings mobilization, and credit administration"</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                 <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Promote environmental education and
-                           natural resources management."</p>
-                      </blockquote>
-                    </div>
-                   <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                 <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Promote environmental education and
-                           natural resources management."</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                 <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Conduct research, advocacy, 
-                          capacity-building workshops, and consultancy services."</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-              </div>
-            </div>
-            <!--================ End of Testimonials ================-->
-          </div>
-        </div>
-
-        <div class="mad-section mad-section--stretched mad-colorizer--scheme-color-6 with-btn-bg" style="background-color: rgb(175, 219, 205);">
-          <div class="mad-texture-holder size-3">
-            <span class="mad-img-texture7"><img src="images/texture10.svg" alt="" class="svg" /></span>
-          </div>
-          <div class="container">
-            <!--================ Testimonials ================-->
-            <div class="mad-testimonials align-center style-2" >
-              <h2 class="mad-title"> Implementation Strategies</h2>
-              <div class="mad-grid mad-grid--cols-1 owl-carousel dots-color-2">
-                <!-- owl item -->
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Public education and training programs"</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Rebecca Johnson, CA, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                <!-- owl item -->
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Workshops, conferences, and seminars"</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Ivana Wong, NY, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                <!-- owl item -->
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Advocacy & grassroots mobilization"</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-
-                <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Research, feasibility, and impact studies"</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                 <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Technology transfer and information dissemination"</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                 <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Project planning, monitoring, and evaluation"</p>
-                      </blockquote>
-                    </div>
-                   <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-                <!-- / owl item -->
-                 <div class="mad-grid-item">
-                  <div class="mad-testimonial">
-                    <div class="mad-testimonial-info">
-                      <blockquote>
-                        <p>"Networking with organizations sharing similar mandates."</p>
-                      </blockquote>
-                    </div>
-                    <!--<div class="mad-author">
-                      <div class="mad-author-info">
-                        <span class="mad-author-name">Alan Smith, TX, USA</span>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-              
-              </div>
-            </div>
-            <!--================ End of Testimonials ================-->
-          </div>
-
-        </div>
-        <!-- Our Networks & Partnerships Section -->
-      <div class="mad-section no-pb">
-      <div class="container">
-        <div class="mad-title-wrap align-center">
-          <div class="mad-pre-title">collaboration</div>
-          <h2 class="mad-title">Our Networks & Partnerships</h2>
-          <p>ACERDEN actively collaborates with national and international organizations to maximize impact and drive sustainable change in rural communities.</p>
-        </div>
         
-        <!-- Partnerships Grid -->
-        <div class="mad-entities bg-color-2 align-center type-2 item-col-3">
-          <div class="mad-col">
-            <!-- Partnership 1 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-church fa-3x" style="color: #28a745; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">CRUDAN</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">Christian Rural and Urban Development Association of Nigeria (CRUDAN)</a>
-                  </h5>
-                  <p>Collaborating on faith-based development initiatives for sustainable community transformation across Nigeria.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <div class="mad-col">
-            <!-- Partnership 2 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-tint fa-3x" style="color: #007bff; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">NEWSAN</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">National Network on Water and Sanitation in Nigeria (NEWSAN)</a>
-                  </h5>
-                  <p>Working together to improve water, sanitation, and hygiene (WASH) services in rural communities.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <div class="mad-col">
-            <!-- Partnership 3 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-child fa-3x" style="color: #ffc107; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">AONN</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">Association of NGOs for Orphans and Vulnerable Children (AONN)</a>
-                  </h5>
-                  <p>Joint efforts in providing care, support, and protection for orphans and vulnerable children.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        
-        <!-- Second Row -->
-        <div class="mad-entities bg-color-2 align-center type-2 item-col-3" style="margin-top: 30px;">
-          <div class="mad-col">
-            <!-- Partnership 4 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-users fa-3x" style="color: #17a2b8; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">NINPREH</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">Nigerian Network of NGOs for Population and Reproductive Health (NINPREH)</a>
-                  </h5>
-                  <p>Promoting reproductive health education and family planning services in rural areas.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <div class="mad-col">
-            <!-- Partnership 5 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-heartbeat fa-3x" style="color: #dc3545; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">CiSNHAN</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">Civil Society Network on HIV/AIDS in Nigeria (CiSNHAN)</a>
-                  </h5>
-                  <p>Collaborating on HIV/AIDS prevention, treatment, and support programs.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <div class="mad-col">
-            <!-- Partnership 6 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-aids fa-3x" style="color: #e83e8c; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">ESCCHA</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">Enugu State Coalition of Civil Societies on HIV/AIDS (ESCCHA)</a>
-                  </h5>
-                  <p>State-level collaboration for HIV/AIDS advocacy and community-based interventions.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        
-        <!-- Third Row (Centered 2 items) -->
-        <div class="mad-entities bg-color-2 align-center type-2 item-col-3" style="margin-top: 30px;">
-          <div class="mad-col">
-            <!-- Partnership 7 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-graduation-cap fa-3x" style="color: #6610f2; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">CSACEFA</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">Civil Society Action Coalition on Education for All (CSACEFA)</a>
-                  </h5>
-                  <p>Advocating for quality education and lifelong learning opportunities for all Nigerians.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <div class="mad-col">
-            <!-- Partnership 8 -->
-            <article class="mad-entity">
-              <div class="mad-entity-media">
-                <div class="partnership-logo" style="background: #f8f9fa; height: 200px; display: flex; align-items: center; justify-content: center; padding: 20px;">
-                  <div style="text-align: center;">
-                    <i class="fas fa-handshake fa-3x" style="color: #fd7e14; margin-bottom: 15px;"></i>
-                    <h4 style="color: #333; margin: 0;">CENGOS</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="mad-entity-content">
-                <div class="mad-entity-header">
-                  <h5 class="mad-entity-title">
-                    <a href="#">Coalition of Eastern Non-governmental Organizations (CENGOS)</a>
-                  </h5>
-                  <p>Regional network for capacity building, advocacy, and collective action among NGOs in Eastern Nigeria.</p>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        
-        <!-- Partnership Benefits -->
-        <div class="row" style="margin-top: 50px; background: #f8f9fa; padding: 40px; border-radius: 10px;">
-          <div class="col-md-12">
-            <h3 class="text-center" style="color: #28a745; margin-bottom: 30px;">Benefits of Our Partnerships</h3>
-            <div class="row">
-              <div class="col-md-3 col-sm-6 text-center mb-4">
-                <i class="fas fa-sync-alt fa-2x text-success mb-3"></i>
-                <h5>Resource Sharing</h5>
-                <p>Pooling resources for greater impact</p>
-              </div>
-              <div class="col-md-3 col-sm-6 text-center mb-4">
-                <i class="fas fa-bullhorn fa-2x text-success mb-3"></i>
-                <h5>Collective Advocacy</h5>
-                <p>Stronger voice for policy change</p>
-              </div>
-              <div class="col-md-3 col-sm-6 text-center mb-4">
-                <i class="fas fa-brain fa-2x text-success mb-3"></i>
-                <h5>Knowledge Exchange</h5>
-                <p>Sharing best practices and innovations</p>
-              </div>
-              <div class="col-md-3 col-sm-6 text-center mb-4">
-                <i class="fas fa-expand-arrows-alt fa-2x text-success mb-3"></i>
-                <h5>Expanded Reach</h5>
-                <p>Broader geographical coverage</p>
-              </div>
+      <!--aims&objectives-->
+      <div class="container my-5" style="background-color: #f4f6f9;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <div class="card">
+           <div class="card-header">
+              Aims & Objectives
             </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Improve living standards of Nigerians through sustainable development strategies.</li>
+              <li class="list-group-item">Ensure food security and reduce poverty through agricultural and rural development programs.</li>
+              <li class="list-group-item">Promote youth development, women empowerment, health, and education/literacy programs.</li>
+              <li class="list-group-item">Encourage small-scale enterprises and indigenous technology for self-reliance.</li>
+              <li class="list-group-item">Strengthen rural institutions, savings mobilization, and credit administration.</li>
+              <li class="list-group-item">Promote environmental education and natural resources management.</li>
+              <li class="list-group-item">Conduct research, advocacy, capacity-building workshops, and consultancy services.</li>
+            </ul>
           </div>
-        </div>
-        
-        <!-- Call to Partnership -->
-        <div class="text-center" style="margin-top: 40px;">
-          <p class="lead">Interested in partnering with ACERDEN?</p>
-          <a href="contact.html" class="btn btn-success btn-lg">
-            <i class="fas fa-handshake mr-2"></i> Contact Us for Partnership
-          </a>
-        </div>
-      </div>
-    </div>
-  <!-- End of Networks & Partnerships Section -->
-
-         <!--================ Team ================-->
-        <div class="mad-section">
-          <div class="container wide">
-            <div class="mad-texture-holder">
-              <span class="mad-img-texture3 bg-move"><img src="images/texture_move3.svg" alt="" class="svg" /></span>
-            </div>
-            <div class="mad-title-wrap align-center">
-              <div class="mad-pre-title">meet the team</div>
-              <h2 class="mad-title">Our People</h2>
-            </div>
-            <!--================ Tabs ================-->
-            <div class="mad-tabs">
-              <!--================ Tabs Navigation ================-->
-              <div role="tablist" aria-label="Tabs v1" class="mad-tabs-nav justify-content-center">
-                <span class="mad-active"><a id="tab-1-link" href="pages_about.html#tab-1" role="tab" aria-selected="false"
-                    aria-controls="tab-1" class="mad-tab-link">All</a>
-                </span>
-                <span><a id="tab-2-link" href="pages_about.html#tab-2" role="tab" aria-selected="true" aria-controls="tab-2"
-                    class="mad-tab-link">Leadership</a> </span>
-                <span><a id="tab-3-link" href="pages_about.html#tab-3" role="tab" aria-selected="false" aria-controls="tab-3"
-                    class="mad-tab-link">Trustees </a> </span>
-                <span><a id="tab-4-link" href="pages_about.html#tab-4" role="tab" aria-selected="false" aria-controls="tab-4"
-                    class="mad-tab-link">Staff </a> </span>
-              </div>
-              <!--================ End of Tabs Navigation ================-->
-              <!--================ Tabs Container ================-->
-              <div class="mad-tabs-container">
-                <!--================ Tab ================-->
-                <div id="tab-1" tabindex="1" role="tabpanel" aria-labelledby="tab-1-link" class="mad-tab">
-                  <!--================ Team Members ================-->
-                  <div class="mad-team owl-carousel nav-color-2 mad-grid mad-grid--cols-4">
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/team/ugwu2.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Prof. D. S. Ugwu</a>
-                            </h5>
-                            <div class="mad-member-stat">Chairman/CEO</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/teams/patrick-eya.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Prof. P. E. Eya</a>
-                            </h5>
-                            <div class="mad-member-stat">Educationist,</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/teams/henrietta.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mrs. H. C. Ugwu</a>
-                            </h5>
-                            <div class="mad-member-stat">Nutritionist-Dietician</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/teams/priscilla.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mrs. P. N. Ezema</a>
-                            </h5>
-                            <div class="mad-member-stat">Home Economist</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/teams/chianu.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Dr Jonas Chiaun</a>
-                            </h5>
-                            <div class="mad-member-stat">Chief Executive</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo2.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Dr. Godwin C. Onyishi </a>
-                            </h5>
-                            <div class="mad-member-stat">Chief Executive</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo3.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Prof. Nkoli Ezumah</a>
-                            </h5>
-                            <div class="mad-member-stat">Vice Chair of Trustees</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo4.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Prof. SAND Chidebelu</a>
-                            </h5>
-                            <div class="mad-member-stat">Lead Trustee</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo1.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mr. R. A. Omeje </a>
-                            </h5>
-                            <div class="mad-member-stat">Chief Executive</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo2.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mr. Charles Ugwuona – </a>
-                            </h5>
-                            <div class="mad-member-stat">Executive Director</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo3.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mr. Isiwu Edward </a>
-                            </h5>
-                            <div class="mad-member-stat">Vice Chair of Trustees</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo3.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mr. Raphael S. Odoh</a>
-                            </h5>
-                            <div class="mad-member-stat">Programme Officer</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-
-                     <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo3.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Miss V. O. Nwankwo </a>
-                            </h5>
-                            <div class="mad-member-stat">Admin/Computer Secretary</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-
-                     <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo3.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mr. Vincent Agbowo</a>
-                            </h5>
-                            <div class="mad-member-stat">Accountant</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-
-                     <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo3.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Mrs. Ifeyinwa U. Agwu </a>
-                            </h5>
-                            <div class="mad-member-stat">Account Assistant</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-
-                    <div class="mad-col">
-                      <!--================ Team Member ================-->
-                      <figure class="mad-team-member">
-                        <a href="pages_team.html" class="mad-team-member-photo"><img src="images/424x464_photo3.jpg"
-                            alt="" /></a>
-                        <figcaption class="mad-team-member-info">
-                          <div class="mad-info-header">
-                            <h5 class="mad-team-member-name">
-                              <a href="pages_team.html">Geraldine C. Omeje</a>
-                            </h5>
-                            <div class="mad-member-stat"> Treasurer</div>
-                            <div class="mad-social-icons">
-                              <ul class="justify-content-center">
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                  <a href="pages_about.html#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <!--================ End Of Team Member ================-->
-                    </div>
-                  </div>
-                  <!--================ End Of Team Members ================-->
-                </div>
-                <!--================ End of Tab ================-->
-                <!--================ Tab ================-->
-               
-                <!--================ End of Tab ================-->
-                <!--================ Tab ================-->
-                
-                <!--================ End of Tab ================-->
-                <!--================ Tab ================-->
-                
-                <!--================ End of Tab ================-->
-              </div>
-              <!--================ End of Tabs Container ================-->
-            </div>
-            <!--================ End of Tabs ================-->
-          </div>
-        </div>
-        <!--================ End of Team ================-->
-
-  <!--organogram section -->
-  <div class="mad-section no-pb">
-    <div class="container wide">
-      <div class="mad-title-wrap align-center">
-        <div class="mad-pre-title">organization</div>
-        <h2 class="mad-title">Organizational Structure</h2>
-        <p>Our structured approach ensures efficient coordination and implementation of programs</p>
-      </div>
-      
-      <div class="about-center" style="text-align: center; max-width: 900px; margin: 40px auto;">
-        <img src="images/organogram.jpg" alt="ACERDEN Organizational Diagram" 
-            style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 5px;">
-        <p class="text" style="margin-top: 15px; color: #777;">
-          Organizational structure diagram illustrating reporting lines and departmental relationships
-        </p>
-      </div>
     </div>
   </div>
-  <!--end organogram section-->
 
+  <!--Implementation-->
+     <div class="container my-5" style="background-color: #f4f6f9;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <div class="card">
+           <div class="card-header">
+             Implementation Strategies
+            </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Public education and training programs.</li>
+              <li class="list-group-item">Workshops, conferences, and seminars.</li>
+              <li class="list-group-item">Advocacy & grassroots mobilization.</li>
+              <li class="list-group-item">Research, feasibility, and impact studies.</li>
+              <li class="list-group-item">Technology transfer and information dissemination.</li>
+              <li class="list-group-item">Project planning, monitoring, and evaluation.</li>
+              <li class="list-group-item">Networking with organizations sharing similar mandates.</li>
+            </ul>
+          </div>
+    </div>
+  </div>
+
+    <!-- Our Networks & Partnerships Section -->
+      <div  class="container" class="networks-section" style="font-family: Arial, sans-serif; line-height: 1.6;  margin: 0;
+         padding: 20px; background-color: #f9f9f9;">
+          <h2>Our Networks & Partnerships</h2>
+          <p>ACERDEN actively collaborates with national and international organizations to maximize impact. Key networks include:</p>
+    
+            <ul class="networks-list">
+              <li>Christian Rural and Urban Development Association of Nigeria (CRUDAN)</li>
+              <li>National Network on Water and Sanitation in Nigeria (NEWSAN)</li>
+              <li>Association of NGOs for Orphans and Vulnerable Children (AONN)</li>
+              <li>Nigerian Network of NGOs for Population and Reproductive Health (NINPREH)</li>
+              <li>Civil Society Network on HIV/AIDS in Nigeria (CiSNHAN)</li>
+              <li>Enugu State Coalition of Civil Societies on HIV/AIDS (ESCCHA)</li>
+              <li>Civil Society Action Coalition on Education for All (CSACEFA)</li>
+              <li>Coalition of Eastern Non-governmental Organizations (CENGOS)</li>
+            </ul>
+
+            <div class="cta">
+              <a href="#">Explore Our Partners →</a>
+            </div>
+          </div>
+  <!-- End of Networks & Partnerships Section -->
+
+   <!--================ Team ================-->
+      
+     <div class="mad-section mad-section-no-bottom-br-radius no-pd mad-section--stretched- mad-colorizer--scheme-color-9">
+        <div class="mad-entities type-4">
+        <article class="mad-entity">
+            <div class="mad-entity-content with-texture">
+                <div class="content-element-6">
+                    <h2>Our Leadership – Chairman/CEO</h2>
+                      <h3>Prof. Daniel Sunday Ugwu</h3>
+                      <p>Chairman/CEO of ACERDEN, Professor of Agricultural Economics &amp; M&amp;E Specialist</p>
+                </div>
+                <div class="content-element-6">
+                    <h4>Biography Highlights:</h4>
+                      <ul>
+                        <li>Over 22 years of post-doctoral experience in teaching, research, and consultancies</li>
+                        <li>Former Ag. Programme Manager and Director, Planning, Monitoring &amp; Evaluation, Enugu State Agricultural Development Programme</li>
+                        <li>President, ESCCHA (2003–2009)</li>
+                        <li>Consultant for DFID, UNDP, UNICEF, World Bank, European Commission, ITAD, Ecorys Netherlands, and Nigerian federal ministries</li>
+                        <li>Member of 14+ local and international professional bodies</li>
+                        <li>86 publications, including journal articles, book chapters, and technical reports</li>
+                      </ul>
+                </div>
+              <a href="images/pdf/CEO C.pdf" class="btn btn-big style-2" style="background-color: #0a8858; color: white;">
+                <span>View Full CV</span>
+                <span class="icon material-icons">arrow_forward_ios</span>
+            </a>
+            </div>
+            <div class="mad-entity-media">
+                <div class="mad-section mad-changing-bg with-overlay no-pd mad-colorizer--scheme-" style="min-height: 400px;">
+                    <div class="mad-colorizer-bg-color" style="width: 100%; height: 100%;">
+                        
+                        <div class="mad-entity-bg with-overlay" 
+                             style="
+                                background-image: url('images/team/ugwu2.jpg');
+                                background-size: cover;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                width: 100%;
+                                height: 100%;
+                                min-height: 300px;
+                             ">
+                        </div>
+                    </div>
+                    <div class="mad-entities-wrap">
+                        <div class="mad-entities grid-type type-5 item-col-2 no-gutters">
+                            <div class="mad-col"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+  </div>
+
+       
+
+    <section class="team-section">
+          <h2 style="color: #0a8858 !important">Our Team</h2>
+
+          <!-- Directors -->
+          <div class="team-category">
+            <h3>Directors</h3>
+            <div class="team-grid">
+              <div class="team-member">
+                <img src="images/team/ugwu2.jpg" alt="Prof. D. S. Ugwu">
+                <h4>Prof. D. S. Ugwu</h4>
+                <p>Chairman/CEO, Agricultural Economist & M&E Specialist</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Hon. (Mrs) S. E. Uhuo">
+                <h4>Hon. (Mrs) S. E. Uhuo</h4>
+                <p>Educationist/Guidance Counselor, Ministry of Education</p>
+              </div>
+              <div class="team-member">
+                <img src="images/teams/patrick-eya.jpg" alt="Prof. P. E. Eya">
+                <h4>Prof. P. E. Eya</h4>
+                <p>Educationist, National Open University of Nigeria</p>
+              </div>
+              <div class="team-member">
+                <img src="images/teams/henrietta.jpg" alt="Mrs. H. C. Ugwu">
+                <h4>Mrs. H. C. Ugwu</h4>
+                <p>Nutritionist-Dietician, Ministry of Health</p>
+              </div>
+              <div style="width:220px; text-align:center; font-family:Arial, sans-serif; background:#f9f9f9; padding:10px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+              <img src="images/teams/priscilla.jpg" alt="Mrs. P. N. Ezema" style="width:100px; height:100px; border-radius:50%; object-fit:cover; margin-bottom:8px;">
+              <h4 style="font-size:16px; margin:5px 0; color:#2c3e50;">Mrs. P. N. Ezema</h4>
+              <p style="font-size:13px; margin:0; color:#555;">Home Economist, Federal College of Education, Eha-Amufu</p>
+            </div>
+
+            </div>
+          </div>
+
+          <!-- Support Staff & Specialists -->
+          <div class="team-category">
+            <h3>Support Staff & Specialists</h3>
+            <div class="team-grid">
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Dr. Godwin C. Onyishi">
+                <h4>Dr. Godwin C. Onyishi</h4>
+                <p>Agronomist & Farming Systems Specialist</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Prof. Nkoli Ezumah">
+                <h4>Prof. Nkoli Ezumah</h4>
+                <p>Sociologist & Gender Specialist</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Prof. SAND Chidebelu">
+                <h4>Prof. SAND Chidebelu</h4>
+                <p>Agricultural Economist</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Mr. R. A. Omeje">
+                <h4>Mr. R. A. Omeje</h4>
+                <p>Statistician & Demographer</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Mr. Charles Ugwuona">
+                <h4>Mr. Charles Ugwuona</h4>
+                <p>Agricultural Economist</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Mr. Isiwu Edward">
+                <h4>Mr. Isiwu Edward</h4>
+                <p>Agric. Extension & Community Mobilization Specialist</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full-Time Staff -->
+          <div class="team-category">
+            <h3>Full-Time Staff</h3>
+            <div class="team-grid">
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Mr. Raphael S. Odoh">
+                <h4>Mr. Raphael S. Odoh</h4>
+                <p>Programme Officer</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Miss V. O. Nwankwo">
+                <h4>Miss V. O. Nwankwo</h4>
+                <p>Admin/Computer Secretary</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Mr. Vincent Agbowo">
+                <h4>Mr. Vincent Agbowo</h4>
+                <p>Accountant</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Mrs. Ifeyinwa U. Agwu">
+                <h4>Mrs. Ifeyinwa U. Agwu</h4>
+                <p>Account Assistant</p>
+              </div>
+              <div class="team-member">
+                <img src="images/logo-news.jpg" alt="Geraldine C. Omeje">
+                <h4>Geraldine C. Omeje</h4>
+                <p>Treasurer</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+  <!--================ End of Team ================-->
+
+   <!--organogram section -->
+        <div class="mad-section no-pb" style="background-color: var(--color-neutral-10);">
+          <div class="container wide">
+            <div class="mad-title-wrap align-center">
+              <div class="mad-pre-title">organization</div>
+              <h2 class="mad-title " style="color:#000">Organizational Structure</h2>
+              <p>Our structured approach ensures efficient coordination and implementation of programs</p>
+            </div>
+            
+            <div class="about-center" style="text-align: center; max-width: 900px; margin: 40px auto;">
+              <img src="images/organogram.jpg" alt="ACERDEN Organizational Diagram" 
+                  style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 5px;">
+              <p class="text" style="margin-top: 15px; color: #000;">
+                Organizational structure diagram illustrating reporting lines and departmental relationships
+              </p>
+            </div>
+          </div>
+        </div>
+    <!--end organogram section-->
+
+    <!--achievements & impacts-->
+      <div class="container my-5" style=" background-color: #f4f6f9;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      <div class="card">
+        <div class="card-header">
+          ACERDEN Achievements & Impact
+        </div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><i class="fas fa-check-circle"></i>25+ years of development experience</li>
+            <li class="list-group-item"><i class="fas fa-users"></i>100+ communities reached</li>
+            <li class="list-group-item"><i class="fas fa-hand-holding-heart"></i>1000+ beneficiaries impacted</li>
+            <li class="list-group-item"><i class="fas fa-map-marker-alt"></i>Multiple Nigerian states covered</li>
+            <li class="list-group-item"><i class="fas fa-handshake"></i>Strong partnerships with national and international organizations</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+   <!--innvotation & research-->
+   <div class="container my-5" style="background-color: #f4f6f9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div class="card">
+          <div class="card-header">
+            ACERDEN Innovation & Research
+          </div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Development of community-based M&amp;E tools</li>
+            <li class="list-group-item">Climate-smart agriculture interventions</li>
+            <li class="list-group-item">Digital knowledge platforms for research and policy insights</li>
+            <li class="list-group-item">Integrated models for women &amp; youth empowerment</li>
+            <li class="list-group-item">Nutrition and health linkage programs</li>
+          </ul>
+          <div class="mt-4 text-center">
+            <a href="#" class="btn btn-custom">Explore ACERDEN Innovation →</a>
+          </div>
+        </div>
+    </div>
+  </div>
+    
+  <!--volunteer/partnership -->
         <article
           class="mad-cta align-center mad-section mad-section--stretched with-overlay mad-colorizer--scheme-light mad-parallax"
           data-bg-image-src="images/1812x1300_bg1.jpg">
           <div class="container">
             <h2 class="mad-page-title">Make a Difference, Become a Volunteer!</h2>
-            <p>Join us to make a direct impact in the lives of the world’s most vulnerable children.</p>
-            <a href="pages_donate.html" class="btn btn-huge"><span>Get Involved</span> </a>
+            <p>Join ACERDEN to contribute to community health, agriculture, education, and youth empowerment.</p>
+            <p>Volunteer opportunities: program support, research assistance, training facilitation, fieldwork.</p>
+             <p>Partnership opportunities: funding, technical expertise, program scaling.</p>
+            <a href="vol.html" class="btn btn-huge"><span>Become a Volunteer | Partner With ACERDEN</span> </a>
           </div>
         </article>
+  </div>
+
+  <!--FAQS-->
+  <div class="container my-5" style="  background-color: #f4f6f9;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h2>Frequently Asked Questions (FAQs)</h2>
+    <div class="accordion" id="faqAccordion">
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+            What is ACERDEN’s core mission?
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            ACERDEN’s core mission is to drive sustainable development initiatives that improve living standards and empower communities.
+          </div>
+        </div>
       </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+            Who can partner with ACERDEN?
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Partnerships are open to NGOs, government agencies, private sector organizations, and international development institutions.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+            How can individuals volunteer?
+          </button>
+        </h2>
+        <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Individuals can volunteer by registering through ACERDEN’s official website or joining community-based initiatives.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+            Where are ACERDEN’s programs implemented?
+          </button>
+        </h2>
+        <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Programs are implemented across multiple Nigerian states, focusing on rural and underserved communities.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+            How does ACERDEN monitor and evaluate its programs?
+          </button>
+        </h2>
+        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            ACERDEN uses community-based monitoring and evaluation tools, impact assessments, and regular reporting mechanisms.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq6">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+            Can donors access impact reports?
+          </button>
+        </h2>
+        <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, donors receive periodic impact reports highlighting program outcomes, success stories, and lessons learned.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq7">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+            How does ACERDEN innovate in its projects?
+          </button>
+        </h2>
+        <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            ACERDEN integrates climate-smart agriculture, digital platforms, and empowerment models to foster innovation in development.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+ 
+  <!--news & insights-->
+    <div class="container my-5" style=" background-color: #f4f6f9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div class="card">
+      <div class="card-header">
+        News & Insights
+      </div>
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Field updates from ongoing programs</li>
+          <li class="list-group-item">Research reports &amp; M&amp;E findings</li>
+          <li class="list-group-item">Policy briefs and community development lessons</li>
+          <li class="list-group-item">Highlight stories of beneficiaries and local impact</li>
+        </ul>
+        <div class="mt-4 text-center">
+          <a href="#" class="btn btn-custom">Read More Insights →</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
       <div class="mad-social-section">
         <div class="container">
@@ -1599,6 +867,7 @@
   <script src="js/modules/mad.newsletter-form.min.js"></script>
   <script src="js/modules/mad.alert-box.min.js"></script>
   <script src="js/modules/mad.sticky-header-section.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/mad.app.js"></script>
 
     <!-- Add this right before </body> -->
@@ -1633,6 +902,28 @@
     document.body.style.visibility = 'visible';
     document.body.style.opacity = '1';
   };
+
+  
+   // Wait for page to fully load
+  window.addEventListener('load', function() {
+    // Add 'loaded' class to body to trigger preloader fade-out
+    document.body.classList.add('loaded');
+    
+    // Optional: Remove preloader from DOM after animation completes
+    const preloader = document.getElementById('preloader-wrapper');
+    if (preloader) {
+      preloader.addEventListener('transitionend', function() {
+        if (this.style.opacity === '0') {
+          this.style.display = 'none';
+        }
+      });
+    }
+  });
+
+  // Fallback timeout in case load event doesn't fire
+  setTimeout(function() {
+    document.body.classList.add('loaded');
+  }, 3000); // Hide preloader after 3 seconds max
 </script>
 
 </body>

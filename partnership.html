@@ -19,8 +19,9 @@
   <link
     href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
     rel="stylesheet" />
+  
   <!--================ Vendor CSS ================-->
-  <link rel="stylesheet" href="owl-causoel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="owl-causoel/assets/owl.carousel.min.css" >
   <link rel="stylesheet" href="arctictmodal/jquery.arcticmodal-0.3.css" />
   <link rel="stylesheet" href="css/fontawesome-all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -28,21 +29,20 @@
   <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
   <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
   <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css" />
-  <!-- Bootstrap 5 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!--================ Theme CSS ================-->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
+   <link rel="stylesheet" href="css/program.css">
   <!--================ Vendor JS ================-->
 </head>
 
 <body class="mad-body--scheme-green">
-   <div id="preloader-wrapper">
+  <div id="preloader-wrapper">
       <div class="loader-content">
           <img src="images/logo-news.jpg" alt="Loading Logo" style="width: 40px;">
       </div>
   </div>
-  <div id="mad-page-wrapper" class="mad-page-wrapper">
+  <div id="mad-page-wrapper" class="mad-page-wrapper" style="margin-top: 0;  padding-top: 0;">
     <div class="container wide">
       <!--================ Search Modal ================-->
       <!--<div class="mad-d-none">
@@ -53,6 +53,7 @@
             <input type="text" placeholder="Start Typing Here..." />
             <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
           </form>
+        
           <button type="button" class="arcticmodal-close">
             <i class="material-icons">close</i>
           </button>
@@ -60,16 +61,16 @@
       </div>-->
       <!--================ End of Search Modal ================-->
       <!--================ Header ================-->
-       <header id="mad-header" class="mad-header" style="margin-top: 0;  padding-top: 0;">
+    <header id="mad-header" class="mad-header" style="margin-top: 0;  padding-top: 0;">
       <div class="mad-header-section--sticky-xl" style="margin-top: 0;  padding-top: 0;">
         <div class="container-fluid" style="margin-top: 0;  padding-top: 0;">
           <!-- Top row: Logo, organization name, contact info -->
-          <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+          <div class="mad-header-items" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee; padding-top: 15px;" >
             
             <!-- Left side: Logo and Organization Name -->
             <div class="mad-header-item" style="display: flex; align-items: center;">
               <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
-                          <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+              <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
                 African Centre for Rural Development & <br>Environment (ACERDEN)
               </h5>
             </div>
@@ -136,7 +137,7 @@
                   <li class="menu-item">
                     <a href="blog.html">News</a>
                   </li>
-                   <li class="menu-item">
+                  <li class="menu-item">
                     <a href="gallery.html">Gallery</a>
                   </li>
                   <li class="menu-item">
@@ -160,163 +161,175 @@
           </div>
         </div>
       </div>
-</header>
+   </header>
 
-      <!--================ End of Header ================-->
 
-      <!--================ Breadcrumb ================-->
-      <div class="mad-breadcrumb with-bg-img with-overlay mt-4" style="background-image: url('images/gallery/1.jpg.3');">
-        <div class="container wide">
-          <h1 class="mad-page-title">Make a Difference Today</h1>
-          <p style="color: white; font-size: 1.2rem; max-width: 700px; margin: 20px auto;">
-            Join our community of passionate volunteers and help create lasting change. Whether you have a few hours 
-            or a lifetime to give, your time and skills can transform lives. Together, we can build stronger 
-            communities, spread hope, and inspire others to take action.
-          </p>
 
-          <a href="#signup" style="background-color: #0a8858; color: white; padding: 12px 24px; 
-              text-decoration: none; border-radius: 5px; font-weight: bold;">
-              Become a Volunteer
-            </a>
 
-        </div>
-      </div>
-      <!--================ End of Breadcrumb ================-->
-      
-      
 
-      
-        
-        <!--faq section-->
-        <div class="mad-section content-element-main no-pd">
-          <div class="container wide">
-            <div class="mad-entities mad-reversed no-bg type-4">
-              <article class="mad-entity">
-                <div class="mad-entity-media">
-                  <img src="images/gallery/ac_1.jpg" alt="" />
-                </div>
-                <div class="mad-entity-content">
-                  <div class="content-element-6">
-                    <div class="mad-pre-title">FUN AND REWARDING</div>
-                    <h2 class="mad-title">Volunteering FAQs</h2>
-                  </div>
-                  <!--================ Accordion ================-->
-                  <dl role="presentation" class="mad-panels mad-panels--accordion">
-                    <dt class="mad-panels-title">
-                      <button id="panel-7-button" type="button" aria-expanded="false" aria-controls="panel-7"
-                        aria-disabled="false"  style="color: inherit;"onmouseover="this.style.color='var(--color-primary)';" onmouseout="this.style.color='inherit';"> Why volunteer with us? </button>
-                    </dt>
-                    <dd id="panel-7" class="mad-panels-definition">
-                       <p>Volunteering with us gives you the chance to make a real difference in your community, meet new people, and develop valuable skills while supporting causes you care about.</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Our Valued Partnerships</h1>
+    <p class="text-dark">Together we make a difference in communities worldwide.</p>
+    <a href="#becomePartner" class="btn btn-light btn-lg mt-3">Become a Partner</a>
+  </section>
 
-                    </dd>
-                    <dt class="mad-panels-title">
-                      <button id="panel-8-button" type="button" aria-expanded="true" aria-controls="panel-8"
-                        aria-disabled="false" style="color: inherit;" onmouseover="this.style.color='var(--color-primary)';"  onmouseout="this.style.color='inherit';">Who can volunteer?</button>
-                    </dt>
-                    <dd id="panel-8" class="mad-panels-definition">
-                       <p>Anyone with a passion for helping others can volunteer! Whether you’re a student, professional, or retiree, we welcome people of all backgrounds and experiences.</p>
-                    </dd>
-                    <dt class="mad-panels-title">
-                      <button id="panel-9-button" type="button" aria-expanded="false" aria-controls="panel-9"
-                        aria-disabled="false"   style="color: inherit;" onmouseover="this.style.color='var(--color-primary)';" onmouseout="this.style.color='inherit';"> What does volunteering involve? </button>
-                    </dt>
-                    <dd id="panel-9" class="mad-panels-definition">
-                      <p>Volunteering may involve assisting at events, supporting fundraising campaigns, mentoring, or helping with administrative tasks. We match roles to your interests and availability.</p>
 
-                    </dd>
-                  </dl>
-                  <!--================ End of Accordion ================-->
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-
-        <!--form section-->
-        <div
-          class="mad-section mad-section--stretched mad-colorizer--scheme-color-6 mad-colorizer--scheme-light with-texture11" style="background-color: #333;">
+  <!---Partners-->
+        <div class="mad-section" style="margin-top: 0;  padding-top: 20px;">
           <div class="mad-texture-holder">
-            <span class="mad-img-texture bg-move"><img src="images/texture7.svg" alt="" class="svg" /></span>
+            <span class="mad-img-texture5 bg-move"><img src="images/texture_move4.svg" alt="" class="svg" /></span>
           </div>
-          <div class="container wide">
-            <div class="row justify-content-center">
-              <div class="col-xl-7">
-                <div class="mad-title-wrap align-center">
-                  <div class="mad-pre-title" style="color: #28a745;">Sign up form</div>
-                  <h2 class="mad-title" style="color: #28a745;">Register Interest in Volunteering</h2>
-                  <p class="content-element-6 mad-text-color-5" style="color: white;">  We’re excited that you want to make a difference! Please complete the form below to let us know
-                      how you’d like to get involved. Whether you can give a few hours a week or help out at special
-                      events, your support is valuable and appreciated.<br />
-                      Once you register your interest, our team will contact you with more details about available
-                      opportunities and next steps.
-                    </p>
-                </div>
-                <form class="mad-text-medium mad-form item-col-2 mad-text-color-5">
-                  <div class="mad-col full-width">
-                    <label>Are you over 18 years old? *</label>
-                    <div class="item-col-2">
-                      <div class="mad-col">
-                        <div class="form-control">
-                          <div style="display: block" class="mad-toggled-fields size-medium">
-                            <input type="radio" name="radio-1" id="radio-1" checked="checked" />
-                            <label for="radio-1" class="mad-label-radio">Yes, I am 18 or older</label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mad-col">
-                        <div class="form-control">
-                          <div class="content-element">
-                            <div style="display: block" class="mad-toggled-fields size-medium">
-                              <input type="radio" name="radio-1" id="radio-2" />
-                              <label for="radio-2" class="mad-label-radio">No, I am aged 14 - 17</label>
-                            </div>
-                          </div>
-                          <p class="mad-text-small mad-text-color-4">(Please note, you will need to be at least 14 years
-                            old to be a volunteer)</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="mad-col">
-                    <div class="mad-form-item">
-                      <label>What role are you interested in? *</label>
-                      <div class="mad-custom-select">
-                        <select data-default-text="Please Select" id="cf_subject" name="cf_subject">
-                          <option>Subject 1</option>
-                          <option>Subject 2</option>
-                          <option>Subject 3</option>
-                        </select>
-                      </div>
-                    </div>
-                   <div class="mad-form-item">
-                      <label>Email address *</label>
-                      <input type="email" id="cf_email" name="cf_email" required="" placeholder="Email Address" />
-                    </div>
-                  </div>
-                  <div class="mad-col">
-
-                    <div class="mad-form-item">
-                      <label>First name *</label>
-                      <input type="text" id="cf_fname" name="cf_fname" required="" placeholder="First Name" />
-                    </div> 
-                    <div class="mad-form-item">
-                      <label>Last name *</label>
-                      <input type="text" id="cf_lname" name="cf_lname" required="" placeholder="Last Name" />
-                    </div>
-
-                  </div>
-                  <div class="mad-col full-width">
-                    <div class="mad-form-item align-center">
-                      <button type="submit" class="btn btn-big"><span>Submit</span> </button>
-                    </div>
-                  </div>
-                </form>
+          <div class="container-fluid">
+            <div class="mad-title-wrap align-center">
+              <div class="mad-pre-title mt-1">Our Corporate Partners</div>
+            </div>
+            <div class="mad-sponsors">
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo1.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo2.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo3.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo4.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo5.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo6.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo7.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo8.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo9.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo10.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo11.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
+              </div>
+              <div class="mad-grid-item">
+                <!--================ Partners Item ================-->
+                <a href="#" target="_blank">
+                  <img src="images/partners/logo12.jpg" alt="" />
+                </a>
+                <!--================ End of Partners Item ================-->
               </div>
             </div>
           </div>
         </div>
       </div>
+    <!--Partners ends-->
+
+  <!-- Call to Action -->
+  <section id="becomePartner" class="cta-section" style="margin-top: 0;  padding-top: 20px;">
+    <h2>Become a Partner</h2>
+    <p class="text-black">Join us in making a lasting impact. Fill out the form below to start your partnership journey.</p>
+    <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#partnerModal">Apply Now</button>
+  </section>
+
+
+<!-- Partnership Modal Form -->
+<div class="modal fade" id="partnerModal" tabindex="-1" aria-labelledby="partnerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <form id="partnerForm">
+        <div class="modal-header justify-content-center"> <!-- Center title -->
+          <h5 class="modal-title text-center mt-4" id="partnerModalLabel">Partnership Application</h5>
+          <button type="button" class="btn-close position-absolute end-0 me-3" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 row">
+            <label for="orgName" class="col-sm-4 col-form-label text-center">Organization Name:</label>
+            <div class="col-sm-6 ms-sm-n3"> <!-- smaller col + stronger negative margin -->
+              <input type="text" class="form-control" id="orgName" required>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="contactEmail" class="col-sm-4 col-form-label text-center">Contact Email:</label>
+            <div class="col-sm-6 ms-sm-n3">
+              <input type="email" class="form-control" id="contactEmail" required>
+            </div>
+          </div>
+            <div class="mb-3 row">
+              <label for="message" class="col-sm-4 col-form-label text-center">Message:</label>
+              <div class="col-sm-6 ms-sm-n3">
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+              </div>
+            </div>
+    </div>
+        <div class="modal-footer text-center mb-4"> <!-- Center button -->
+          <button type="submit" class="btn btn-primary">Submit Application</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+   
+   <!--<article
+          class="mad-cta align-center mad-section mad-section--stretched with-overlay mad-colorizer--scheme-light mad-parallax"
+          data-bg-image-src="images/1812x1300_bg1.jpg">
+          <div class="container">
+            <h2 class="mad-page-title">Make a Difference, Become a Volunteer!</h2>
+            <p>Join us to make a direct impact in the lives of the world’s most vulnerable children.</p>
+            <a href="pages_donate.html" class="btn btn-huge"><span>Get Involved</span> </a>
+          </div>
+        </article>-->
 
       <div class="mad-social-section">
         <div class="container">
@@ -359,12 +372,11 @@
           </div>
         </div>
       </div>
-      
       <!--================ Footer ================-->
-      <footer id="mad-footer" class="mad-footer">
+      <footer id="mad-footer" class="mad-footer" style="margin-top: 0;  padding-top: 0;">
         <!--================ Footer row ================-->
-        <div class="container">
-          <div class="mad-footer-main">
+        <div class="container" style="margin-bottom: 0; padding-bottom: 0;">
+          <div class="mad-footer-main" style=" margin-bottom: 0;  padding-bottom: 0;">
             <div class="row justify-content-between vr-size-1 hr-size-1">
               <div class="col-xl-3 col-lg-6 col-sm-12">
                 <!--================ Widget ================-->
@@ -415,7 +427,7 @@
                     <li>
                       <img src="sug-icons/location.svg" alt="" class="svg" />
                       <span>22 Second Avenue, Trans-Ekulu Enugu State, Nigeria <a href="pages_contact_v1.html"
-                          class="mad-link">Get Directions</a> </span>
+                         class="mad-link">Get Directions</a> </span>
                     </li>
                     <li>
                       <img src="sug-icons/clock.svg" alt="" class="svg" />
@@ -467,7 +479,6 @@
       <!--================ End of Footer ================-->
     </div>
   </div>
-  
   <script src="vendors/modernizr.js"></script>
   <script src="vendors/jquery-3.6.0.min.js"></script>
   <script src="vendors/jquery.easing.1.3.min.js"></script>
@@ -485,10 +496,11 @@
   <script src="js/modules/mad.alert-box.min.js"></script>
   <script src="js/modules/mad.sticky-header-section.min.js"></script>
   <script src="js/mad.app.js"></script>
+  <script src="js/program.js"></script>
 
   <script>
-
-     // Wait for page to fully load
+    
+           // Wait for page to fully load
   window.addEventListener('load', function() {
     // Add 'loaded' class to body to trigger preloader fade-out
     document.body.classList.add('loaded');
@@ -508,29 +520,7 @@
   setTimeout(function() {
     document.body.classList.add('loaded');
   }, 3000); // Hide preloader after 3 seconds max
-
- 
-
-document.querySelectorAll('.mad-panels-title button').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const dt = btn.closest('.mad-panels-title');
-    const dd = document.getElementById(btn.getAttribute('aria-controls'));
-
-    // Toggle active class
-    dt.classList.toggle('mad-panels-active');
-
-    // Toggle visibility
-    if (dd.style.display === 'block') {
-      dd.style.display = 'none';
-      btn.setAttribute('aria-expanded', 'false');
-    } else {
-      dd.style.display = 'block';
-      btn.setAttribute('aria-expanded', 'true');
-    }
-  });
-});
-
-
   </script>
+
 </body>
 </html>

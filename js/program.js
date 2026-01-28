@@ -146,3 +146,24 @@ document.addEventListener('DOMContentLoaded', function() {
         firstBtn.innerHTML = 'Show Less <i class="fas fa-chevron-up"></i>';
     }
 });
+
+     // Wait for page to fully load
+  window.addEventListener('load', function() {
+    // Add 'loaded' class to body to trigger preloader fade-out
+    document.body.classList.add('loaded');
+    
+    // Optional: Remove preloader from DOM after animation completes
+    const preloader = document.getElementById('preloader-wrapper');
+    if (preloader) {
+      preloader.addEventListener('transitionend', function() {
+        if (this.style.opacity === '0') {
+          this.style.display = 'none';
+        }
+      });
+    }
+  });
+
+  // Fallback timeout in case load event doesn't fire
+  setTimeout(function() {
+    document.body.classList.add('loaded');
+  }, 3000); // Hide preloader after 3 seconds max

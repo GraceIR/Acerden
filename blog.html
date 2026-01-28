@@ -19,7 +19,6 @@
   <link
     href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
     rel="stylesheet" />
-  
   <!--================ Vendor CSS ================-->
   <link rel="stylesheet" href="owl-causoel/assets/owl.carousel.min.css" />
   <link rel="stylesheet" href="arctictmodal/jquery.arcticmodal-0.3.css" />
@@ -29,44 +28,48 @@
   <link rel="stylesheet" href="vendors/revolution/css/settings.css" />
   <link rel="stylesheet" href="vendors/revolution/css/layers.min.css" />
   <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css" />
+  <!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!--================ Theme CSS ================-->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
-   <link rel="stylesheet" href="css/program.css">
   <!--================ Vendor JS ================-->
 </head>
 
 <body class="mad-body--scheme-green">
-  <div class="mad-preloader"></div>
+   <div id="preloader-wrapper">
+      <div class="loader-content">
+          <img src="images/logo-news.jpg" alt="Loading Logo" style="width: 40px;">
+      </div>
+  </div>
   <div id="mad-page-wrapper" class="mad-page-wrapper">
     <div class="container wide">
       <!--================ Search Modal ================-->
-      <div class="mad-d-none">
+      <!--<div class="mad-d-none">
         <div id="search-modal" class="mad-modal mad-modal--search">
           <h6 class="mad-title">Search</h6>
-          <!--================ Search Form ================-->
+         
           <form class="mad-search-section">
             <input type="text" placeholder="Start Typing Here..." />
             <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
           </form>
-          <!--================ End of Search Form ================-->
           <button type="button" class="arcticmodal-close">
             <i class="material-icons">close</i>
           </button>
         </div>
-      </div>
+      </div>-->
       <!--================ End of Search Modal ================-->
       <!--================ Header ================-->
-    <header id="mad-header" class="mad-header">
-      <div class="mad-header-section--sticky-xl">
-        <div class="container-fluid">
+       <header id="mad-header" class="mad-header" style="margin-top: 0;  padding-top: 0;">
+      <div class="mad-header-section--sticky-xl" style="margin-top: 0;  padding-top: 0;">
+        <div class="container-fluid" style="margin-top: 0;  padding-top: 0;">
           <!-- Top row: Logo, organization name, contact info -->
           <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
             
             <!-- Left side: Logo and Organization Name -->
             <div class="mad-header-item" style="display: flex; align-items: center;">
               <a href="index.html" class="mad-logo"><img src="images/logo-news.jpg" alt="" style="height: 65px;" /></a>
-              <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
+                          <h5 class="text-logo" style="font-size: 0.9em; font-weight: bold; color: #333; display: block; white-space: normal; margin: 0 0 0 5px; line-height: 1.1;">
                 African Centre for Rural Development & <br>Environment (ACERDEN)
               </h5>
             </div>
@@ -125,13 +128,16 @@
                     <a href="programs.html">Our programs</a>
                   </li>
                   <li class="menu-item">
-                    <a href="#">Projects</a>
+                    <a href="project.html">Projects</a>
                   </li>
                   <li class="menu-item">
-                    <a href="events_list.html">Publications</a>
+                    <a href="partnership.html">Partnerships</a>
                   </li>
                   <li class="menu-item">
                     <a href="blog.html">News</a>
+                  </li>
+                   <li class="menu-item">
+                    <a href="gallery.html">Gallery</a>
                   </li>
                   <li class="menu-item">
                     <a href="contact.html">Contact</a>
@@ -141,9 +147,9 @@
               
               <!-- Actions - Positioned to the right -->
               <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
-                <div class="mad-col">
+                <!--<div class="mad-col">
                   <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
-                </div>
+                </div>-->
                 <div class="mad-col">
                   <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
                         src="sug-icons/heart.svg" alt="" /></i></a>
@@ -154,9 +160,10 @@
           </div>
         </div>
       </div>
-   </header>
+</header>
 
-     <!--================ End of Header ================-->
+      <!--================ End of Header ================-->
+      
     
      <!--================ Breadcrumb ================-->
     <div class="mad-breadcrumb simple-type">
@@ -1049,7 +1056,7 @@
           <div class="container">
             <h2 class="mad-page-title">Make a Difference, Become a Volunteer!</h2>
             <p>Join us to make a direct impact in the lives of the world’s most vulnerable children.</p>
-            <a href="pages_donate.html" class="btn btn-huge"><span>Get Involved</span> </a>
+            <a href="vol.html" class="btn btn-huge"><span>Get Involved</span> </a>
           </div>
         </article>
       </div>
@@ -1220,6 +1227,30 @@
   <script src="js/modules/mad.sticky-header-section.min.js"></script>
   <script src="js/mad.app.js"></script>
   <script src="js/program.js"></script>
+
+  <script>
+    
+   // Wait for page to fully load
+  window.addEventListener('load', function() {
+    // Add 'loaded' class to body to trigger preloader fade-out
+    document.body.classList.add('loaded');
+    
+    // Optional: Remove preloader from DOM after animation completes
+    const preloader = document.getElementById('preloader-wrapper');
+    if (preloader) {
+      preloader.addEventListener('transitionend', function() {
+        if (this.style.opacity === '0') {
+          this.style.display = 'none';
+        }
+      });
+    }
+  });
+
+  // Fallback timeout in case load event doesn't fire
+  setTimeout(function() {
+    document.body.classList.add('loaded');
+  }, 3000); // Hide preloader after 3 seconds max
+  </script>
   
 </body>
 </html>

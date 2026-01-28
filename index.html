@@ -37,29 +37,32 @@
 </head>
 
 <body class="mad-body--scheme-green">
-  <div class="mad-preloader"></div>
+   <div id="preloader-wrapper">
+      <div class="loader-content">
+          <img src="images/logo-news.jpg" alt="Loading Logo" style="width: 40px;">
+      </div>
+  </div>
   <div id="mad-page-wrapper" class="mad-page-wrapper">
     <div class="container wide">
       <!--================ Search Modal ================-->
-      <div class="mad-d-none">
+      <!--<div class="mad-d-none">
         <div id="search-modal" class="mad-modal mad-modal--search">
           <h6 class="mad-title">Search</h6>
-          <!--================ Search Form ================-->
+         
           <form class="mad-search-section">
             <input type="text" placeholder="Start Typing Here..." />
             <button type="submit" class="btn"><i class="material-icons">search</i><span>Search</span></button>
           </form>
-          <!--================ End of Search Form ================-->
           <button type="button" class="arcticmodal-close">
             <i class="material-icons">close</i>
           </button>
         </div>
-      </div>
+      </div>-->
       <!--================ End of Search Modal ================-->
       <!--================ Header ================-->
-        <header id="mad-header" class="mad-header">
-      <div class="mad-header-section--sticky-xl">
-        <div class="container-fluid">
+       <header id="mad-header" class="mad-header" style="margin-top: 0;  padding-top: 0;">
+      <div class="mad-header-section--sticky-xl" style="margin-top: 0;  padding-top: 0;">
+        <div class="container-fluid" style="margin-top: 0;  padding-top: 0;">
           <!-- Top row: Logo, organization name, contact info -->
           <div class="mad-header-items" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
             
@@ -128,10 +131,13 @@
                     <a href="project.html">Projects</a>
                   </li>
                   <li class="menu-item">
-                    <a href="#">Publications</a>
+                    <a href="partnership.html">Partnerships</a>
                   </li>
                   <li class="menu-item">
                     <a href="blog.html">News</a>
+                  </li>
+                   <li class="menu-item">
+                    <a href="gallery.html">Gallery</a>
                   </li>
                   <li class="menu-item">
                     <a href="contact.html">Contact</a>
@@ -141,9 +147,9 @@
               
               <!-- Actions - Positioned to the right -->
               <div class="mad-actions" style="position: absolute; right: 40px; display: flex; align-items: center; gap: 15px;">
-                <div class="mad-col">
+                <!--<div class="mad-col">
                   <a href="#" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
-                </div>
+                </div>-->
                 <div class="mad-col">
                   <a href="donate.html" class="btn btn-big"><span>Donate</span> <i class="icon"><img
                         src="sug-icons/heart.svg" alt="" /></i></a>
@@ -159,13 +165,13 @@
       <!--================ End of Header ================-->
       
       <!-- Bootstrap 5 Image Slider with Text Overlays -->
-<div class="container-fluid px-0">
-    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-        </div>
+    <div class="container-fluid px-0">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
         
         <div class="carousel-inner">
             <!-- Slide 1 -->
@@ -555,7 +561,7 @@
                           <div class="mad-entity-content">
                             <div class="mad-entity-header">
                               <h5 class="mad-entity-title">
-                                <a href="partner.html">Partner With Us</a>
+                                <a href="partnership.html">Partner With Us</a>
                               </h5>
                               <p> Partnerships are central to achieving sustainable development at scale. ACERDEN works with donor agencies, NGOs, academic institutions, government bodies, 
                                 and private sector partners to design and implement impactful, community-driven development programmes. </p>
@@ -642,7 +648,7 @@
         </div>
         <!--where we work ends-->
 
-        <div class="mad-section mad-section-no-bottom-br-radius no-pd mad-section--stretched- mad-colorizer--scheme-color-9">
+    <div class="mad-section mad-section-no-bottom-br-radius no-pd mad-section--stretched- mad-colorizer--scheme-color-9">
         <div class="mad-entities type-4">
         <article class="mad-entity">
             <div class="mad-entity-content with-texture">
@@ -687,7 +693,7 @@
             </div>
         </article>
     </div>
-</div>
+  </div>
 
        <!--board of directors-->
         <div class="mad-section mad-section-no-top-br-radius mad-colorizer--scheme-color-2 with-texture7 bg-white">
@@ -781,7 +787,7 @@
                           <div class="project-slide">
                               <div class="project-card">
                                   <div class="project-image">
-                                      <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="ACERDEN Disburses Global Fund Support for OVC's in Igbo-eze North">
+                                      <img src="images/gallery/g_1.jpg" alt="ACERDEN Disburses Global Fund Support for OVC's in Igbo-eze North">
                                   </div>
                                   <div class="project-content">
                                       <h3>ACERDEN Disburses Global Fund Support for OVC's in Igbo-eze North</h3>
@@ -799,7 +805,7 @@
                           <div class="project-slide">
                               <div class="project-card">
                                   <div class="project-image">
-                                      <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1167&q=80" alt="Educational and Health support to OVC's in Igbo-eze North">
+                                      <img src="images/gallery/ac_1.jpg" alt="Educational and Health support to OVC's in Igbo-eze North">
                                   </div>
                                   <div class="project-content">
                                       <h3>Educational and Health Support to OVC's in Igbo-eze North LGA</h3>
@@ -817,7 +823,7 @@
                           <div class="project-slide">
                               <div class="project-card">
                                   <div class="project-image">
-                                      <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="OVC CPC Inauguration">
+                                      <img src="images/gallery/7.jpg" alt="OVC CPC Inauguration">
                                   </div>
                                   <div class="project-content">
                                       <h3>OVC CPC Inauguration Ceremony</h3>
@@ -835,7 +841,7 @@
                           <div class="project-slide">
                               <div class="project-card">
                                   <div class="project-image">
-                                      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="Women Empowerment Program">
+                                      <img src="images/gallery/5.jpg" alt="Women Empowerment Program">
                                   </div>
                                   <div class="project-content">
                                       <h3>Women Empowerment & Skills Acquisition</h3>
@@ -853,7 +859,7 @@
                           <div class="project-slide">
                               <div class="project-card">
                                   <div class="project-image">
-                                      <img src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Community Health Outreach">
+                                      <img src="images/gallery/1.jpg.1" alt="Community Health Outreach">
                                   </div>
                                   <div class="project-content">
                                       <h3>Community Health Outreach & Screening</h3>
@@ -1775,6 +1781,28 @@ document.addEventListener('click', function(event) {
     // You can add logic here if needed
   }
 });
+
+
+   // Wait for page to fully load
+  window.addEventListener('load', function() {
+    // Add 'loaded' class to body to trigger preloader fade-out
+    document.body.classList.add('loaded');
+    
+    // Optional: Remove preloader from DOM after animation completes
+    const preloader = document.getElementById('preloader-wrapper');
+    if (preloader) {
+      preloader.addEventListener('transitionend', function() {
+        if (this.style.opacity === '0') {
+          this.style.display = 'none';
+        }
+      });
+    }
+  });
+
+  // Fallback timeout in case load event doesn't fire
+  setTimeout(function() {
+    document.body.classList.add('loaded');
+  }, 3000); // Hide preloader after 3 seconds max
 
   </script>
 </body>
